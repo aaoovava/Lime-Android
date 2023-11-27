@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "516955090411",
+    "firebase_url": "https://lime-main-bd-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lime-main-bd",
+    "storage_bucket": "lime-main-bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516955090411:android:4ee6e910ec65875001fdae",
+        "android_client_info": {
+          "package_name": "com.example.limeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516955090411-45s2qcifef1gv5vfok86m3u2urhadmf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP5jKaNGBbQ5kutASXI3jp9g_L7054nWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516955090411-45s2qcifef1gv5vfok86m3u2urhadmf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

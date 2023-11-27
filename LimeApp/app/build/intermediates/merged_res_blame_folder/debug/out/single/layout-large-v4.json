@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-large-v4/viewpager_first_screen_item_small.xml",
+        "source": "com.example.limeapp-main-58:/layout-large/viewpager_first_screen_item_small.xml"
+    },
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-large-v4/activity_first_screen.xml",
+        "source": "com.example.limeapp-main-58:/layout-large/activity_first_screen.xml"
+    },
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-large-v4/login_activity.xml",
+        "source": "com.example.limeapp-main-58:/layout-large/login_activity.xml"
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LogCol">
+
+
+    <ImageView
+        android:id="@+id/CardElement"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="1.00"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="1.00"
+        app:srcCompat="@drawable/rectangle_1439" />
+
+    <TextView
+        android:id="@+id/MainText"
+        android:layout_width="423dp"
+        android:layout_height="136dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Графік групових занять
+"
+        android:textColor="#ffffff"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/CardElement"
+        app:layout_constraintEnd_toEndOf="@+id/CardElement"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/CardElement"
+        app:layout_constraintTop_toTopOf="@+id/CardElement"
+        app:layout_constraintVertical_bias="0.268" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
