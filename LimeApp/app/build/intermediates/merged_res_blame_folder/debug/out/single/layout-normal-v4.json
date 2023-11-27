@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/login_activity.xml",
+        "source": "com.example.limeapp-main-48:/layout-normal/login_activity.xml"
+    },
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/activity_first_screen.xml",
+        "source": "com.example.limeapp-main-48:/layout-normal/activity_first_screen.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">516955090411-45s2qcifef1gv5vfok86m3u2urhadmf0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://lime-main-bd-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">516955090411</string>
+    <string name="google_api_key" translatable="false">AIzaSyAP5jKaNGBbQ5kutASXI3jp9g_L7054nWU</string>
+    <string name="google_app_id" translatable="false">1:516955090411:android:4ee6e910ec65875001fdae</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAP5jKaNGBbQ5kutASXI3jp9g_L7054nWU</string>
+    <string name="google_storage_bucket" translatable="false">lime-main-bd.appspot.com</string>
+    <string name="project_id" translatable="false">lime-main-bd</string>
+</resources>
