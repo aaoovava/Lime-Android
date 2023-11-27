@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -15,33 +15,33 @@
         android:label="Lime"
         android:supportsRtl="true"
         android:theme="@style/Theme.LimeApp"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".Activitys.FirstScreen"
+            android:name=".FirstScreen"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainInfo"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.GfreezeDrop"
+            android:name=".GfreezeDrop"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.AfreezeDrop"
+            android:name=".AfreezeDrop"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.GFreeze"
+            android:name=".GFreeze"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".table"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.table"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activitys.AFreeze"
+            android:name=".AFreeze"
             android:exported="false"
             android:screenOrientation="portrait" /> <!-- This element is required to enable Google Pay in your app. -->
         <meta-data
@@ -49,13 +49,13 @@
             android:value="true" />
 
         <activity
-            android:name=".Activitys.BuyScreen"
+            android:name=".BuyScreen"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.LogActivity"
+            android:name=".LogActivity"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -63,13 +63,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activitys.RegActivity"
+            android:name=".RegActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.VerificationActivity"
+            android:name=".VerificationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activitys.ProfileActivity"
+            android:name=".ProfileActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"

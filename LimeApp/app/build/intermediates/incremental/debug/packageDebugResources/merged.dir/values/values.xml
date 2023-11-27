@@ -39,7 +39,6 @@
     <dimen name="buy_button_height">48dp</dimen>
     <dimen name="buy_button_min_width">200dp</dimen>
     <dimen name="buy_button_width">300dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
     <dimen name="margin_large">10dp</dimen>
     <dimen name="margin_xlarge">30dp</dimen>
     <dimen name="padding_small">5dp</dimen>
@@ -48,7 +47,6 @@
     <string name="checkout_item_description">Description</string>
     <string name="default_web_client_id" translatable="false">516955090411-45s2qcifef1gv5vfok86m3u2urhadmf0.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://lime-main-bd-default-rtdb.europe-west1.firebasedatabase.app</string>
-    <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">516955090411</string>
     <string name="google_api_key" translatable="false">AIzaSyAP5jKaNGBbQ5kutASXI3jp9g_L7054nWU</string>
     <string name="google_app_id" translatable="false">1:516955090411:android:4ee6e910ec65875001fdae</string>
@@ -58,17 +56,11 @@
     <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
         not available on this phone.
     </string>
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="next">Next</string>
     <string name="payments_show_name" translatable="false">Successfully received payment data for
         %s!
     </string>
-    <string name="previous">Previous</string>
     <string name="project_id" translatable="false">lime-main-bd</string>
-    <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_checkout">CheckoutActivity</string>
-    <string name="title_activity_new_map">New_Map</string>
     <style name="Theme.LimeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#7FF887</item>
@@ -83,12 +75,6 @@
         <item name="android:progressBackgroundTint">#7FF887</item>
         <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
     </style>
-    <style name="Theme.LimeApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-    <style name="Theme.LimeApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-    <style name="Theme.LimeApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="c_">
     <item name="android:textSize">16sp</item>
     <item name="android:letterSpacing">-0.02</item>

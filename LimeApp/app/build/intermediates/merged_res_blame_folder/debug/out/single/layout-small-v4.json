@@ -1,6 +1,6 @@
 [
     {
-        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-small-v4/login_activity.xml",
-        "source": "com.example.limeapp-main-58:/layout-small/login_activity.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-small-v4/login_activity.xml",
+        "source": "com.example.limeapp-main-48:/layout-small/login_activity.xml"
     }
 ]

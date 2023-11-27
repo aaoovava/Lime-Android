@@ -7,7 +7,7 @@
     android:background="#151718"
     android:orientation="vertical"
     android:screenOrientation="landscape"
-    tools:context=".Activitys.LogActivity">
+    tools:context=".LogActivity">
 
     <EditText
         android:id="@+id/EditTextAge"

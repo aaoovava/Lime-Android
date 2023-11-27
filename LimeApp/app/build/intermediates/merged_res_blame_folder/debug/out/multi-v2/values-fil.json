@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-54:/values-fil/values-fil.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-44:/values-fil/values-fil.xml",
             "map": [
                 {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/d7357ac2df25e308cf57b1bead6030e6/transformed/jetified-play-services-wallet-19.1.0/res/values-fil/values.xml",

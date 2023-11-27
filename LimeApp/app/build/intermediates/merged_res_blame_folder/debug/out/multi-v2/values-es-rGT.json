@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-54:/values-es-rGT/values-es-rGT.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-44:/values-es-rGT/values-es-rGT.xml",
             "map": [
                 {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/res/values-es-rGT/values-es-rGT.xml",

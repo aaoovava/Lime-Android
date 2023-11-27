@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-54:/values-v22/values-v22.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-44:/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/4a8fc8d4cffe1deef03672f2112cd6a4/transformed/appcompat-1.6.1/res/values-v22/values-v22.xml",

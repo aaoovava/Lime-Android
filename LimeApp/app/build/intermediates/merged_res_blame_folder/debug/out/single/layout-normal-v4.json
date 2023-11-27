@@ -1,14 +1,10 @@
 [
     {
-        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-normal-v4/login_activity.xml",
-        "source": "com.example.limeapp-main-58:/layout-normal/login_activity.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/login_activity.xml",
+        "source": "com.example.limeapp-main-48:/layout-normal/login_activity.xml"
     },
     {
-        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-normal-v4/activity_first_screen.xml",
-        "source": "com.example.limeapp-main-58:/layout-normal/activity_first_screen.xml"
-    },
-    {
-        "merged": "com.example.limeapp-mergeDebugResources-55:/layout-normal-v4/viewpager_first_screen_item_small.xml",
-        "source": "com.example.limeapp-main-58:/layout-normal/viewpager_first_screen_item_small.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/activity_first_screen.xml",
+        "source": "com.example.limeapp-main-48:/layout-normal/activity_first_screen.xml"
     }
 ]

@@ -1,12 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/wasiliylolita/.gradle/caches/transforms-3/383e447c4a34e7bee284ab97f792d86b/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/eed0b5ceaa8584e4f949bee695d7778c/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/wasiliylolita/.gradle/caches/transforms-3/3229d8dbfb0c633e276edfd3e6294908/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.xw.repo:bubbleseekbar:3.20-lite] /Users/wasiliylolita/.gradle/caches/transforms-3/730770ec75e79c0fb5ebce6fca7e5c95/transformed/jetified-bubbleseekbar-3.20-lite/AndroidManifest.xml:2:1-13:12
@@ -44,11 +43,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/wasiliylolita/.gradle/caches/transforms-3/cf9759382b89dbb2fd9239d558376253/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/6c5872a2428ae7167e626143890ffff4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d909400e415798c0cdda645aea97c1fb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/ca638d52cd734b74b3c5902693aa4e7e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/1b865ba29b0c66c24371c14671db3a2e/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/0ecc09212cee5e0ed5dd33297da5353f/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/2d989d2a593ccf8ccad088bc4a3ead81/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/dda47db3964edcbef2782b980374f3ef/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wasiliylolita/.gradle/caches/transforms-3/5b6b7c2cdca70aaf279cba19965cf536/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8c53f6ca50ec3ada00897a3b428a34d3/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/4a9dd18d3781691aadf2708bc0a3a43c/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d9b600fb86533c6061b78fb9227bd348/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
@@ -57,16 +52,10 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wasiliylolita/
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/wasiliylolita/.gradle/caches/transforms-3/3fa1ce7a780c387b612fcd2223c9b0b8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ca40ed859a640d4a639b34f688726482/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3fde1447ea9f27a7643921b5a2843c8c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8cbf4bd2f84b4cebaf2ebd915b141d2e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3acc217bb9b3b502c69cf79759ac3988/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/255e705a61bb15f4c1c5e789d41737af/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/a02468115cb1b3c5e2540d0ebff68439/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/d2ba9dab7e77134d12c76883f5d29b26/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/9454a66fe019c32e3e3765e5c4ba8e6e/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/fb2408cbe0c0fc33eeedda0ab2c39ac6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/e3f6a2279e5a21b7c38e3b8de2510c9d/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/bf3e324ba0468c12279425cdab4dca64/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/3c4d59ff6b47f55842d65c4437101e85/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
@@ -75,8 +64,10 @@ MERGED from [androidx.loader:loader:1.0.0] /Users/wasiliylolita/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/67457e9c6c6f50d602607503b17facae/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/040764eabb86d555ce524dfe787a04aa/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/565375aaad72950e159d8cfe9c6bc63f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.transition:transition:1.4.1] /Users/wasiliylolita/.gradle/caches/transforms-3/047a3a5b6ba9c3a93978abbc673bea4d/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3be5069522b067b49deff404856dafa8/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8167d9cdef8698e06292fb743d46e17f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b50415115ee666ba2f468d47b82184f2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
@@ -98,39 +89,39 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wasiliylolita/.gra
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b4b28c16c6fddd285399d8d3f51f0b43/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/07d5b0f433294fb8566b4dccc1b96a3d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/wasiliylolita/.gradle/caches/transforms-3/82c07f5b1b63ff1593253e347e0de20c/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
@@ -150,9 +141,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/wasiliylolita/.gradle/caches/transforms-3/970f72404db1167c0fa88eb73b6a4ba0/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/wasiliylolita/.gradle/caches/transforms-3/970f72404db1167c0fa88eb73b6a4ba0/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:10:5-80:19
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:10:5-80:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/wasiliylolita/.gradle/caches/transforms-3/3229d8dbfb0c633e276edfd3e6294908/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -213,8 +204,6 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/wasiliylolita/.gradle/caches/t
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d9b600fb86533c6061b78fb9227bd348/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/c2b60c81080c4db167f567131fc74761/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
@@ -226,149 +215,147 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wasi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
 	android:fullBackupContent
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:18:9-29
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
 	android:allowBackup
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
 	android:dataExtractionRules
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
-activity#com.example.limeapp.Activitys.FirstScreen
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
+activity#com.example.limeapp.FirstScreen
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:20:13-50
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:20:13-40
 activity#com.example.limeapp.MainInfo
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:23:9-26:52
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:23:9-26:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:26:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:25:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:24:13-37
-activity#com.example.limeapp.Activitys.GfreezeDrop
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:27:9-30:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:24:13-37
+activity#com.example.limeapp.GfreezeDrop
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:27:9-30:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:30:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:29:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:28:13-50
-activity#com.example.limeapp.Activitys.AfreezeDrop
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:31:9-34:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:28:13-40
+activity#com.example.limeapp.AfreezeDrop
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:31:9-34:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:34:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:33:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:32:13-50
-activity#com.example.limeapp.Activitys.GFreeze
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:35:9-38:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:32:13-40
+activity#com.example.limeapp.GFreeze
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:35:9-38:51
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:38:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:37:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:36:13-46
-activity#com.example.limeapp.Activitys.table
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:39:9-42:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:36:13-36
+activity#com.example.limeapp.table
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:39:9-42:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:42:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:42:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:41:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:40:13-44
-activity#com.example.limeapp.Activitys.AFreeze
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:43:9-46:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:40:13-34
+activity#com.example.limeapp.AFreeze
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:43:9-46:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:46:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:44:13-46
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:44:13-36
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:47:9-49:36
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:47:9-49:36
 	android:value
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:49:13-33
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:49:13-33
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:48:13-69
-activity#com.example.limeapp.Activitys.BuyScreen
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:51:9-54:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:48:13-69
+activity#com.example.limeapp.BuyScreen
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:51:9-54:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:54:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:54:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:53:13-37
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:52:13-48
-activity#com.example.limeapp.Activitys.LogActivity
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:55:9-64:20
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:52:13-38
+activity#com.example.limeapp.LogActivity
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:55:9-64:20
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:58:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:58:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:57:13-36
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:56:13-50
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:56:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:59:13-63:29
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:60:17-69
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:60:25-66
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:62:17-77
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:62:27-74
-activity#com.example.limeapp.Activitys.RegActivity
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:62:27-74
+activity#com.example.limeapp.RegActivity
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:66:13-50
-activity#com.example.limeapp.Activitys.VerificationActivity
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:66:13-40
+activity#com.example.limeapp.VerificationActivity
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:69:13-59
-activity#com.example.limeapp.Activitys.ProfileActivity
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:52
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:69:13-49
+activity#com.example.limeapp.ProfileActivity
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:73:13-49
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:73:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:72:13-54
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:72:13-44
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:59
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:59
 	android:theme
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:76:13-56
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:75:13-76
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:75:13-76
 meta-data#preloaded_fonts
-ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:77:9-79:57
+ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:77:9-79:57
 	android:resource
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:79:13-54
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:79:13-54
 	android:name
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:78:13-43
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:78:13-43
 uses-sdk
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/wasiliylolita/.gradle/caches/transforms-3/383e447c4a34e7bee284ab97f792d86b/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/wasiliylolita/.gradle/caches/transforms-3/383e447c4a34e7bee284ab97f792d86b/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/eed0b5ceaa8584e4f949bee695d7778c/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/eed0b5ceaa8584e4f949bee695d7778c/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/wasiliylolita/.gradle/caches/transforms-3/3229d8dbfb0c633e276edfd3e6294908/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
@@ -443,16 +430,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/w
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/6c5872a2428ae7167e626143890ffff4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d909400e415798c0cdda645aea97c1fb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d909400e415798c0cdda645aea97c1fb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/ca638d52cd734b74b3c5902693aa4e7e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/ca638d52cd734b74b3c5902693aa4e7e/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/1b865ba29b0c66c24371c14671db3a2e/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/1b865ba29b0c66c24371c14671db3a2e/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/0ecc09212cee5e0ed5dd33297da5353f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/wasiliylolita/.gradle/caches/transforms-3/0ecc09212cee5e0ed5dd33297da5353f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/2d989d2a593ccf8ccad088bc4a3ead81/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/2d989d2a593ccf8ccad088bc4a3ead81/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/dda47db3964edcbef2782b980374f3ef/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/dda47db3964edcbef2782b980374f3ef/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wasiliylolita/.gradle/caches/transforms-3/5b6b7c2cdca70aaf279cba19965cf536/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wasiliylolita/.gradle/caches/transforms-3/5b6b7c2cdca70aaf279cba19965cf536/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8c53f6ca50ec3ada00897a3b428a34d3/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.6.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8c53f6ca50ec3ada00897a3b428a34d3/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/4a9dd18d3781691aadf2708bc0a3a43c/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
@@ -469,26 +448,14 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/wasiliyl
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ca40ed859a640d4a639b34f688726482/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3fde1447ea9f27a7643921b5a2843c8c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3fde1447ea9f27a7643921b5a2843c8c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8cbf4bd2f84b4cebaf2ebd915b141d2e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8cbf4bd2f84b4cebaf2ebd915b141d2e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3acc217bb9b3b502c69cf79759ac3988/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3acc217bb9b3b502c69cf79759ac3988/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/255e705a61bb15f4c1c5e789d41737af/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/255e705a61bb15f4c1c5e789d41737af/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/a02468115cb1b3c5e2540d0ebff68439/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/wasiliylolita/.gradle/caches/transforms-3/a02468115cb1b3c5e2540d0ebff68439/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/d2ba9dab7e77134d12c76883f5d29b26/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/wasiliylolita/.gradle/caches/transforms-3/d2ba9dab7e77134d12c76883f5d29b26/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/9454a66fe019c32e3e3765e5c4ba8e6e/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/9454a66fe019c32e3e3765e5c4ba8e6e/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/fb2408cbe0c0fc33eeedda0ab2c39ac6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/wasiliylolita/.gradle/caches/transforms-3/fb2408cbe0c0fc33eeedda0ab2c39ac6/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/e3f6a2279e5a21b7c38e3b8de2510c9d/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/e3f6a2279e5a21b7c38e3b8de2510c9d/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/bf3e324ba0468c12279425cdab4dca64/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/bf3e324ba0468c12279425cdab4dca64/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
@@ -505,10 +472,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/was
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/040764eabb86d555ce524dfe787a04aa/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/565375aaad72950e159d8cfe9c6bc63f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/565375aaad72950e159d8cfe9c6bc63f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.4.1] /Users/wasiliylolita/.gradle/caches/transforms-3/047a3a5b6ba9c3a93978abbc673bea4d/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /Users/wasiliylolita/.gradle/caches/transforms-3/047a3a5b6ba9c3a93978abbc673bea4d/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/ff6cc6d08b901ee3b261216fef5eda12/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/575127e79349351954d781caf9a1fe6c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3be5069522b067b49deff404856dafa8/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/3be5069522b067b49deff404856dafa8/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/wasiliylolita/.gradle/caches/transforms-3/5566a7dc31d5800061d3e6923fb91541/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8167d9cdef8698e06292fb743d46e17f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8167d9cdef8698e06292fb743d46e17f/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b50415115ee666ba2f468d47b82184f2/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
@@ -551,16 +522,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/tra
 MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/07d5b0f433294fb8566b4dccc1b96a3d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.8] /Users/wasiliylolita/.gradle/caches/transforms-3/07f893f6c6abd1ea7f1610527e459d8a/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
 	android:authorities
@@ -811,18 +782,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gr
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/wasiliylolita/.gradle/caches/transforms-3/a983215e74c20d615b0008da76f92838/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b2de199e8416875cd9747834babfceda/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
