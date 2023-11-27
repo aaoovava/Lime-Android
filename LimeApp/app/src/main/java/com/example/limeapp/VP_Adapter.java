@@ -225,7 +225,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsCon.horizontalBias = newBias;
             } else {
-                float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0007);// Новое значение app:layout_constraintHorizontal_bias
+                float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0001);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsCon.horizontalBias = newBias;
             }
 
@@ -233,7 +233,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 float newBias = (float) (layoutParamsConDflt.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsConDflt.horizontalBias = newBias;
             } else {
-                float newBias = (float) (layoutParamsConDflt.horizontalBias * screenHeight * 0.0007);// Новое значение app:layout_constraintHorizontal_bias
+                float newBias = (float) (layoutParamsConDflt.horizontalBias * screenHeight * 0.0001);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsConDflt.horizontalBias = newBias;
             }
 
