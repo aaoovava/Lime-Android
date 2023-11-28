@@ -3366,6 +3366,7 @@ drawable profile_icon_pick
 drawable profile_img
 drawable profileonid
 drawable profof
+drawable profviewnew
 drawable r_table
 drawable rectangle_1
 drawable rectangle_11

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/wasiliylolita/.gradle/caches/transforms-3/383e447c4a34e7bee284ab97f792d86b/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
@@ -89,39 +89,39 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wasiliylolita/.gra
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/b4b28c16c6fddd285399d8d3f51f0b43/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/07d5b0f433294fb8566b4dccc1b96a3d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:1-82:12
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/wasiliylolita/.gradle/caches/transforms-3/82c07f5b1b63ff1593253e347e0de20c/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
@@ -141,9 +141,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/wasiliylolita/.gradle/caches/transforms-3/970f72404db1167c0fa88eb73b6a4ba0/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/wasiliylolita/.gradle/caches/transforms-3/970f72404db1167c0fa88eb73b6a4ba0/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:10:5-80:19
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:10:5-80:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/d488f2c4c46007d73eddcd94b832f4ea/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/wasiliylolita/.gradle/caches/transforms-3/3229d8dbfb0c633e276edfd3e6294908/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -215,143 +215,143 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wasi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
 	android:fullBackupContent
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:18:9-29
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
 	android:allowBackup
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
 	android:dataExtractionRules
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
-activity#com.example.limeapp.FirstScreen
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
+activity#com.example.limeapp.Core.FirstScreen
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:20:13-40
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:20:13-45
 activity#com.example.limeapp.MainInfo
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:23:9-26:52
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:23:9-26:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:26:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:25:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:24:13-37
-activity#com.example.limeapp.GfreezeDrop
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:27:9-30:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:24:13-37
+activity#com.example.limeapp.Core.GfreezeDrop
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:27:9-30:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:30:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:29:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:28:13-40
-activity#com.example.limeapp.AfreezeDrop
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:31:9-34:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:28:13-45
+activity#com.example.limeapp.Core.AfreezeDrop
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:31:9-34:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:34:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:33:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:32:13-40
-activity#com.example.limeapp.GFreeze
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:35:9-38:51
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:32:13-45
+activity#com.example.limeapp.Core.GFreeze
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:35:9-38:51
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:38:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:37:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:36:13-36
-activity#com.example.limeapp.table
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:39:9-42:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:36:13-41
+activity#com.example.limeapp.Core.table
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:39:9-42:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:42:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:42:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:41:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:40:13-34
-activity#com.example.limeapp.AFreeze
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:43:9-46:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:40:13-39
+activity#com.example.limeapp.Core.AFreeze
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:43:9-46:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:46:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:44:13-36
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:44:13-41
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:47:9-49:36
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:47:9-49:36
 	android:value
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:49:13-33
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:49:13-33
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:48:13-69
-activity#com.example.limeapp.BuyScreen
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:51:9-54:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:48:13-69
+activity#com.example.limeapp.Core.BuyScreen
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:51:9-54:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:54:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:54:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:53:13-37
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:52:13-38
-activity#com.example.limeapp.LogActivity
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:55:9-64:20
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:52:13-43
+activity#com.example.limeapp.Core.LogActivity
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:55:9-64:20
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:58:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:58:13-49
 	android:exported
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:57:13-36
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:57:13-36
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:56:13-40
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:56:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:59:13-63:29
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:60:17-69
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:60:25-66
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:62:17-77
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:62:27-74
-activity#com.example.limeapp.RegActivity
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:62:27-74
+activity#com.example.limeapp.Core.RegActivity
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:66:13-40
-activity#com.example.limeapp.VerificationActivity
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:66:13-45
+activity#com.example.limeapp.Core.VerificationActivity
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:69:13-49
-activity#com.example.limeapp.ProfileActivity
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:52
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:69:13-54
+activity#com.example.limeapp.Core.ProfileActivity
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:52
 	android:screenOrientation
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:73:13-49
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:73:13-49
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:72:13-44
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:72:13-49
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:59
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:59
 	android:theme
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:76:13-56
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:75:13-76
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:75:13-76
 meta-data#preloaded_fonts
-ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:77:9-79:57
+ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:77:9-79:57
 	android:resource
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:79:13-54
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:79:13-54
 	android:name
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml:78:13-43
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml:78:13-43
 uses-sdk
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/wasiliylolita/.gradle/caches/transforms-3/11c4c9349701d6832e0d2132e2548671/transformed/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/wasiliylolita/.gradle/caches/transforms-3/383e447c4a34e7bee284ab97f792d86b/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:5:5-44
@@ -522,16 +522,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/tra
 MERGED from [androidx.print:print:1.0.0] /Users/wasiliylolita/.gradle/caches/transforms-3/07d5b0f433294fb8566b4dccc1b96a3d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/wasiliylolita/Downloads/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/AndroidManifest.xml
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.8] /Users/wasiliylolita/.gradle/caches/transforms-3/07f893f6c6abd1ea7f1610527e459d8a/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
 	android:authorities
