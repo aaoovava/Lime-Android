@@ -222,7 +222,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsCon.horizontalBias = newBias;
             } else {
-                float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0001);// Новое значение app:layout_constraintHorizontal_bias
+                float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0006);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsCon.horizontalBias = newBias;
             }
             //Normal no icon set

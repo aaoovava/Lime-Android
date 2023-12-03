@@ -164,7 +164,7 @@ public class FirstScreen extends AppCompatActivity {
             viePagerItemArrayList = new ArrayList<>();
             FirstViewItem firstViewItem1 = new FirstViewItem("Дії з абонементом", R.drawable.rectangle_1439);
             viePagerItemArrayList.add(firstViewItem1);
-            FirstViewItem firstViewItem2 = new FirstViewItem("Вигідні пропозиції", R.drawable.rectangle_1439);
+            FirstViewItem firstViewItem2 = new FirstViewItem("Вигідні пропозиції", R.drawable.rectangle_1439_edit_1);
             viePagerItemArrayList.add(firstViewItem2);
             FirstViewItem firstViewItem3 = new FirstViewItem("Графік групових занять", R.drawable.rectangle_1439);
             viePagerItemArrayList.add(firstViewItem3);
