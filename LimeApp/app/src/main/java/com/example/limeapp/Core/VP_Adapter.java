@@ -1,5 +1,6 @@
 package com.example.limeapp.Core;
 
+import android.animation.ObjectAnimator;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -309,6 +310,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
+        private boolean isSwap = false;
         ImageView circleImageView;
         ImageView Line;
 
@@ -358,6 +360,60 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             StartDate = itemView.findViewById(R.id.SatrtDate);
             EndDate = itemView.findViewById(R.id.EndDate);
 
+            LineCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (isSwap) {
+                        // Если карточка перевернута, выполните обратный переворот и покажите элементы
+                        performCardFlipAnimationBack();
+                        showHiddenElements();
+                    }
+                }
+            });
+
+            Swap.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Вызывается при нажатии на кнопку Swap
+                    performCardFlipAnimation();
+                }
+            });
+
+        }
+        private void performCardFlipAnimation() {
+            ObjectAnimator flip = ObjectAnimator.ofFloat(LineCard, "rotationY", 0f, 180f);
+            flip.setDuration(400); // Продолжительность анимации в миллисекундах
+
+            // Скрытие остальных элементов
+            View[] elementsToHide = new View[]{ Line,CountOfGT,Con1,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,End_date};
+            for (View element : elementsToHide) {
+                element.animate().alpha(0f).setDuration(200);
+            }
+
+            // Запуск анимаций
+            flip.start();
+            isSwap = true;
+        }
+        private void showHiddenElements() {
+            View[] elementsToShow = new View[]{Line, CountOfGT, Con1, StatusBut, dflImage, YurName, Swap, circleImageView, Start_date, End_date, UName, SName, StartDate, End_date};
+            for (View element : elementsToShow) {
+                element.animate().alpha(1f).setDuration(500);
+            }
+            isSwap = false;
+        }
+        private void performCardFlipAnimationBack() {
+            ObjectAnimator flip = ObjectAnimator.ofFloat(LineCard, "rotationY", 180f, 0f);
+            flip.setDuration(400); // Продолжительность анимации в миллисекундах
+
+            // Скрытие остальных элементов
+            View[] elementsToHide = new View[]{ Line,CountOfGT,Con1,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,End_date};
+            for (View element : elementsToHide) {
+                element.animate().alpha(0f).setDuration(100);
+            }
+
+            // Запуск анимаций
+            flip.start();
+            isSwap = true;
         }
     }
 
@@ -446,6 +502,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         Intent intent = new Intent(context, GfreezeDrop.class);
         context.startActivity(intent);
     }
+
 
 
 }
