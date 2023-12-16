@@ -39,10 +39,10 @@
         <TextView
             android:id="@+id/textStatus"
             android:layout_width="wrap_content"
-            android:layout_gravity="center"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Заморожений"
-            android:textColor="#4C78DF"/>
+            android:textColor="#4C78DF" />
 
         <LinearLayout
 
@@ -54,7 +54,8 @@
             android:layout_marginRight="35dp"
             android:layout_marginBottom="200dp"
             android:background="@drawable/cardone"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="visible">
 
 
             <TextView
@@ -163,7 +164,23 @@
                     app:layout_constraintVertical_bias="0.057"
                     app:layout_constraintWidth_percent="0.42" />
 
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.86"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+                    app:layout_constraintVertical_bias="0.87"
+                    app:layout_constraintHeight_percent="0.12"
+                    app:layout_constraintWidth_percent="0.12"
+                    app:srcCompat="@drawable/group_32" />
+
                 <LinearLayout
+                    android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -174,9 +191,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginRight="30dp"
                         android:layout_weight="1"
-                        android:layout_marginTop="10dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/line" />
 

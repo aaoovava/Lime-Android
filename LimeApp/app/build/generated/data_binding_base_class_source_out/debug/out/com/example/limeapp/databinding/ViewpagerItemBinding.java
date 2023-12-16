@@ -63,7 +63,13 @@ public final class ViewpagerItemBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
+  public final ImageView imageView9;
+
+  @NonNull
   public final TextView lastDate;
+
+  @NonNull
+  public final LinearLayout linearLayout2;
 
   @NonNull
   public final TextView textStatus;
@@ -76,7 +82,8 @@ public final class ViewpagerItemBinding implements ViewBinding {
       @NonNull TextView SatrtDate, @NonNull TextView Sname, @NonNull ImageView StatusBut,
       @NonNull TextView UName, @NonNull AppCompatTextView abb, @NonNull TextView firstDate,
       @NonNull CircleImageView imageView20, @NonNull ImageView imageView202,
-      @NonNull ImageView imageView3, @NonNull TextView lastDate, @NonNull TextView textStatus,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView9, @NonNull TextView lastDate,
+      @NonNull LinearLayout linearLayout2, @NonNull TextView textStatus,
       @NonNull TextView textView) {
     this.rootView = rootView;
     this.Con1 = Con1;
@@ -92,7 +99,9 @@ public final class ViewpagerItemBinding implements ViewBinding {
     this.imageView20 = imageView20;
     this.imageView202 = imageView202;
     this.imageView3 = imageView3;
+    this.imageView9 = imageView9;
     this.lastDate = lastDate;
+    this.linearLayout2 = linearLayout2;
     this.textStatus = textStatus;
     this.textView = textView;
   }
@@ -202,9 +211,21 @@ public final class ViewpagerItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView9;
+      ImageView imageView9 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView9 == null) {
+        break missingId;
+      }
+
       id = R.id.lastDate;
       TextView lastDate = ViewBindings.findChildViewById(rootView, id);
       if (lastDate == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout2;
+      LinearLayout linearLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout2 == null) {
         break missingId;
       }
 
@@ -222,7 +243,7 @@ public final class ViewpagerItemBinding implements ViewBinding {
 
       return new ViewpagerItemBinding((ConstraintLayout) rootView, Con1, CountOfGT, EndDate,
           LinerCard, SatrtDate, Sname, StatusBut, UName, abb, firstDate, imageView20, imageView202,
-          imageView3, lastDate, textStatus, textView);
+          imageView3, imageView9, lastDate, linearLayout2, textStatus, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

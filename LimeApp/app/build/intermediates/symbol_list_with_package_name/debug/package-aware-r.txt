@@ -3220,6 +3220,7 @@ drawable group_10
 drawable group_15
 drawable group_18
 drawable group_19
+drawable group_32
 drawable group_33
 drawable group_42
 drawable group_45
@@ -3751,6 +3752,7 @@ id imageView51
 id imageView6
 id imageView7
 id imageView8
+id imageView9
 id immediateStop
 id included
 id indeterminate
@@ -3775,6 +3777,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
 id listMode
 id list_item
 id logo_only

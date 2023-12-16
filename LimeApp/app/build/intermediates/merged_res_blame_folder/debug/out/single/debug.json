@@ -760,6 +760,10 @@
         "source": "com.example.limeapp-main-48:/drawable/cpntaktt1.xml"
     },
     {
+        "merged": "com.example.limeapp-merged_res-46:/drawable_group_32.xml.flat",
+        "source": "com.example.limeapp-main-48:/drawable/group_32.xml"
+    },
+    {
         "merged": "com.example.limeapp-merged_res-46:/drawable_r_table.xml.flat",
         "source": "com.example.limeapp-main-48:/drawable/r_table.xml"
     },

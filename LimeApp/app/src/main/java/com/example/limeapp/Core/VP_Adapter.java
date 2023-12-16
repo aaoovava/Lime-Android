@@ -132,9 +132,9 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             //small
             if (screenHeight < 2500 && screenHeight > 1500 && screenWidth >= 1080) {
                 /* 2 */
-                newMarginBotom_Txt = (int) (newMarginBotom_Txt * 0.01);
+                newMarginBotom_Txt = (int) (newMarginBotom_Txt * 0.008);
                 /* 1 */
-                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.14);
+                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.18);
                 newMarginLeftAndRight_Line = (int) (newMarginLeftAndRight_Line * 0.08);
                 /* 3 */
                 newMarginBotomSatrtDate_Txt = (int) (newMarginBotomSatrtDate_Txt * 0.01);
@@ -148,7 +148,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             //big
             else if (screenHeight < 1500) {
                 newMarginBotom_Txt = (int) (newMarginBotom_Txt * 0.01);
-                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.14);
+                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.18);
                 newMarginLeftAndRight_Line = (int) (newMarginLeftAndRight_Line * 0.08);
                 /* 3 */
                 newMarginBotomSatrtDate_Txt = (int) (newMarginBotomSatrtDate_Txt * 0.01);
@@ -161,10 +161,10 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             //middle
             else {
                 newMarginBotom_Txt = (int) (newMarginBotom_Txt * 0.01);
-                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.15);
+                newMarginBotom_Line = (int) (newMarginBotom_Line * 0.18);
                 newMarginLeftAndRight_Line = (int) (newMarginLeftAndRight_Line * 0.085);
                 /* 3 */
-                newMarginBotomSatrtDate_Txt = (int) (newMarginBotomSatrtDate_Txt * 0.01);
+                newMarginBotomSatrtDate_Txt = (int) (newMarginBotomSatrtDate_Txt * 0.012);
                 /* 4 */
                 newMarginBotomEnd_date_Txt = (int) (newMarginBotomEnd_date_Txt * 0.01);
                 /* 5 */
@@ -215,10 +215,12 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             ConstraintLayout constraintLayout = holder.Con1; // Замените your_constraint_layout на ваш ID ConstraintLayout
             View yourView = holder.circleImageView; // Замените your_view на ваш ID элемента
             View yourViewdfl = holder.dflImage;
+            View SwapView = holder.Swap;
             ConstraintLayout.LayoutParams layoutParamsCon = (ConstraintLayout.LayoutParams) yourView.getLayoutParams();
             ConstraintLayout.LayoutParams layoutParamsConDflt = (ConstraintLayout.LayoutParams) yourViewdfl.getLayoutParams();
+            ConstraintLayout.LayoutParams layoutParamsSwap = (ConstraintLayout.LayoutParams) SwapView.getLayoutParams();
             // circleImage
-            if (screenHeight < 2000) {
+            if (screenHeight < 2000 ) {
                 float newBias = (float) (layoutParamsCon.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsCon.horizontalBias = newBias;
             } else {
@@ -231,15 +233,45 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 layoutParamsConDflt.horizontalBias = newBias;
                 float newVerBias  = (float) (layoutParamsConDflt.verticalBias * screenHeight * 0.0000001);
                 layoutParamsConDflt.verticalBias = newVerBias;
-            } else {
+            } else if (screenWidth <= 1080){
+                float newBias = (float) (layoutParamsConDflt.horizontalBias * screenHeight * 0.00035);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsConDflt.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsConDflt.verticalBias * screenHeight * 0.00005);
+                layoutParamsConDflt.verticalBias = newVerBias;
+            }else {
                 float newBias = (float) (layoutParamsConDflt.horizontalBias * screenHeight * 0.00035);// Новое значение app:layout_constraintHorizontal_bias
                 layoutParamsConDflt.horizontalBias = newBias;
                 float newVerBias  = (float) (layoutParamsConDflt.verticalBias * screenHeight * 0.00005);
                 layoutParamsConDflt.verticalBias = newVerBias;
             }
+            //swap but
+            if (screenHeight <= 2000 && screenHeight >= 1500) {//small
+                float newBias = (float) (layoutParamsSwap.horizontalBias * screenHeight * 0.00057);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsSwap.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsSwap.verticalBias * screenHeight * 0.00055);
+                layoutParamsSwap.verticalBias = newVerBias;
+            } else if (screenWidth <= 1080 && screenHeight >= 1500) { //normis
+                float newBias = (float) (layoutParamsSwap.horizontalBias * screenHeight * 0.00045);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsSwap.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsSwap.verticalBias * screenHeight * 0.00048);
+                layoutParamsSwap.verticalBias = newVerBias;
+            } else if (screenHeight <= 1500) { //tab
+                float newBias = (float) (layoutParamsSwap.horizontalBias * screenHeight * 0.00085);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsSwap.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsSwap.verticalBias * screenHeight * 0.0008);
+                layoutParamsSwap.verticalBias = newVerBias;
+
+            } else {//large phone
+                float newBias = (float) (layoutParamsSwap.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsSwap.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsSwap.verticalBias * screenHeight * 0.0004);
+                layoutParamsSwap.verticalBias = newVerBias;
+            }
 
             yourView.setLayoutParams(layoutParamsCon);
             yourViewdfl.setLayoutParams(layoutParamsConDflt);
+            SwapView.setLayoutParams(layoutParamsSwap);
+
 
             //%circleImageView
             /*ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) holder.circleImageView.getLayoutParams();
@@ -293,6 +325,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         TextView CountOfGT;
         ImageView ButM;
         ImageView But2;
+        ImageView Swap;
 
         ImageView StatusBut;
         TextView TextStatus;
@@ -313,6 +346,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             StatusBut = itemView.findViewById(R.id.StatusBut);
             dflImage = itemView.findViewById(R.id.imageView202);
             YurName = itemView.findViewById(R.id.textView);
+            Swap = itemView.findViewById(R.id.imageView9);
 
             circleImageView = itemView.findViewById(R.id.imageView20);
             TextStatus = itemView.findViewById(R.id.textStatus);
