@@ -179,6 +179,36 @@
                     app:layout_constraintWidth_percent="0.12"
                     app:srcCompat="@drawable/group_32" />
 
+                <TextView
+                    android:id="@+id/VerificationCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="265"
+                    android:textColor="@color/Status1"
+                    android:textSize="96dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.110000014" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Діятиме до закінчення сесії"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.53" />
+
                 <LinearLayout
                     android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"

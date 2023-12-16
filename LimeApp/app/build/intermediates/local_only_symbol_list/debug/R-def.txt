@@ -203,6 +203,7 @@ id Sname
 id StatusBut
 id UName
 id UpText1
+id VerificationCode
 id View
 id abb
 id baсk
@@ -279,6 +280,7 @@ id textStatus
 id textView
 id textView10
 id textView11
+id textView12
 id textView3
 id textView4
 id textView5

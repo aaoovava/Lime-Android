@@ -336,6 +336,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         TextView StartDate;
 
         TextView EndDate;
+        TextView Verif;
+        TextView VerifTxt;
 
 
         public ViewHolder(@NonNull View itemView) {
@@ -350,6 +352,9 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             YurName = itemView.findViewById(R.id.textView);
             Swap = itemView.findViewById(R.id.imageView9);
 
+            VerifTxt = itemView.findViewById(R.id.textView12);
+            Verif = itemView.findViewById(R.id.VerificationCode);
+
             circleImageView = itemView.findViewById(R.id.imageView20);
             TextStatus = itemView.findViewById(R.id.textStatus);
             Title_txt = itemView.findViewById(R.id.abb);
@@ -360,13 +365,15 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             StartDate = itemView.findViewById(R.id.SatrtDate);
             EndDate = itemView.findViewById(R.id.EndDate);
 
+            View[] elementsToHide = new View[]{ CountOfGT,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,EndDate};
+            View[] ref = new View[]{Verif,VerifTxt};
             LineCard.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (isSwap) {
                         // Если карточка перевернута, выполните обратный переворот и покажите элементы
-                        performCardFlipAnimationBack();
-                        showHiddenElements();
+                        performCardFlipAnimationBack(elementsToHide,ref);
+                        showHiddenElements(elementsToHide);
                     }
                 }
             });
@@ -375,45 +382,57 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 @Override
                 public void onClick(View v) {
                     // Вызывается при нажатии на кнопку Swap
-                    performCardFlipAnimation();
+                    performCardFlipAnimation(elementsToHide);
+                    performCardFlipAnimationBacRef(ref);
+
                 }
             });
 
         }
-        private void performCardFlipAnimation() {
+        private void performCardFlipAnimation(View[] elementsToHide) {
             ObjectAnimator flip = ObjectAnimator.ofFloat(LineCard, "rotationY", 0f, 180f);
             flip.setDuration(400); // Продолжительность анимации в миллисекундах
-
-            // Скрытие остальных элементов
-            View[] elementsToHide = new View[]{ Line,CountOfGT,Con1,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,End_date};
             for (View element : elementsToHide) {
                 element.animate().alpha(0f).setDuration(200);
+                Swap.setVisibility(View.INVISIBLE);
             }
+
 
             // Запуск анимаций
             flip.start();
             isSwap = true;
         }
-        private void showHiddenElements() {
-            View[] elementsToShow = new View[]{Line, CountOfGT, Con1, StatusBut, dflImage, YurName, Swap, circleImageView, Start_date, End_date, UName, SName, StartDate, End_date};
-            for (View element : elementsToShow) {
+        private void showHiddenElements(View[] elementsToHide) {
+            Swap.setVisibility(View.VISIBLE);
+
+            for (View element : elementsToHide) {
                 element.animate().alpha(1f).setDuration(500);
             }
             isSwap = false;
         }
-        private void performCardFlipAnimationBack() {
+        private void performCardFlipAnimationBack(View[] elementsToHide,View[] ref) {
             ObjectAnimator flip = ObjectAnimator.ofFloat(LineCard, "rotationY", 180f, 0f);
             flip.setDuration(400); // Продолжительность анимации в миллисекундах
-
-            // Скрытие остальных элементов
-            View[] elementsToHide = new View[]{ Line,CountOfGT,Con1,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,End_date};
             for (View element : elementsToHide) {
                 element.animate().alpha(0f).setDuration(100);
             }
-
+            for (View view : ref){
+                view.animate().alpha(0f).setDuration(200);
+                view.setVisibility(View.INVISIBLE);
+            }
             // Запуск анимаций
             flip.start();
             isSwap = true;
+        }
+        private void performCardFlipAnimationBacRef(View[] elementsToHide) {
+
+            for (View view : elementsToHide){
+                view.setRotationY(180);
+                view.animate().alpha(1f).setDuration(500);
+                view.setVisibility(View.VISIBLE);
+            }
+
+
         }
     }
 

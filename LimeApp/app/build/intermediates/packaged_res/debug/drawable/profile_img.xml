@@ -1,8 +1,0 @@
-<shape xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    tools:ignore="ExtraText">
-    <solid android:color="#FFFFFF"/> <!-- Колір фону -->
-    <corners android:radius="1000dp"/>
-    android:width="96dp"
-    android:height="96dp"<!-- Радіус закруглення, в даному випадку 50dp -->
-</shape>

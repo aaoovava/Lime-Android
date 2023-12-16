@@ -48,6 +48,9 @@ public final class ViewpagerItemBinding implements ViewBinding {
   public final TextView UName;
 
   @NonNull
+  public final TextView VerificationCode;
+
+  @NonNull
   public final AppCompatTextView abb;
 
   @NonNull
@@ -77,14 +80,17 @@ public final class ViewpagerItemBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
+  @NonNull
+  public final TextView textView12;
+
   private ViewpagerItemBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout Con1,
       @NonNull TextView CountOfGT, @NonNull TextView EndDate, @NonNull LinearLayout LinerCard,
       @NonNull TextView SatrtDate, @NonNull TextView Sname, @NonNull ImageView StatusBut,
-      @NonNull TextView UName, @NonNull AppCompatTextView abb, @NonNull TextView firstDate,
-      @NonNull CircleImageView imageView20, @NonNull ImageView imageView202,
-      @NonNull ImageView imageView3, @NonNull ImageView imageView9, @NonNull TextView lastDate,
-      @NonNull LinearLayout linearLayout2, @NonNull TextView textStatus,
-      @NonNull TextView textView) {
+      @NonNull TextView UName, @NonNull TextView VerificationCode, @NonNull AppCompatTextView abb,
+      @NonNull TextView firstDate, @NonNull CircleImageView imageView20,
+      @NonNull ImageView imageView202, @NonNull ImageView imageView3, @NonNull ImageView imageView9,
+      @NonNull TextView lastDate, @NonNull LinearLayout linearLayout2, @NonNull TextView textStatus,
+      @NonNull TextView textView, @NonNull TextView textView12) {
     this.rootView = rootView;
     this.Con1 = Con1;
     this.CountOfGT = CountOfGT;
@@ -94,6 +100,7 @@ public final class ViewpagerItemBinding implements ViewBinding {
     this.Sname = Sname;
     this.StatusBut = StatusBut;
     this.UName = UName;
+    this.VerificationCode = VerificationCode;
     this.abb = abb;
     this.firstDate = firstDate;
     this.imageView20 = imageView20;
@@ -104,6 +111,7 @@ public final class ViewpagerItemBinding implements ViewBinding {
     this.linearLayout2 = linearLayout2;
     this.textStatus = textStatus;
     this.textView = textView;
+    this.textView12 = textView12;
   }
 
   @Override
@@ -181,6 +189,12 @@ public final class ViewpagerItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.VerificationCode;
+      TextView VerificationCode = ViewBindings.findChildViewById(rootView, id);
+      if (VerificationCode == null) {
+        break missingId;
+      }
+
       id = R.id.abb;
       AppCompatTextView abb = ViewBindings.findChildViewById(rootView, id);
       if (abb == null) {
@@ -241,9 +255,16 @@ public final class ViewpagerItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView12;
+      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
+      if (textView12 == null) {
+        break missingId;
+      }
+
       return new ViewpagerItemBinding((ConstraintLayout) rootView, Con1, CountOfGT, EndDate,
-          LinerCard, SatrtDate, Sname, StatusBut, UName, abb, firstDate, imageView20, imageView202,
-          imageView3, imageView9, lastDate, linearLayout2, textStatus, textView);
+          LinerCard, SatrtDate, Sname, StatusBut, UName, VerificationCode, abb, firstDate,
+          imageView20, imageView202, imageView3, imageView9, lastDate, linearLayout2, textStatus,
+          textView, textView12);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
