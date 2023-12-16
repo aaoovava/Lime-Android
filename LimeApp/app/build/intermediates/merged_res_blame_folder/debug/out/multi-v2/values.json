@@ -59,6 +59,25 @@
                     }
                 },
                 {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/costum_image.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "134"
+                    },
+                    "to": {
+                        "startLines": "9205",
+                        "startColumns": "4",
+                        "startOffsets": "639985",
+                        "endLines": "9207",
+                        "endColumns": "12",
+                        "endOffsets": "640064"
+                    }
+                },
+                {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/a60226aad0c8682c0d7d4c4b67b22513/transformed/jetified-appcompat-resources-1.6.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -75,6 +94,44 @@
                         "endLines": "9342,9348,9358,13109,13113",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "644730,644908,645192,785812,785939"
+                    }
+                },
+                {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2,16,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,797,976",
+                        "endLines": "15,20,25",
+                        "endColumns": "12,8,12",
+                        "endOffsets": "792,971,1172"
+                    },
+                    "to": {
+                        "startLines": "6427,9200,9208",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "451676,639806,640069",
+                        "endLines": "6440,9204,9212",
+                        "endColumns": "12,8,12",
+                        "endOffsets": "452280,639980,640265"
+                    }
+                },
+                {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -169,39 +226,39 @@
                     }
                 },
                 {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/build/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/preloaded_fonts.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,338,420,524,633,753,849",
-                        "endColumns": "143,138,81,103,108,119,95,72",
-                        "endOffsets": "194,333,415,519,628,748,844,917"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "416"
                     },
                     "to": {
-                        "startLines": "2062,2070,2071,2072,2073,2074,2075,2197",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "140153,140925,141064,141146,141250,141359,141479,158508",
-                        "endColumns": "143,138,81,103,108,119,95,72",
-                        "endOffsets": "140292,141059,141141,141245,141354,141474,141570,158576"
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "25",
+                        "endColumns": "12",
+                        "endOffsets": "4028"
                     }
                 },
                 {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/font_certs.xml",
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
+                        "startLines": "10,11,12,13,7,9,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "408,449,491,533,286,368,55,102,149,196,241,328",
+                        "endColumns": "40,41,41,41,41,39,46,46,46,44,44,39",
+                        "endOffsets": "444,486,528,570,323,403,97,144,191,236,281,363"
                     },
                     "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
+                        "startLines": "661,662,663,664,678,749,999,1000,1001,1012,1013,1027",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "36153,36194,36236,36278,37300,42265,61133,61180,61227,61971,62016,62941",
+                        "endColumns": "40,41,41,41,41,39,46,46,46,44,44,39",
+                        "endOffsets": "36189,36231,36273,36315,37337,42300,61175,61222,61269,62011,62056,62976"
                     }
                 },
                 {
@@ -257,6 +314,25 @@
                         "startOffsets": "37868,37926,37992,38055,68495,68566",
                         "endColumns": "57,65,62,61,70,71",
                         "endOffsets": "37921,37987,38050,38112,68561,68633"
+                    }
+                },
+                {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,5,6,9,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "16,162,228,377,93",
+                        "endLines": "1,5,8,11,4",
+                        "endColumns": "44,65,13,13,68",
+                        "endOffsets": "56,223,372,496,157"
+                    },
+                    "to": {
+                        "startLines": "2022,2034,2077,2193,2207",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "135431,137107,141651,158310,159561",
+                        "endLines": "2022,2034,2079,2195,2207",
+                        "endColumns": "44,65,13,13,68",
+                        "endOffsets": "135471,137168,141795,158429,159625"
                     }
                 },
                 {
@@ -334,6 +410,23 @@
                     }
                 },
                 {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/googlepay_strings.xml",
+                    "from": {
+                        "startLines": "18,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "743,667",
+                        "endColumns": "93,75",
+                        "endOffsets": "832,738"
+                    },
+                    "to": {
+                        "startLines": "2030,2076",
+                        "startColumns": "4,4",
+                        "startOffsets": "136715,141575",
+                        "endColumns": "93,75",
+                        "endOffsets": "136804,141646"
+                    }
+                },
+                {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/fb2408cbe0c0fc33eeedda0ab2c39ac6/transformed/jetified-savedstate-1.2.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -406,23 +499,6 @@
                     }
                 },
                 {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "23,24,22,19,20,18",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "851,900,802,712,756,668",
-                        "endColumns": "48,52,48,43,44,43",
-                        "endOffsets": "895,948,846,751,796,707"
-                    },
-                    "to": {
-                        "startLines": "1112,1113,1114,1552,1553,1802",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "68638,68687,68740,105310,105354,121905",
-                        "endColumns": "48,52,48,43,44,43",
-                        "endOffsets": "68682,68735,68784,105349,105394,121944"
-                    }
-                },
-                {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/935c4a57b4547c54c1bebbcf16bb8e22/transformed/jetified-play-services-maps-18.0.2/res/values/values.xml",
                     "from": {
                         "startLines": "4",
@@ -439,42 +515,6 @@
                         "endLines": "12001",
                         "endColumns": "20",
                         "endOffsets": "745971"
-                    }
-                },
-                {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "416"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "25",
-                        "endColumns": "12",
-                        "endOffsets": "4028"
-                    }
-                },
-                {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "10,11,12,13,7,9,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "408,449,491,533,286,368,55,102,149,196,241,328",
-                        "endColumns": "40,41,41,41,41,39,46,46,46,44,44,39",
-                        "endOffsets": "444,486,528,570,323,403,97,144,191,236,281,363"
-                    },
-                    "to": {
-                        "startLines": "661,662,663,664,678,749,999,1000,1001,1012,1013,1027",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "36153,36194,36236,36278,37300,42265,61133,61180,61227,61971,62016,62941",
-                        "endColumns": "40,41,41,41,41,39,46,46,46,44,44,39",
-                        "endOffsets": "36189,36231,36273,36315,37337,42300,61175,61222,61269,62011,62056,62976"
                     }
                 },
                 {
@@ -497,25 +537,6 @@
                     }
                 },
                 {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2,16,21",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "100,797,976",
-                        "endLines": "15,20,25",
-                        "endColumns": "12,8,12",
-                        "endOffsets": "792,971,1172"
-                    },
-                    "to": {
-                        "startLines": "6427,9200,9208",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "451676,639806,640069",
-                        "endLines": "6440,9204,9212",
-                        "endColumns": "12,8,12",
-                        "endOffsets": "452280,639980,640265"
-                    }
-                },
-                {
                     "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/8cbf4bd2f84b4cebaf2ebd915b141d2e/transformed/transition-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -533,20 +554,37 @@
                     }
                 },
                 {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/googlepay_strings.xml",
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "18,17",
-                        "startColumns": "4,4",
-                        "startOffsets": "743,667",
-                        "endColumns": "93,75",
-                        "endOffsets": "832,738"
+                        "startLines": "23,24,22,19,20,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "851,900,802,712,756,668",
+                        "endColumns": "48,52,48,43,44,43",
+                        "endOffsets": "895,948,846,751,796,707"
                     },
                     "to": {
-                        "startLines": "2030,2076",
-                        "startColumns": "4,4",
-                        "startOffsets": "136715,141575",
-                        "endColumns": "93,75",
-                        "endOffsets": "136804,141646"
+                        "startLines": "1112,1113,1114,1552,1553,1802",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "68638,68687,68740,105310,105354,121905",
+                        "endColumns": "48,52,48,43,44,43",
+                        "endOffsets": "68682,68735,68784,105349,105394,121944"
+                    }
+                },
+                {
+                    "source": "/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,338,420,524,633,753,849",
+                        "endColumns": "143,138,81,103,108,119,95,72",
+                        "endOffsets": "194,333,415,519,628,748,844,917"
+                    },
+                    "to": {
+                        "startLines": "2062,2070,2071,2072,2073,2074,2075,2197",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "140153,140925,141064,141146,141250,141359,141479,158508",
+                        "endColumns": "143,138,81,103,108,119,95,72",
+                        "endOffsets": "140292,141059,141141,141245,141354,141474,141570,158576"
                     }
                 },
                 {
@@ -623,44 +661,6 @@
                         "endLines": "13794",
                         "endColumns": "24",
                         "endOffsets": "811916"
-                    }
-                },
-                {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/costum_image.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "134"
-                    },
-                    "to": {
-                        "startLines": "9205",
-                        "startColumns": "4",
-                        "startOffsets": "639985",
-                        "endLines": "9207",
-                        "endColumns": "12",
-                        "endOffsets": "640064"
-                    }
-                },
-                {
-                    "source": "/Users/wasiliylolita/Documents/GitHub/Lime-AndroidOne/LimeApp/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,5,6,9,4",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "16,162,228,377,93",
-                        "endLines": "1,5,8,11,4",
-                        "endColumns": "44,65,13,13,68",
-                        "endOffsets": "56,223,372,496,157"
-                    },
-                    "to": {
-                        "startLines": "2022,2034,2077,2193,2207",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "135431,137107,141651,158310,159561",
-                        "endLines": "2022,2034,2079,2195,2207",
-                        "endColumns": "44,65,13,13,68",
-                        "endOffsets": "135471,137168,141795,158429,159625"
                     }
                 }
             ]
