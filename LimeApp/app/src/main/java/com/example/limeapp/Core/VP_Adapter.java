@@ -365,7 +365,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             StartDate = itemView.findViewById(R.id.SatrtDate);
             EndDate = itemView.findViewById(R.id.EndDate);
 
-            View[] elementsToHide = new View[]{ CountOfGT,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,EndDate};
+            View[] elementsToHide = new View[]{ Line,CountOfGT,StatusBut,dflImage,YurName,Swap,circleImageView,Start_date,End_date,UName,SName,StartDate,EndDate};
             View[] ref = new View[]{Verif,VerifTxt};
             LineCard.setOnClickListener(new View.OnClickListener() {
                 @Override
