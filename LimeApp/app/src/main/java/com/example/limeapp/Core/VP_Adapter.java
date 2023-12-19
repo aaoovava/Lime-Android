@@ -21,6 +21,7 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -190,6 +191,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             holder.StartDate.setTextSize(TypedValue.COMPLEX_UNIT_PX, txtSize_date);
             holder.EndDate.setTextSize(TypedValue.COMPLEX_UNIT_PX, txtSize_date);
             holder.End_date.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_yurname);
+            TextHolder.SetTextSize(screenHeight,holder.VerifTxt,0.035);
+            TextHolder.SetTextSize(screenHeight,holder.Verif, 0.15);
 
 
             holder.Title_txt.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_title);
@@ -217,6 +220,10 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             View yourView = holder.circleImageView; // Замените your_view на ваш ID элемента
             View yourViewdfl = holder.dflImage;
             View SwapView = holder.Swap;
+            View VerifView = holder.Verif;
+            View VerifTxtView = holder.VerifTxt;
+            ConstraintLayout.LayoutParams layoutParamsVerifTxt = (ConstraintLayout.LayoutParams)VerifTxtView.getLayoutParams();
+            ConstraintLayout.LayoutParams layoutParamsVerif = (ConstraintLayout.LayoutParams)VerifView.getLayoutParams();
             ConstraintLayout.LayoutParams layoutParamsCon = (ConstraintLayout.LayoutParams) yourView.getLayoutParams();
             ConstraintLayout.LayoutParams layoutParamsConDflt = (ConstraintLayout.LayoutParams) yourViewdfl.getLayoutParams();
             ConstraintLayout.LayoutParams layoutParamsSwap = (ConstraintLayout.LayoutParams) SwapView.getLayoutParams();
@@ -269,9 +276,59 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 layoutParamsSwap.verticalBias = newVerBias;
             }
 
+            //Verif
+            if (screenHeight <= 2000 && screenHeight >= 1500) {//small
+                float newBias = (float) (layoutParamsVerif.horizontalBias * screenHeight * 0.00057);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerif.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerif.verticalBias * screenHeight * 0.00055);
+                layoutParamsVerif.verticalBias = newVerBias;
+            } else if (screenWidth <= 1080 && screenHeight >= 1500) { //normis
+                float newBias = (float) (layoutParamsVerif.horizontalBias * screenHeight * 0.00045);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerif.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerif.verticalBias * screenHeight * 0.00048);
+                layoutParamsVerif.verticalBias = newVerBias;
+            } else if (screenHeight <= 1500) { //tab
+                float newBias = (float) (layoutParamsVerif.horizontalBias * screenHeight * 0.00085);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerif.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerif.verticalBias * screenHeight * 0.0008);
+                layoutParamsVerif.verticalBias = newVerBias;
+
+            } else {//large phone
+                float newBias = (float) (layoutParamsVerif.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerif.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerif.verticalBias * screenHeight * 0.0004);
+                layoutParamsVerif.verticalBias = newVerBias;
+            }
+
+            //VerifTxt
+            if (screenHeight <= 2000 && screenHeight >= 1500) {//small
+                float newBias = (float) (layoutParamsVerifTxt.horizontalBias * screenHeight * 0.00057);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerifTxt.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerifTxt.verticalBias * screenHeight * 0.00055);
+                layoutParamsVerifTxt.verticalBias = newVerBias;
+            } else if (screenWidth <= 1080 && screenHeight >= 1500) { //normis
+                float newBias = (float) (layoutParamsVerifTxt.horizontalBias * screenHeight * 0.00045);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerifTxt.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerifTxt.verticalBias * screenHeight * 0.00048);
+                layoutParamsVerifTxt.verticalBias = newVerBias;
+            } else if (screenHeight <= 1500) { //tab
+                float newBias = (float) (layoutParamsVerifTxt.horizontalBias * screenHeight * 0.00085);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerifTxt.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerifTxt.verticalBias * screenHeight * 0.0008);
+                layoutParamsVerifTxt.verticalBias = newVerBias;
+
+            } else {//large phone
+                float newBias = (float) (layoutParamsVerifTxt.horizontalBias * screenHeight * 0.0004);// Новое значение app:layout_constraintHorizontal_bias
+                layoutParamsVerifTxt.horizontalBias = newBias;
+                float newVerBias  = (float) (layoutParamsVerifTxt.verticalBias * screenHeight * 0.0004);
+                layoutParamsVerifTxt.verticalBias = newVerBias;
+            }
+
             yourView.setLayoutParams(layoutParamsCon);
             yourViewdfl.setLayoutParams(layoutParamsConDflt);
             SwapView.setLayoutParams(layoutParamsSwap);
+            VerifView.setLayoutParams(layoutParamsVerif);
+            VerifTxtView.setLayoutParams(layoutParamsVerifTxt);
 
 
             //%circleImageView
