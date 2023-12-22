@@ -30,12 +30,18 @@ drawable _______________________
 drawable actions_with_aboniment
 drawable appiconmainscreen
 drawable auntofa
+drawable buton_bar
 drawable buton_prof
 drawable butons_st
 drawable button
 drawable buttontomainview
+drawable buy_goup_trening
+drawable buy_group_trening
 drawable buy_icon
 drawable buy_icon_pick
+drawable buy_personal_aboniment
+drawable buy_top_line
+drawable buy_trening_with_mentor
 drawable buy_with_googlepay_button_content
 drawable calendar
 drawable card_and_line
@@ -184,6 +190,7 @@ font inter_semibold
 font maven_pro_bold
 font sd
 id Adapter
+id BuyTxtTop
 id CardElement
 id CloseBut
 id CloseButTab
@@ -227,6 +234,7 @@ id imageView19
 id imageView2
 id imageView20
 id imageView202
+id imageView21
 id imageView22
 id imageView23
 id imageView25
@@ -237,6 +245,7 @@ id imageView29
 id imageView3
 id imageView30
 id imageView31
+id imageView32
 id imageView33
 id imageView34
 id imageView35
@@ -246,6 +255,7 @@ id imageView38
 id imageView39
 id imageView4
 id imageView40
+id imageView41
 id imageView42
 id imageView43
 id imageView44
@@ -257,6 +267,7 @@ id imageView49
 id imageView5
 id imageView50
 id imageView51
+id imageView52
 id imageView6
 id imageView7
 id imageView8
@@ -274,6 +285,7 @@ id profile_imagePic
 id progressBar
 id progressBar4
 id scrollView2
+id scrollView3
 id telephon
 id telephon2
 id textButLog
@@ -284,6 +296,10 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView14
+id textView15
+id textView16
+id textView17
 id textView3
 id textView4
 id textView5
