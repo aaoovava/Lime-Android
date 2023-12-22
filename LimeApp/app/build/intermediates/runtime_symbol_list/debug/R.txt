@@ -3128,6 +3128,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f080080
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f080081
 int drawable abc_textfield_search_material 0x7f080082
 int drawable abc_vector_test 0x7f080083
+int drawable actions_with_aboniment 0x7f080199
 int drawable appiconmainscreen 0x7f080084
 int drawable auntofa 0x7f080085
 int drawable avd_hide_password 0x7f080086
@@ -3248,6 +3249,7 @@ int drawable image_3 0x7f0800f8
 int drawable infocard 0x7f0800f9
 int drawable instacontakt 0x7f0800fa
 int drawable intersect 0x7f0800fb
+int drawable intresting_staff 0x7f08019a
 int drawable isb_indicator_rounded_corners 0x7f0800fc
 int drawable isb_indicator_square_corners 0x7f0800fd
 int drawable lime_svgrepo_com 0x7f0800fe
@@ -3394,6 +3396,7 @@ int drawable tablesr 0x7f08018a
 int drawable test_level_drawable 0x7f08018b
 int drawable text_edit 0x7f08018c
 int drawable three_dots_svgrepo_com 0x7f08018d
+int drawable time_table 0x7f08019b
 int drawable to_login_from_sing_up 0x7f08018e
 int drawable tooltip_frame_dark 0x7f08018f
 int drawable tooltip_frame_light 0x7f080190

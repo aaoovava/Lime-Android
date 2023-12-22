@@ -3129,6 +3129,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable actions_with_aboniment
 drawable appiconmainscreen
 drawable auntofa
 drawable avd_hide_password
@@ -3249,6 +3250,7 @@ drawable image_3
 drawable infocard
 drawable instacontakt
 drawable intersect
+drawable intresting_staff
 drawable isb_indicator_rounded_corners
 drawable isb_indicator_square_corners
 drawable lime_svgrepo_com
@@ -3395,6 +3397,7 @@ drawable tablesr
 drawable test_level_drawable
 drawable text_edit
 drawable three_dots_svgrepo_com
+drawable time_table
 drawable to_login_from_sing_up
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

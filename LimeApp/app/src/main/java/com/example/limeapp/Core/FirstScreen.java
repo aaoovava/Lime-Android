@@ -162,12 +162,12 @@ public class FirstScreen extends AppCompatActivity {
             });
 
             viePagerItemArrayList = new ArrayList<>();
-            FirstViewItem firstViewItem1 = new FirstViewItem("Дії з абонементом", R.drawable.rectangle_1439);
-            viePagerItemArrayList.add(firstViewItem1);
-            FirstViewItem firstViewItem2 = new FirstViewItem("Вигідні пропозиції", R.drawable.rectangle_1439_edit_1);
-            viePagerItemArrayList.add(firstViewItem2);
-            FirstViewItem firstViewItem3 = new FirstViewItem("Графік групових занять", R.drawable.rectangle_1439);
+            FirstViewItem firstViewItem3 = new FirstViewItem("Графік групових занять", R.drawable.time_table);
             viePagerItemArrayList.add(firstViewItem3);
+            FirstViewItem firstViewItem1 = new FirstViewItem("Дії з абонементом", R.drawable.actions_with_aboniment);
+            viePagerItemArrayList.add(firstViewItem1);
+            FirstViewItem firstViewItem2 = new FirstViewItem("Вигідні пропозиції", R.drawable.intresting_staff);
+            viePagerItemArrayList.add(firstViewItem2);
 
 
             FirstView_VpAdapter firstViewVpAdapter = new FirstView_VpAdapter(viePagerItemArrayList, this);
