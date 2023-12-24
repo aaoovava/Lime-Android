@@ -11,10 +11,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.limeapp.Holder.TextHolder;
@@ -27,6 +29,7 @@ public class BuyScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.buy_activity);
+
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setStatusBarColor(getResources().getColor(R.color.LogCol));
         getWindow().setNavigationBarColor(getResources().getColor(R.color.LogCol));
@@ -38,6 +41,7 @@ public class BuyScreen extends AppCompatActivity {
         TextView TextView14 = findViewById(R.id.textView14);
         TextView TextView15 = findViewById(R.id.textView15);
         TextView TextView16 = findViewById(R.id.textView16);
+        TextView TextView2 = findViewById(R.id.textView2);
         DisplayMetrics displayMetrics = new DisplayMetrics();
         WindowManager windowManager = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
         if (windowManager != null) {
@@ -45,6 +49,17 @@ public class BuyScreen extends AppCompatActivity {
             //Txt %
             int screenHeight = displayMetrics.heightPixels;
             int screenWidth = displayMetrics.widthPixels;
+
+            // Получите ссылку на ScrollView по его ID
+            ScrollView scrollView = findViewById(R.id.scrollView3);
+
+            int newHeightInPixels = 0;
+
+            ViewGroup.LayoutParams layoutParams = scrollView.getLayoutParams();
+            layoutParams.height = newHeightInPixels;
+            scrollView.setLayoutParams(layoutParams);
+
+            TextHolder.SetTextSize(screenHeight,TextView2,0.035);
             TextHolder.SetTextSize(screenHeight,TopText,0.035);
             TextHolder.SetTextSize(screenHeight,TextView14,0.035);
             TextHolder.SetTextSize(screenHeight,TextView15,0.035);

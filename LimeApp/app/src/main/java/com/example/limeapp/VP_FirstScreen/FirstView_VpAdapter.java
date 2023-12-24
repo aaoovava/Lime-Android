@@ -52,7 +52,7 @@ public class FirstView_VpAdapter extends RecyclerView.Adapter<FirstView_VpAdapte
             int textSize_yurname = (int) (screenHeight * 0.03);
             int txtSize_date = (int) (screenHeight * 0.025);
             int textSize_status = (int) (screenHeight * 0.025);
-            int textSize_title = (int) (screenWidth * 0.06);
+            int textSize_title = (int) (screenHeight * 0.035);
             int textSize_name = (int) (screenHeight * 0.032);
 
             holder.MainTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_title);

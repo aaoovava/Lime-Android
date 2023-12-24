@@ -194,25 +194,40 @@
 
                 <TextView
                     android:id="@+id/textView16"
-                    android:layout_width="220dp"
-                    android:layout_height="110dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:autoText="false"
                     android:clickable="false"
                     android:fontFamily="@font/inter_semibold"
                     android:password="false"
                     android:phoneNumber="false"
-                    android:text=" Персональний абонемент"
+                    android:text=" Персональний"
                     android:textAlignment="textStart"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="26dp"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView32"
                     app:layout_constraintEnd_toEndOf="@+id/imageView32"
-                    app:layout_constraintHorizontal_bias="0.443"
+                    app:layout_constraintHorizontal_bias="0.45"
                     app:layout_constraintStart_toStartOf="@+id/imageView32"
                     app:layout_constraintTop_toTopOf="@+id/imageView32"
-                    app:layout_constraintVertical_bias="0.0" />
+                    app:layout_constraintVertical_bias="0.252" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="абонемент"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView32"
+                    app:layout_constraintHorizontal_bias="0.37"
+                    app:layout_constraintStart_toStartOf="@+id/imageView32"
+                    app:layout_constraintTop_toTopOf="@+id/imageView32"
+                    app:layout_constraintVertical_bias="0.51" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

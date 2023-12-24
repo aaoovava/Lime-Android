@@ -213,6 +213,22 @@ public final class BuyActivityBinding implements ViewBinding {
   @Nullable
   public final TextView textView17;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-normal/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
+  public final TextView textView2;
+
   private BuyActivityBinding(@NonNull ConstraintLayout rootView, @Nullable TextView BuyTxtTop,
       @Nullable ImageView imageView21, @Nullable ImageView imageView28,
       @Nullable ImageView imageView32, @Nullable ImageView imageView41,
@@ -220,7 +236,7 @@ public final class BuyActivityBinding implements ViewBinding {
       @NonNull ImageView navBuy, @NonNull ImageView navFirstScreen, @NonNull ImageView navProfile,
       @NonNull ImageView navVerefication, @Nullable ScrollView scrollView3,
       @Nullable TextView textView14, @Nullable TextView textView15, @Nullable TextView textView16,
-      @Nullable TextView textView17) {
+      @Nullable TextView textView17, @Nullable TextView textView2) {
     this.rootView = rootView;
     this.BuyTxtTop = BuyTxtTop;
     this.imageView21 = imageView21;
@@ -238,6 +254,7 @@ public final class BuyActivityBinding implements ViewBinding {
     this.textView15 = textView15;
     this.textView16 = textView16;
     this.textView17 = textView17;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -330,9 +347,13 @@ public final class BuyActivityBinding implements ViewBinding {
       id = R.id.textView17;
       TextView textView17 = ViewBindings.findChildViewById(rootView, id);
 
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+
       return new BuyActivityBinding((ConstraintLayout) rootView, BuyTxtTop, imageView21,
           imageView28, imageView32, imageView41, imageView52, linearLayout, navBuy, navFirstScreen,
-          navProfile, navVerefication, scrollView3, textView14, textView15, textView16, textView17);
+          navProfile, navVerefication, scrollView3, textView14, textView15, textView16, textView17,
+          textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
