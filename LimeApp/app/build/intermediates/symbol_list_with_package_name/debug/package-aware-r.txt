@@ -2241,6 +2241,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color sheetOff
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -3153,6 +3154,7 @@ drawable buy_icon
 drawable buy_icon_pick
 drawable buy_personal_aboniment
 drawable buy_top_line
+drawable buy_top_line_on
 drawable buy_trening_with_mentor
 drawable buy_with_googlepay_button_content
 drawable calendar
@@ -3382,6 +3384,7 @@ drawable rectangle_11
 drawable rectangle_13
 drawable rectangle_1439
 drawable rectangle_1439_edit_1
+drawable rectangle_1446
 drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
@@ -3389,6 +3392,7 @@ drawable rectanglecontaks
 drawable rectangllogoback
 drawable regicon
 drawable regtext
+drawable round
 drawable round_corners
 drawable sign_up
 drawable spring_dot_background
@@ -3597,6 +3601,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id con1
 id confirm_button
 id constraint
 id container
@@ -3751,7 +3756,6 @@ id imageView38
 id imageView39
 id imageView4
 id imageView40
-id imageView41
 id imageView42
 id imageView43
 id imageView44
@@ -3970,6 +3974,7 @@ id selection_type
 id serif
 id sharedValueSet
 id sharedValueUnset
+id sheet
 id shortcut
 id showCustom
 id showHome

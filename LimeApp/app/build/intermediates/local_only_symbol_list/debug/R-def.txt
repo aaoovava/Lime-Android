@@ -16,6 +16,7 @@ color green
 color purple_200
 color purple_500
 color purple_700
+color sheetOff
 color teal_200
 color teal_700
 color white
@@ -41,6 +42,7 @@ drawable buy_icon
 drawable buy_icon_pick
 drawable buy_personal_aboniment
 drawable buy_top_line
+drawable buy_top_line_on
 drawable buy_trening_with_mentor
 drawable buy_with_googlepay_button_content
 drawable calendar
@@ -155,6 +157,7 @@ drawable rectangle_11
 drawable rectangle_13
 drawable rectangle_1439
 drawable rectangle_1439_edit_1
+drawable rectangle_1446
 drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
@@ -162,6 +165,7 @@ drawable rectanglecontaks
 drawable rectangllogoback
 drawable regicon
 drawable regtext
+drawable round
 drawable round_corners
 drawable sign_up
 drawable status_1
@@ -218,6 +222,7 @@ id View
 id abb
 id baсk
 id button_reg
+id con1
 id editTextTextPersonName2
 id firstDate
 id floatingActionButton
@@ -255,7 +260,6 @@ id imageView38
 id imageView39
 id imageView4
 id imageView40
-id imageView41
 id imageView42
 id imageView43
 id imageView44
@@ -286,6 +290,7 @@ id progressBar
 id progressBar4
 id scrollView2
 id scrollView3
+id sheet
 id telephon
 id telephon2
 id textButLog

@@ -1,11 +1,18 @@
 package com.example.limeapp.Core;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,10 +28,12 @@ import android.widget.TextView;
 
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class BuyScreen extends AppCompatActivity {
 
+    @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,6 +51,62 @@ public class BuyScreen extends AppCompatActivity {
         TextView TextView15 = findViewById(R.id.textView15);
         TextView TextView16 = findViewById(R.id.textView16);
         TextView TextView2 = findViewById(R.id.textView2);
+        ImageView sheetImage = findViewById(R.id.imageView52);
+        TextView sheetText = findViewById(R.id.textView17);
+
+
+        //buttonSheet
+        ConstraintLayout bottomSheet = findViewById(R.id.sheet);
+        BottomSheetBehavior<ConstraintLayout> bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
+        bottomSheetBehavior.setPeekHeight(400);
+        bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+        //change button by the state
+        bottomSheetBehavior.addBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
+            @Override
+            public void onStateChanged(@NonNull View bottomSheet, int newState) {
+                if (newState == BottomSheetBehavior.STATE_EXPANDED) {
+                    // Запускаем анимацию изменения цвета текста
+                    int startColor = sheetText.getCurrentTextColor();
+                    int endColor = Color.parseColor("#80F988");
+
+                    ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
+                    textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
+                    textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                        @Override
+                        public void onAnimationUpdate(ValueAnimator animator) {
+                            sheetText.setTextColor((int) animator.getAnimatedValue());
+                        }
+                    });
+                    textColorAnimator.start();
+
+                    // Запускаем анимацию изменения изображения
+                    sheetImage.setImageResource(R.drawable.buy_top_line_on);
+                } else {
+                    // Запускаем анимацию изменения цвета текста
+                    int startColor = sheetText.getCurrentTextColor();
+                    int endColor = Color.parseColor("#545F71");
+
+                    ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
+                    textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
+                    textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                        @Override
+                        public void onAnimationUpdate(ValueAnimator animator) {
+                            sheetText.setTextColor((int) animator.getAnimatedValue());
+                        }
+                    });
+                    textColorAnimator.start();
+
+                    // Запускаем анимацию изменения изображения
+                    sheetImage.setImageResource(R.drawable.buy_top_line);
+                }
+            }
+
+            @Override
+            public void onSlide(@NonNull View bottomSheet, float slideOffset) {
+                // Вызывается при изменении состояния свайпа, но для данной задачи onStateChanged достаточно
+            }
+        });
+
         DisplayMetrics displayMetrics = new DisplayMetrics();
         WindowManager windowManager = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
         if (windowManager != null) {

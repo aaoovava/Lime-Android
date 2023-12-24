@@ -12,6 +12,7 @@
     <color name="Status1">#80F988</color>
     <color name="Status2">#4C78DF</color>
     <color name="Status3">#C93536</color>
+    <color name="sheetOff">#545F71</color>
 
 
 </resources>

@@ -20,7 +20,7 @@ import java.lang.String;
 
 public final class BuyActivityBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final View rootView;
 
   /**
    * This binding is not available in all configurations.
@@ -37,6 +37,22 @@ public final class BuyActivityBinding implements ViewBinding {
    */
   @Nullable
   public final TextView BuyTxtTop;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-normal/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ConstraintLayout con1;
 
   /**
    * This binding is not available in all configurations.
@@ -100,22 +116,6 @@ public final class BuyActivityBinding implements ViewBinding {
    * </ul>
    */
   @Nullable
-  public final ImageView imageView41;
-
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-normal/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
   public final ImageView imageView52;
 
   @NonNull
@@ -148,6 +148,22 @@ public final class BuyActivityBinding implements ViewBinding {
    */
   @Nullable
   public final ScrollView scrollView3;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-normal/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ConstraintLayout sheet;
 
   /**
    * This binding is not available in all configurations.
@@ -229,20 +245,21 @@ public final class BuyActivityBinding implements ViewBinding {
   @Nullable
   public final TextView textView2;
 
-  private BuyActivityBinding(@NonNull ConstraintLayout rootView, @Nullable TextView BuyTxtTop,
-      @Nullable ImageView imageView21, @Nullable ImageView imageView28,
-      @Nullable ImageView imageView32, @Nullable ImageView imageView41,
+  private BuyActivityBinding(@NonNull View rootView, @Nullable TextView BuyTxtTop,
+      @Nullable ConstraintLayout con1, @Nullable ImageView imageView21,
+      @Nullable ImageView imageView28, @Nullable ImageView imageView32,
       @Nullable ImageView imageView52, @NonNull LinearLayout linearLayout,
       @NonNull ImageView navBuy, @NonNull ImageView navFirstScreen, @NonNull ImageView navProfile,
       @NonNull ImageView navVerefication, @Nullable ScrollView scrollView3,
-      @Nullable TextView textView14, @Nullable TextView textView15, @Nullable TextView textView16,
-      @Nullable TextView textView17, @Nullable TextView textView2) {
+      @Nullable ConstraintLayout sheet, @Nullable TextView textView14,
+      @Nullable TextView textView15, @Nullable TextView textView16, @Nullable TextView textView17,
+      @Nullable TextView textView2) {
     this.rootView = rootView;
     this.BuyTxtTop = BuyTxtTop;
+    this.con1 = con1;
     this.imageView21 = imageView21;
     this.imageView28 = imageView28;
     this.imageView32 = imageView32;
-    this.imageView41 = imageView41;
     this.imageView52 = imageView52;
     this.linearLayout = linearLayout;
     this.navBuy = navBuy;
@@ -250,6 +267,7 @@ public final class BuyActivityBinding implements ViewBinding {
     this.navProfile = navProfile;
     this.navVerefication = navVerefication;
     this.scrollView3 = scrollView3;
+    this.sheet = sheet;
     this.textView14 = textView14;
     this.textView15 = textView15;
     this.textView16 = textView16;
@@ -259,7 +277,7 @@ public final class BuyActivityBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public View getRoot() {
     return rootView;
   }
 
@@ -287,6 +305,9 @@ public final class BuyActivityBinding implements ViewBinding {
       id = R.id.BuyTxtTop;
       TextView BuyTxtTop = ViewBindings.findChildViewById(rootView, id);
 
+      id = R.id.con1;
+      ConstraintLayout con1 = ViewBindings.findChildViewById(rootView, id);
+
       id = R.id.imageView21;
       ImageView imageView21 = ViewBindings.findChildViewById(rootView, id);
 
@@ -295,9 +316,6 @@ public final class BuyActivityBinding implements ViewBinding {
 
       id = R.id.imageView32;
       ImageView imageView32 = ViewBindings.findChildViewById(rootView, id);
-
-      id = R.id.imageView41;
-      ImageView imageView41 = ViewBindings.findChildViewById(rootView, id);
 
       id = R.id.imageView52;
       ImageView imageView52 = ViewBindings.findChildViewById(rootView, id);
@@ -335,6 +353,9 @@ public final class BuyActivityBinding implements ViewBinding {
       id = R.id.scrollView3;
       ScrollView scrollView3 = ViewBindings.findChildViewById(rootView, id);
 
+      id = R.id.sheet;
+      ConstraintLayout sheet = ViewBindings.findChildViewById(rootView, id);
+
       id = R.id.textView14;
       TextView textView14 = ViewBindings.findChildViewById(rootView, id);
 
@@ -350,9 +371,9 @@ public final class BuyActivityBinding implements ViewBinding {
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
 
-      return new BuyActivityBinding((ConstraintLayout) rootView, BuyTxtTop, imageView21,
-          imageView28, imageView32, imageView41, imageView52, linearLayout, navBuy, navFirstScreen,
-          navProfile, navVerefication, scrollView3, textView14, textView15, textView16, textView17,
+      return new BuyActivityBinding(rootView, BuyTxtTop, con1, imageView21, imageView28,
+          imageView32, imageView52, linearLayout, navBuy, navFirstScreen, navProfile,
+          navVerefication, scrollView3, sheet, textView14, textView15, textView16, textView17,
           textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);

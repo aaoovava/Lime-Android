@@ -2240,6 +2240,7 @@ int color secondary_text_default_material_dark 0x7f0602f5
 int color secondary_text_default_material_light 0x7f0602f6
 int color secondary_text_disabled_material_dark 0x7f0602f7
 int color secondary_text_disabled_material_light 0x7f0602f8
+int color sheetOff 0x7f060311
 int color switch_thumb_disabled_material_dark 0x7f0602f9
 int color switch_thumb_disabled_material_light 0x7f0602fa
 int color switch_thumb_material_dark 0x7f0602fb
@@ -3152,6 +3153,7 @@ int drawable buy_icon 0x7f080099
 int drawable buy_icon_pick 0x7f08009a
 int drawable buy_personal_aboniment 0x7f08009b
 int drawable buy_top_line 0x7f08009c
+int drawable buy_top_line_on 0x7f0801a6
 int drawable buy_trening_with_mentor 0x7f08009d
 int drawable buy_with_googlepay_button_content 0x7f08009e
 int drawable calendar 0x7f08009f
@@ -3381,6 +3383,7 @@ int drawable rectangle_11 0x7f08017e
 int drawable rectangle_13 0x7f08017f
 int drawable rectangle_1439 0x7f080180
 int drawable rectangle_1439_edit_1 0x7f080181
+int drawable rectangle_1446 0x7f0801a4
 int drawable rectangle_7 0x7f080182
 int drawable rectangle_7oki 0x7f080183
 int drawable rectangle_none 0x7f080184
@@ -3388,6 +3391,7 @@ int drawable rectanglecontaks 0x7f080185
 int drawable rectangllogoback 0x7f080186
 int drawable regicon 0x7f080187
 int drawable regtext 0x7f080188
+int drawable round 0x7f0801a5
 int drawable round_corners 0x7f080189
 int drawable sign_up 0x7f08018a
 int drawable spring_dot_background 0x7f08018b
@@ -3596,6 +3600,7 @@ int id clockwise 0x7f0a00aa
 int id closest 0x7f0a00ab
 int id collapseActionView 0x7f0a00ac
 int id compress 0x7f0a00ad
+int id con1 0x7f0a02ad
 int id confirm_button 0x7f0a00ae
 int id constraint 0x7f0a00af
 int id container 0x7f0a00b0
@@ -3750,7 +3755,6 @@ int id imageView38 0x7f0a0144
 int id imageView39 0x7f0a0145
 int id imageView4 0x7f0a0146
 int id imageView40 0x7f0a0147
-int id imageView41 0x7f0a0148
 int id imageView42 0x7f0a0149
 int id imageView43 0x7f0a014a
 int id imageView44 0x7f0a014b
@@ -3969,6 +3973,7 @@ int id selection_type 0x7f0a021f
 int id serif 0x7f0a0220
 int id sharedValueSet 0x7f0a0221
 int id sharedValueUnset 0x7f0a0222
+int id sheet 0x7f0a02ac
 int id shortcut 0x7f0a0223
 int id showCustom 0x7f0a0224
 int id showHome 0x7f0a0225
