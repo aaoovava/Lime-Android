@@ -4,34 +4,43 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.animation.ArgbEvaluator;
-import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
+import com.example.limeapp.ob_class.User_Buys;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 public class BuyScreen extends AppCompatActivity {
+    RecyclerView recyclerView;
+    FirebaseDatabase db;
+    BuyHistoryAdapter buyHistoryAdapter;
+    ArrayList<User_Buys>list;
 
     @SuppressLint("ResourceAsColor")
     @Override
@@ -53,6 +62,39 @@ public class BuyScreen extends AppCompatActivity {
         TextView TextView2 = findViewById(R.id.textView2);
         ImageView sheetImage = findViewById(R.id.imageView52);
         TextView sheetText = findViewById(R.id.textView17);
+        recyclerView = findViewById(R.id.buyHistory);
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        FirebaseUser user = auth.getCurrentUser();
+        db = FirebaseDatabase.getInstance();
+        String userId = user.getUid();
+        DatabaseReference buyHistory = db.getReference("Client/" + userId +"/user_buys");
+
+
+
+        //BuyHistory
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+
+        buyHistory.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                list = new ArrayList<>();
+                buyHistoryAdapter = new BuyHistoryAdapter(BuyScreen.this,list);
+                recyclerView.setAdapter(buyHistoryAdapter);
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+                    User_Buys user_buys = dataSnapshot.getValue(User_Buys.class);
+                    list.add(user_buys);
+                }
+
+                buyHistoryAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
 
         //buttonSheet
@@ -65,6 +107,7 @@ public class BuyScreen extends AppCompatActivity {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
                 if (newState == BottomSheetBehavior.STATE_EXPANDED) {
+                    recyclerView.setVisibility(View.VISIBLE);
                     // Запускаем анимацию изменения цвета текста
                     int startColor = sheetText.getCurrentTextColor();
                     int endColor = Color.parseColor("#80F988");
@@ -85,6 +128,7 @@ public class BuyScreen extends AppCompatActivity {
                     // Запускаем анимацию изменения цвета текста
                     int startColor = sheetText.getCurrentTextColor();
                     int endColor = Color.parseColor("#545F71");
+                    recyclerView.setVisibility(View.INVISIBLE);
 
                     ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
                     textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах

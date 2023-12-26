@@ -168,6 +168,7 @@ drawable regtext
 drawable round
 drawable round_corners
 drawable sign_up
+drawable solid
 drawable status_1
 drawable status_2
 drawable status_3
@@ -222,6 +223,7 @@ id View
 id abb
 id baсk
 id button_reg
+id buyHistory
 id con1
 id editTextTextPersonName2
 id firstDate
@@ -234,6 +236,7 @@ id imageView11
 id imageView12
 id imageView13
 id imageView14
+id imageView15
 id imageView18
 id imageView19
 id imageView2
@@ -301,10 +304,13 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView14
 id textView15
 id textView16
 id textView17
+id textView18
+id textView19
 id textView2
 id textView3
 id textView4
@@ -323,6 +329,7 @@ layout activity_gfreeze_drop
 layout activity_main_info
 layout activity_table
 layout buy_activity
+layout buy_item
 layout login_activity
 layout main_screen_activity
 layout profile_activity

@@ -73,9 +73,16 @@ public class RegActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(AuthResult authResult) {
                             HashMap<String, User_Buys> userBuysList = new HashMap<>();
-                            User_Buys user_buy = new User_Buys("Voda", "350");
+                            User_Buys user_buy = new User_Buys("Персональний абонемент", "650","21.11.2023");
+                            User_Buys user_buy1 = new User_Buys("Вода", "250","21.02.2023");
+                            User_Buys user_buy2 = new User_Buys("Турник", "650","21.08.2023");
+                            User_Buys user_buy3 = new User_Buys("Скинувся на ручку", "150","21.05.2023");
                             userBuysList.put(user_buy.getName_of_buy(), user_buy);
-                            User user = new User(Name.getText().toString(), Phone.getText().toString(), Pwd.getText().toString(), Age.getText().toString(), "немає", "немає", "3", "немає", "немає", "3", "https://firebasestorage.googleapis.com/v0/b/lime-pdb.appspot.com/o/user-profile-4255%201.png?alt=media&token=d95cec80-d997-4d83-8c6f-30c8e98f3edb", "14", "14", "n", "n", "0", userBuysList);
+                            userBuysList.put(user_buy1.getName_of_buy(), user_buy1);
+                            userBuysList.put(user_buy2.getName_of_buy(), user_buy2);
+                            userBuysList.put(user_buy3.getName_of_buy(), user_buy3);
+
+                            User user = new User(Name.getText().toString(), Phone.getText().toString(), Pwd.getText().toString(), Age.getText().toString(), "--.--.----", "--.--.----", "3", "--.--.----", "--.--.----", "3", "", "14", "14", "n", "n", "0", userBuysList);
                             users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void unused) {

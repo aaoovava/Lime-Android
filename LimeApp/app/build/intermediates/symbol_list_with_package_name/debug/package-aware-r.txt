@@ -3395,6 +3395,7 @@ drawable regtext
 drawable round
 drawable round_corners
 drawable sign_up
+drawable solid
 drawable spring_dot_background
 drawable spring_dot_stroke_background
 drawable status_1
@@ -3573,6 +3574,7 @@ id browser_actions_menu_view
 id buttonPanel
 id button_reg
 id buyButton
+id buyHistory
 id buy_now
 id buy_with
 id buy_with_google
@@ -3730,6 +3732,7 @@ id imageView11
 id imageView12
 id imageView13
 id imageView14
+id imageView15
 id imageView18
 id imageView19
 id imageView2
@@ -4047,10 +4050,13 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView13
 id textView14
 id textView15
 id textView16
 id textView17
+id textView18
+id textView19
 id textView2
 id textView3
 id textView4
@@ -4235,6 +4241,7 @@ layout activity_table
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout buy_activity
+layout buy_item
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog
