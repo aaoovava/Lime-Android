@@ -129,6 +129,7 @@ public class BuyScreen extends AppCompatActivity {
                     int startColor = sheetText.getCurrentTextColor();
                     int endColor = Color.parseColor("#545F71");
                     recyclerView.setVisibility(View.INVISIBLE);
+                    recyclerView.scrollToPosition(0);
 
                     ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
                     textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
