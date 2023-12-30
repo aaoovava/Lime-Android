@@ -101,7 +101,7 @@ public class FirstScreen extends AppCompatActivity {
                 windowManagerTxt.getDefaultDisplay().getMetrics(displayMetrics);
                 //Txt %
 
-                int textSize_yurname = (int) (screenWidth * 0.03);
+                int textSize_yurname = (int) (screenWidth * 0.032);
                 int txtSize_date = (int) (screenWidth * 0.035);
                 int textSize_status = (int) (screenWidth * 0.030);
                 int textSize_title = (int) (screenWidth * 0.06);
