@@ -1,6 +1,7 @@
 package com.example.limeapp.VP_FirstScreen;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.limeapp.Core.Metrics;
 import com.example.limeapp.R;
 
 import java.util.ArrayList;
@@ -29,7 +31,16 @@ public class FirstView_VpAdapter extends RecyclerView.Adapter<FirstView_VpAdapte
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewpager_first_screen_item_small,parent,false);
+        View view = null;
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        windowManager.getDefaultDisplay().getMetrics(displayMetrics);
+        int screenWidthDp = (int) (displayMetrics.widthPixels / displayMetrics.density);
+        int screenHeightDp = (int) (displayMetrics.heightPixels / displayMetrics.density);
+        if (screenHeightDp <= 630 && (context.getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_NORMAL) {
+            view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewpager_first_screen_min,parent,false);
+        }
+        else view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewpager_first_screen_item_small,parent,false);
 
         return new ViewHolder(view);
     }

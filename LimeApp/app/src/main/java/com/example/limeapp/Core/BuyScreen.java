@@ -12,6 +12,7 @@ import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -37,16 +38,28 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class BuyScreen extends AppCompatActivity {
-    RecyclerView recyclerView;
-    FirebaseDatabase db;
-    BuyHistoryAdapter buyHistoryAdapter;
-    ArrayList<User_Buys>list;
+    private RecyclerView recyclerView;
+    private FirebaseDatabase db;
+    private Metrics metrics;
+    private BuyHistoryAdapter buyHistoryAdapter;
+    private ArrayList<User_Buys>list;
 
     @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.buy_activity);
+        DisplayMetrics displayMetrics2 = getResources().getDisplayMetrics();
+        int screenWidthDp = (int) (displayMetrics2.widthPixels / displayMetrics2.density);
+        int screenHeightDp = (int) (displayMetrics2.heightPixels / displayMetrics2.density);
+        if (screenHeightDp <= 630 && (getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_NORMAL) {
+            setContentView(R.layout.buy_small);
+            metrics = Metrics.SMALL;
+        } else if (screenWidthDp >= 530) {
+            setContentView(R.layout.buy_activity);
+        } else {
+            // По умолчанию, если не подходит ни одно из условий
+            setContentView(R.layout.buy_activity);
+        }
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setStatusBarColor(getResources().getColor(R.color.LogCol));
@@ -96,61 +109,70 @@ public class BuyScreen extends AppCompatActivity {
             }
         });
 
+        DisplayMetrics displayMetrics1 = new DisplayMetrics();
+        WindowManager windowManager1 = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
+        if (windowManager1 != null) {
+            windowManager1.getDefaultDisplay().getMetrics(displayMetrics1);
+            //Txt %
+            int screenHeight1 = displayMetrics1.heightPixels;
+            int screenWidth1 = displayMetrics1.widthPixels;
+            //buttonSheet
+            ConstraintLayout bottomSheet = findViewById(R.id.sheet);
+            BottomSheetBehavior<ConstraintLayout> bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
+            if (metrics == Metrics.SMALL)bottomSheetBehavior.setPeekHeight((int) (screenHeight1 * 0.22));
+            else bottomSheetBehavior.setPeekHeight((int) (screenHeight1 * 0.2));
+            bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
 
-        //buttonSheet
-        ConstraintLayout bottomSheet = findViewById(R.id.sheet);
-        BottomSheetBehavior<ConstraintLayout> bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
-        bottomSheetBehavior.setPeekHeight(400);
-        bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
-        //change button by the state
-        bottomSheetBehavior.addBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
-            @Override
-            public void onStateChanged(@NonNull View bottomSheet, int newState) {
-                if (newState == BottomSheetBehavior.STATE_EXPANDED) {
-                    recyclerView.setVisibility(View.VISIBLE);
-                    // Запускаем анимацию изменения цвета текста
-                    int startColor = sheetText.getCurrentTextColor();
-                    int endColor = Color.parseColor("#80F988");
+            //change button by the state
+            bottomSheetBehavior.addBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
+                @Override
+                public void onStateChanged(@NonNull View bottomSheet, int newState) {
+                    if (newState == BottomSheetBehavior.STATE_EXPANDED) {
+                        recyclerView.setVisibility(View.VISIBLE);
+                        // Запускаем анимацию изменения цвета текста
+                        int startColor = sheetText.getCurrentTextColor();
+                        int endColor = Color.parseColor("#80F988");
 
-                    ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
-                    textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
-                    textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-                        @Override
-                        public void onAnimationUpdate(ValueAnimator animator) {
-                            sheetText.setTextColor((int) animator.getAnimatedValue());
-                        }
-                    });
-                    textColorAnimator.start();
+                        ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
+                        textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
+                        textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                            @Override
+                            public void onAnimationUpdate(ValueAnimator animator) {
+                                sheetText.setTextColor((int) animator.getAnimatedValue());
+                            }
+                        });
+                        textColorAnimator.start();
 
-                    // Запускаем анимацию изменения изображения
-                    sheetImage.setImageResource(R.drawable.buy_top_line_on);
-                } else {
-                    // Запускаем анимацию изменения цвета текста
-                    int startColor = sheetText.getCurrentTextColor();
-                    int endColor = Color.parseColor("#545F71");
-                    recyclerView.setVisibility(View.INVISIBLE);
-                    recyclerView.scrollToPosition(0);
+                        // Запускаем анимацию изменения изображения
+                        sheetImage.setImageResource(R.drawable.buy_top_line_on);
+                    } else {
+                        // Запускаем анимацию изменения цвета текста
+                        int startColor = sheetText.getCurrentTextColor();
+                        int endColor = Color.parseColor("#545F71");
+                        recyclerView.setVisibility(View.INVISIBLE);
+                        recyclerView.scrollToPosition(0);
 
-                    ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
-                    textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
-                    textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-                        @Override
-                        public void onAnimationUpdate(ValueAnimator animator) {
-                            sheetText.setTextColor((int) animator.getAnimatedValue());
-                        }
-                    });
-                    textColorAnimator.start();
+                        ValueAnimator textColorAnimator = ValueAnimator.ofObject(new ArgbEvaluator(), startColor, endColor);
+                        textColorAnimator.setDuration(200); // Длительность анимации в миллисекундах
+                        textColorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                            @Override
+                            public void onAnimationUpdate(ValueAnimator animator) {
+                                sheetText.setTextColor((int) animator.getAnimatedValue());
+                            }
+                        });
+                        textColorAnimator.start();
 
-                    // Запускаем анимацию изменения изображения
-                    sheetImage.setImageResource(R.drawable.buy_top_line);
+                        // Запускаем анимацию изменения изображения
+                        sheetImage.setImageResource(R.drawable.buy_top_line);
+                    }
                 }
-            }
 
-            @Override
-            public void onSlide(@NonNull View bottomSheet, float slideOffset) {
-                // Вызывается при изменении состояния свайпа, но для данной задачи onStateChanged достаточно
-            }
-        });
+                @Override
+                public void onSlide(@NonNull View bottomSheet, float slideOffset) {
+                    // Вызывается при изменении состояния свайпа, но для данной задачи onStateChanged достаточно
+                }
+            });
+        }
 
         DisplayMetrics displayMetrics = new DisplayMetrics();
         WindowManager windowManager = (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);

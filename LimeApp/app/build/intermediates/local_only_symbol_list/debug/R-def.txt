@@ -330,11 +330,13 @@ layout activity_main_info
 layout activity_table
 layout buy_activity
 layout buy_item
+layout buy_small
 layout login_activity
 layout main_screen_activity
 layout profile_activity
 layout reg_activity
 layout viewpager_first_screen_item_small
+layout viewpager_first_screen_min
 layout viewpager_item
 mipmap ic_launcher
 mipmap ic_launcher_round

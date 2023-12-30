@@ -4242,6 +4242,7 @@ layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout buy_activity
 layout buy_item
+layout buy_small
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog
@@ -4329,6 +4330,7 @@ layout select_dialog_singlechoice_material
 layout spring_dot_layout
 layout support_simple_spinner_dropdown_item
 layout viewpager_first_screen_item_small
+layout viewpager_first_screen_min
 layout viewpager_item
 layout wallet_test_layout
 layout worm_dot_layout

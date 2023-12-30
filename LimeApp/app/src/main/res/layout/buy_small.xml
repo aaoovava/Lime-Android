@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151718"
+    android:orientation="vertical"
+    android:screenOrientation="landscape">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/con1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/BuyTxtTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Купити абонемент"
+            android:textColor="@color/Status1"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="NotSibling" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="409dp"
+            android:layout_height="450dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BuyTxtTop"
+            app:layout_constraintVertical_bias="0.01999998"
+            tools:ignore="NotSibling">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHeight_percent="0.20"
+                        app:layout_constraintHorizontal_bias="0.487"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.036"
+                        app:layout_constraintWidth_percent="0.9"
+                        app:srcCompat="@drawable/buy_trening_with_mentor" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_semibold"
+                        android:text="Заняття з тренером"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+                        app:layout_constraintHorizontal_bias="0.54"
+                        app:layout_constraintStart_toStartOf="@+id/imageView21"
+                        app:layout_constraintTop_toTopOf="@+id/imageView21"
+                        app:layout_constraintVertical_bias="0.41000003" />
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHeight_percent="0.20"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+                        app:layout_constraintVertical_bias="0.072"
+                        app:layout_constraintWidth_percent="0.9"
+                        app:srcCompat="@drawable/buy_group_trening" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_semibold"
+                        android:text="Груповий абонемент"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+                        app:layout_constraintHorizontal_bias="0.55"
+                        app:layout_constraintStart_toStartOf="@+id/imageView28"
+                        app:layout_constraintTop_toTopOf="@+id/imageView28"
+                        app:layout_constraintVertical_bias="0.42000002" />
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHeight_percent="0.20"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+                        app:layout_constraintVertical_bias="0.120000005"
+                        app:layout_constraintWidth_percent="0.9"
+                        app:srcCompat="@drawable/buy_personal_aboniment" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:autoText="false"
+                        android:clickable="false"
+                        android:fontFamily="@font/inter_semibold"
+                        android:password="false"
+                        android:phoneNumber="false"
+                        android:text=" Персональний"
+                        android:textAlignment="textStart"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+                        app:layout_constraintHorizontal_bias="0.41"
+                        app:layout_constraintStart_toStartOf="@+id/imageView32"
+                        app:layout_constraintTop_toTopOf="@+id/imageView32"
+                        app:layout_constraintVertical_bias="0.384" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_semibold"
+                        android:text="абонемент"
+                        android:textColor="#FFFFFF"
+                        android:textSize="26dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                        app:layout_constraintEnd_toEndOf="@+id/textView16"
+                        app:layout_constraintHorizontal_bias="0.14"
+                        app:layout_constraintStart_toStartOf="@+id/textView16"
+                        app:layout_constraintTop_toTopOf="@+id/textView16"
+                        app:layout_constraintVertical_bias="0.6" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sheet"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/rectangle_1446"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        tools:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.050000012"
+            app:srcCompat="@drawable/buy_top_line" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Історія покупок"
+            android:textColor="#545F71"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.06999999" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/buyHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="80dp"
+            android:visibility="invisible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/nav_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/profile_icon" />
+
+        <ImageView
+            android:id="@+id/nav_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/buy_icon_pick" />
+
+        <ImageView
+            android:id="@+id/nav_firstScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/main_menu_icon" />
+
+        <ImageView
+            android:id="@+id/nav_verefication"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/verfecation_icon" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
