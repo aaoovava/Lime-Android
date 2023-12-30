@@ -102,7 +102,7 @@ public class FirstScreen extends AppCompatActivity {
                 //Txt %
 
                 int textSize_yurname = (int) (screenWidth * 0.03);
-                int txtSize_date = (int) (screenWidth * 0.025);
+                int txtSize_date = (int) (screenWidth * 0.035);
                 int textSize_status = (int) (screenWidth * 0.030);
                 int textSize_title = (int) (screenWidth * 0.06);
                 int textSize_name = (int) (screenWidth * 0.042);
@@ -110,7 +110,7 @@ public class FirstScreen extends AppCompatActivity {
                 DateText.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_status);
                 DownText1.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_name);
                 DownText2.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_name);
-                CountText.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_title);
+                CountText.setTextSize(TypedValue.COMPLEX_UNIT_PX, txtSize_date);
                 CountNumber.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_title);
             }
 
