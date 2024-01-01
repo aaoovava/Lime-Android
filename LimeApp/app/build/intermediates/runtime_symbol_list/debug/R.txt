@@ -4329,10 +4329,10 @@ int layout select_dialog_singlechoice_material 0x7f0d007c
 int layout spring_dot_layout 0x7f0d007d
 int layout support_simple_spinner_dropdown_item 0x7f0d007e
 int layout viewpager_first_screen_item_small 0x7f0d007f
-int layout viewpager_first_screen_min 0x7f0d0083
-int layout viewpager_item 0x7f0d0080
-int layout wallet_test_layout 0x7f0d0081
-int layout worm_dot_layout 0x7f0d0082
+int layout viewpager_first_screen_min 0x7f0d0080
+int layout viewpager_item 0x7f0d0081
+int layout wallet_test_layout 0x7f0d0082
+int layout worm_dot_layout 0x7f0d0083
 int menu crop_image_menu 0x7f0f0000
 int mipmap ic_launcher 0x7f100000
 int mipmap ic_launcher_round 0x7f100001
