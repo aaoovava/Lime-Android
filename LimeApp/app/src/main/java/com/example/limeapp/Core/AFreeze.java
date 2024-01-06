@@ -3,6 +3,7 @@ package com.example.limeapp.Core;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +11,8 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.view.ViewTreeObserver;
+import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -38,8 +41,8 @@ public class AFreeze extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_afreeze);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-        getWindow().setStatusBarColor(getResources().getColor(R.color.green));
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.LogCol));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.LogCol));
         TextView countOfInput = findViewById(R.id.CountOfU);
         TextView countOfD = findViewById(R.id.CountOfD);
         EditText dataEdit = findViewById(R.id.DataEdit);
@@ -47,6 +50,7 @@ public class AFreeze extends AppCompatActivity {
         TextView Resultdate = findViewById(R.id.textDate);
         ImageView backBut = findViewById(R.id.baсk);
         ImageView correctBut = findViewById(R.id.Correct);
+        ConstraintLayout rootView = findViewById(R.id.root_view);
 
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
@@ -57,7 +61,15 @@ public class AFreeze extends AppCompatActivity {
         backBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toMain();
+                toBuy();
+            }
+        });
+
+        //Close keyboard by click
+        rootView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                closeKeyboard();
             }
         });
         users.child(userId).addValueEventListener(new ValueEventListener() {
@@ -83,7 +95,7 @@ public class AFreeze extends AppCompatActivity {
                         String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                         int Data = Integer.parseInt(snapshot.child("afreeze_days").getValue().toString());
                         if (s.toString() != "") {
-                            closeBut.setVisibility(View.VISIBLE);
+
                             closeBut.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
@@ -105,7 +117,7 @@ public class AFreeze extends AppCompatActivity {
 
 
                             if (Integer.parseInt(s.toString()) > Data) {
-                                dataEdit.setText("");
+                                dataEdit.setText("14");
                             }
                         } catch (Exception e) {
 
@@ -171,9 +183,16 @@ public class AFreeze extends AppCompatActivity {
         return res;
     }
 
+
     public void toMain() {
         Intent intent = new Intent(this, VerificationActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
+    }
+    public void toBuy() {
+        Intent intent = new Intent(this, BuyScreen.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
 
     public String getDate1(int daysCount) {

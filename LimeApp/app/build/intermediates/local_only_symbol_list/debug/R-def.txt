@@ -28,9 +28,11 @@ dimen margin_xlarge
 dimen padding_small
 drawable ____________________
 drawable _______________________
+drawable __icon__chevron_right_
 drawable actions_with_aboniment
 drawable appiconmainscreen
 drawable auntofa
+drawable botom_freeze
 drawable buton_bar
 drawable buton_prof
 drawable butons_st
@@ -58,6 +60,7 @@ drawable cardone
 drawable check_date
 drawable checkdate1
 drawable checkdate2
+drawable close_but
 drawable closebut
 drawable closetab
 drawable contaktt2
@@ -76,6 +79,7 @@ drawable fon_sh
 drawable frame_5
 drawable freeze
 drawable freezeicon
+drawable freezetop
 drawable googlepay_button_background
 drawable googlepay_button_background_image
 drawable googlepay_button_content
@@ -158,6 +162,8 @@ drawable rectangle_13
 drawable rectangle_1439
 drawable rectangle_1439_edit_1
 drawable rectangle_1446
+drawable rectangle_1455
+drawable rectangle_1456
 drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
@@ -237,6 +243,7 @@ id imageView12
 id imageView13
 id imageView14
 id imageView15
+id imageView16
 id imageView18
 id imageView19
 id imageView2
@@ -246,7 +253,6 @@ id imageView21
 id imageView22
 id imageView23
 id imageView25
-id imageView26
 id imageView27
 id imageView28
 id imageView29
@@ -291,6 +297,7 @@ id profile_image
 id profile_imagePic
 id progressBar
 id progressBar4
+id root_view
 id scrollView2
 id scrollView3
 id sheet
@@ -312,6 +319,10 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView20
+id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5

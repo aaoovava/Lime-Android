@@ -18,6 +18,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.limeapp.Core.Interfaces.OnItemClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.VP_FirstScreen.FirstViewItem;
 import com.example.limeapp.VP_FirstScreen.FirstView_VpAdapter;
@@ -35,7 +36,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class FirstScreen extends AppCompatActivity {
+public class FirstScreen extends AppCompatActivity implements OnItemClickListener {
     FirebaseDatabase db;
     private String name;
     ArrayList<FirstViewItem> viePagerItemArrayList;
@@ -171,6 +172,7 @@ public class FirstScreen extends AppCompatActivity {
 
 
             FirstView_VpAdapter firstViewVpAdapter = new FirstView_VpAdapter(viePagerItemArrayList, this);
+            firstViewVpAdapter.setListener(this);
 
             viewPager2.setAdapter(firstViewVpAdapter);
             viewPager2.setClipToPadding(false);
@@ -200,6 +202,16 @@ public class FirstScreen extends AppCompatActivity {
         startActivity(intent);
         overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
+    void toAFreeze(){
+        Intent intent = new Intent(this, AFreeze.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
+    }
+    void toGFreeze(){
+        Intent intent = new Intent(this, GFreeze.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
+    }
 
     public String[] Spase(String txt) {
 
@@ -226,5 +238,12 @@ public class FirstScreen extends AppCompatActivity {
         }
 
         return formattedDate;
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        if (position == 1){
+            toAFreeze();
+        }
     }
 }

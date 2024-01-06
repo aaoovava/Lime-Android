@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/LogCol"
+    android:id="@+id/root_view"
     tools:context=".Core.AFreeze">
 
 
@@ -70,10 +71,13 @@
         android:background="@drawable/rectangle_1456"
         android:drawableLeft="@drawable/rectangle_7oki"
         android:ems="4"
+        android:fontFamily="@font/inter_semibold"
         android:inputType="number"
-
         android:maxLength="2"
+
         android:paddingStart="50dp"
+        android:textColor="@color/Status1"
+        android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintHorizontal_bias="0.505"
@@ -128,7 +132,7 @@
         app:layout_constraintStart_toEndOf="@+id/DataEdit"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
         app:layout_constraintVertical_bias="0.61"
-        app:srcCompat="@drawable/closebut" />
+        app:srcCompat="@drawable/close_but" />
 
     <TextView
         android:id="@+id/textView7"
@@ -149,8 +153,8 @@
     <TextView
         android:id="@+id/textDate"
         android:layout_width="wrap_content"
-        android:textColor="#D50000"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="@+id/imageView18"

@@ -14,12 +14,19 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.limeapp.Core.Interfaces.OnItemClickListener;
 import com.example.limeapp.Core.Metrics;
 import com.example.limeapp.R;
 
 import java.util.ArrayList;
 
 public class FirstView_VpAdapter extends RecyclerView.Adapter<FirstView_VpAdapter.ViewHolder> {
+    private OnItemClickListener listener;
+
+    public void setListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
+
     public FirstView_VpAdapter(ArrayList<FirstViewItem> viewItemArrayList, Context context) {
         this.viewItemArrayList = viewItemArrayList;
         this.context = context;
@@ -71,6 +78,16 @@ public class FirstView_VpAdapter extends RecyclerView.Adapter<FirstView_VpAdapte
 
         holder.CardView.setImageResource(firstViewItem.CardElement);
         holder.MainTextView.setText(firstViewItem.MainTxt);
+
+        //OnItemClick
+        holder.CardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (listener != null){
+                    listener.onItemClick(position);
+                }
+            }
+        });
 
     }
 

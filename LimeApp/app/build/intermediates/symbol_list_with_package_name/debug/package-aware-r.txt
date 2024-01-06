@@ -3051,6 +3051,7 @@ dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
 drawable ____________________
 drawable _______________________
+drawable __icon__chevron_right_
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3135,6 +3136,7 @@ drawable appiconmainscreen
 drawable auntofa
 drawable avd_hide_password
 drawable avd_show_password
+drawable botom_freeze
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3170,6 +3172,7 @@ drawable cardone
 drawable check_date
 drawable checkdate1
 drawable checkdate2
+drawable close_but
 drawable closebut
 drawable closetab
 drawable common_full_open_on_phone
@@ -3216,6 +3219,7 @@ drawable fon_sh
 drawable frame_5
 drawable freeze
 drawable freezeicon
+drawable freezetop
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googlepay_button_background
@@ -3385,6 +3389,8 @@ drawable rectangle_13
 drawable rectangle_1439
 drawable rectangle_1439_edit_1
 drawable rectangle_1446
+drawable rectangle_1455
+drawable rectangle_1456
 drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
@@ -3733,6 +3739,7 @@ id imageView12
 id imageView13
 id imageView14
 id imageView15
+id imageView16
 id imageView18
 id imageView19
 id imageView2
@@ -3742,7 +3749,6 @@ id imageView21
 id imageView22
 id imageView23
 id imageView25
-id imageView26
 id imageView27
 id imageView28
 id imageView29
@@ -3928,6 +3934,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id root_view
 id rounded
 id rounded_rectangle
 id row_index_key
@@ -4058,6 +4065,10 @@ id textView17
 id textView18
 id textView19
 id textView2
+id textView20
+id textView21
+id textView22
+id textView23
 id textView3
 id textView4
 id textView5
