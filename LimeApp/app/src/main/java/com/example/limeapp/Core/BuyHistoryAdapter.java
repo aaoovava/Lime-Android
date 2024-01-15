@@ -2,6 +2,7 @@ package com.example.limeapp.Core;
 
 import android.content.Context;
 import android.os.Build;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.User_Buys;
 
@@ -41,10 +43,16 @@ public class BuyHistoryAdapter extends RecyclerView.Adapter<BuyHistoryAdapter.My
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        DisplayMetrics displayMetrics2 = context.getResources().getDisplayMetrics();
+        int screenWidthDp = (int) (displayMetrics2.widthPixels / displayMetrics2.density);
+        int screenHeightDp = (int) (displayMetrics2.heightPixels / displayMetrics2.density);
         User_Buys user_buys = list.get(position);
         holder.Name.setText(user_buys.getName_of_buy());
         holder.Date.setText(convertToUkrainianFormat(user_buys.getDate()));
         holder.Prise.setText("- " + user_buys.getCost() + "грн");
+        TextHolder.SetTextSize(screenHeightDp, holder.Name,0.08);
+        TextHolder.SetTextSize(screenHeightDp,holder.Prise,0.08);
+        TextHolder.SetTextSize(screenHeightDp,holder.Date,0.06);
     }
 
     @Override

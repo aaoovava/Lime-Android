@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml
+8-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml
+9-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
-11-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
+11-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:5:22-77
 12    <uses-permission android:name="android.permission.CALL_PHONE" />
-12-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
-12-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
+12-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:6:5-69
+12-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:6:22-66
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
-13-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
+13-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
-14-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
+14-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:8:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
 15-->[com.google.firebase:firebase-auth:21.0.3] /Users/wasiliylolita/.gradle/caches/transforms-3/a9aa45092658a403885f59f00819e2c7/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:22-76
@@ -64,138 +64,138 @@
 35-->[androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 36
 37    <application
-37-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:10:5-77:19
+37-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:10:5-77:19
 38        android:allowBackup="true"
-38-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
+38-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:11:9-35
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 39-->[androidx.core:core:1.9.0] /Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 40        android:dataExtractionRules="@xml/data_extraction_rules"
-40-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
+40-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:12:9-65
 41        android:debuggable="true"
 42        android:extractNativeLibs="false"
 43        android:fullBackupContent="@xml/backup_rules"
-43-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
+43-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:13:9-54
 44        android:icon="@drawable/appiconmainscreen"
-44-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
+44-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:14:9-51
 45        android:label="Lime"
-45-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
+45-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:15:9-29
 46        android:supportsRtl="true"
-46-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
+46-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:16:9-35
 47        android:testOnly="true"
 48        android:theme="@style/Theme.LimeApp" >
-48-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
+48-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
 49        <activity
-49-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
+49-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
 50            android:name="com.example.limeapp.Core.FirstScreen"
-50-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:20:13-45
+50-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:20:13-45
 51            android:exported="false"
-51-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
+51-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
 52            android:screenOrientation="portrait" />
-52-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
+52-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
 53        <activity
-53-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:24:9-27:52
+53-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:24:9-27:52
 54            android:name="com.example.limeapp.Core.GfreezeDrop"
-54-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:25:13-45
+54-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:25:13-45
 55            android:exported="false"
-55-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:26:13-37
+55-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:26:13-37
 56            android:screenOrientation="portrait" />
-56-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:27:13-49
+56-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:27:13-49
 57        <activity
-57-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:28:9-31:52
+57-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:28:9-31:52
 58            android:name="com.example.limeapp.Core.AfreezeDrop"
-58-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:29:13-45
+58-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:29:13-45
 59            android:exported="false"
-59-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:30:13-37
+59-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:30:13-37
 60            android:screenOrientation="portrait" />
-60-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:31:13-49
+60-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:31:13-49
 61        <activity
-61-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:32:9-35:51
+61-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:32:9-35:51
 62            android:name="com.example.limeapp.Core.GFreeze"
-62-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:33:13-41
+62-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:33:13-41
 63            android:exported="false"
-63-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:34:13-37
+63-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:34:13-37
 64            android:screenOrientation="portrait" />
-64-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:35:13-49
+64-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:35:13-49
 65        <activity
-65-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:36:9-39:52
+65-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:36:9-39:52
 66            android:name="com.example.limeapp.Core.table"
-66-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:37:13-39
+66-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:37:13-39
 67            android:exported="false"
-67-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:38:13-37
+67-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:38:13-37
 68            android:screenOrientation="portrait" />
-68-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:39:13-49
+68-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:39:13-49
 69        <activity
-69-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:40:9-43:52
+69-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:40:9-43:52
 70            android:name="com.example.limeapp.Core.AFreeze"
-70-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:41:13-41
+70-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:41:13-41
 71            android:exported="false"
-71-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:42:13-37
+71-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:42:13-37
 72            android:screenOrientation="portrait" /> <!-- This element is required to enable Google Pay in your app. -->
-72-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:43:13-49
+72-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:43:13-49
 73        <meta-data
-73-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:44:9-46:36
+73-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:44:9-46:36
 74            android:name="com.google.android.gms.wallet.api.enabled"
-74-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:45:13-69
+74-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:45:13-69
 75            android:value="true" />
-75-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:46:13-33
+75-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:46:13-33
 76
 77        <activity
-77-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:48:9-51:52
+77-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:48:9-51:52
 78            android:name="com.example.limeapp.Core.BuyScreen"
-78-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:49:13-43
+78-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:49:13-43
 79            android:exported="false"
-79-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:50:13-37
+79-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:50:13-37
 80            android:screenOrientation="portrait" />
-80-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:51:13-49
+80-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:51:13-49
 81        <activity
-81-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:52:9-61:20
+81-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:52:9-61:20
 82            android:name="com.example.limeapp.Core.LogActivity"
-82-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:53:13-45
+82-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:53:13-45
 83            android:exported="true"
-83-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:54:13-36
+83-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:54:13-36
 84            android:screenOrientation="portrait" >
-84-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:55:13-49
+84-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:55:13-49
 85            <intent-filter>
-85-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:56:13-60:29
+85-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:56:13-60:29
 86                <action android:name="android.intent.action.MAIN" />
-86-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:57:17-69
-86-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:57:25-66
+86-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:57:17-69
+86-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:57:25-66
 87
 88                <category android:name="android.intent.category.LAUNCHER" />
-88-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:59:17-77
-88-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:59:27-74
+88-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:59:17-77
+88-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:59:27-74
 89            </intent-filter>
 90        </activity>
 91        <activity
-91-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:62:9-64:52
+91-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:62:9-64:52
 92            android:name="com.example.limeapp.Core.RegActivity"
-92-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:63:13-45
+92-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:63:13-45
 93            android:screenOrientation="portrait" />
-93-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:64:13-49
+93-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:64:13-49
 94        <activity
-94-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
+94-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
 95            android:name="com.example.limeapp.Core.VerificationActivity"
-95-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:66:13-54
+95-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:66:13-54
 96            android:screenOrientation="portrait" />
-96-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
+96-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
 97        <activity
-97-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
+97-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
 98            android:name="com.example.limeapp.Core.ProfileActivity"
-98-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:69:13-49
+98-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:69:13-49
 99            android:screenOrientation="portrait" />
-99-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
+99-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:70:13-49
 100        <activity
-100-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:59
+100-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:71:9-73:59
 101            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-101-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:72:13-76
+101-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:72:13-76
 102            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
-102-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:73:13-56
+102-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:73:13-56
 103        <meta-data
-103-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:57
+103-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:74:9-76:57
 104            android:name="preloaded_fonts"
-104-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:75:13-43
+104-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:75:13-43
 105            android:resource="@array/preloaded_fonts" />
-105-->/Users/wasiliylolita/Documents/GitHub/Upd App Android/Android Lime/LimeApp/app/src/main/AndroidManifest.xml:76:13-54
+105-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:76:13-54
 106
 107        <provider
 107-->[com.squareup.picasso:picasso:2.8] /Users/wasiliylolita/.gradle/caches/transforms-3/07f893f6c6abd1ea7f1610527e459d8a/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40

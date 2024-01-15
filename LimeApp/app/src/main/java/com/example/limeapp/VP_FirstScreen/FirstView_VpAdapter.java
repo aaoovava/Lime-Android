@@ -15,7 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.limeapp.Core.Interfaces.OnItemClickListener;
-import com.example.limeapp.Core.Metrics;
 import com.example.limeapp.R;
 
 import java.util.ArrayList;

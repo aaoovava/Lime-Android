@@ -23,6 +23,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.limeapp.Core.Enums.Metrics;
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.User_Buys;
@@ -56,6 +57,7 @@ public class BuyScreen extends AppCompatActivity {
             metrics = Metrics.SMALL;
         } else if (screenWidthDp >= 530) {
             setContentView(R.layout.buy_activity);
+            metrics = Metrics.NORMAL;
         } else {
             // По умолчанию, если не подходит ни одно из условий
             setContentView(R.layout.buy_activity);
@@ -81,6 +83,8 @@ public class BuyScreen extends AppCompatActivity {
         db = FirebaseDatabase.getInstance();
         String userId = user.getUid();
         DatabaseReference buyHistory = db.getReference("Client/" + userId +"/user_buys");
+
+
 
 
 
@@ -170,6 +174,7 @@ public class BuyScreen extends AppCompatActivity {
                 @Override
                 public void onSlide(@NonNull View bottomSheet, float slideOffset) {
                     // Вызывается при изменении состояния свайпа, но для данной задачи onStateChanged достаточно
+                    recyclerView.setVisibility(View.INVISIBLE);
                 }
             });
         }
