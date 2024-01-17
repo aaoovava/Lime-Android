@@ -1,4 +1,4 @@
-package com.example.limeapp.Core;
+package com.example.limeapp.Core.Adapters;
 
 import android.content.Context;
 import android.os.Build;
@@ -17,11 +17,9 @@ import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.User_Buys;
 
-import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Locale;
 
 public class BuyHistoryAdapter extends RecyclerView.Adapter<BuyHistoryAdapter.MyViewHolder> {
@@ -36,7 +34,7 @@ public class BuyHistoryAdapter extends RecyclerView.Adapter<BuyHistoryAdapter.My
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate(R.layout.buy_item,parent,false);
+        View v = LayoutInflater.from(context).inflate(R.layout.buy_history_item,parent,false);
         return new MyViewHolder(v);
     }
 

@@ -23,6 +23,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.limeapp.Core.Adapters.BuyHistoryAdapter;
 import com.example.limeapp.Core.Enums.Metrics;
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;

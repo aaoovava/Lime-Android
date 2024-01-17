@@ -3152,6 +3152,7 @@ drawable button
 drawable buttontomainview
 drawable buy_goup_trening
 drawable buy_group_trening
+drawable buy_history_start_line
 drawable buy_icon
 drawable buy_icon_pick
 drawable buy_personal_aboniment
@@ -3740,6 +3741,7 @@ id imageView13
 id imageView14
 id imageView15
 id imageView16
+id imageView17
 id imageView18
 id imageView19
 id imageView2

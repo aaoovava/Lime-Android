@@ -1,4 +1,4 @@
-package com.example.limeapp.Core;
+package com.example.limeapp.Core.Adapters;
 
 import android.animation.ObjectAnimator;
 import android.app.Dialog;
@@ -21,6 +21,12 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.limeapp.Core.AFreeze;
+import com.example.limeapp.Core.AfreezeDrop;
+import com.example.limeapp.Core.GFreeze;
+import com.example.limeapp.Core.GfreezeDrop;
+import com.example.limeapp.Core.ViewPagerItem;
+import com.example.limeapp.Core.table;
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -37,11 +43,11 @@ import java.util.List;
 
 public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
     FirebaseDatabase db;
-    private List<ViePagerItem> viePagerItemsArrayList;
+    private List<ViewPagerItem> viePagerItemsArrayList;
     private Context context;
 
 
-    public VP_Adapter(ArrayList<ViePagerItem> viePagerItemsArrayList, Context context) {
+    public VP_Adapter(ArrayList<ViewPagerItem> viePagerItemsArrayList, Context context) {
         this.viePagerItemsArrayList = viePagerItemsArrayList;
         this.context = context;
         notifyDataSetChanged();
@@ -83,7 +89,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        ViePagerItem pagerItem = viePagerItemsArrayList.get(position);
+        ViewPagerItem pagerItem = viePagerItemsArrayList.get(position);
         try {
             Picasso.get().load(pagerItem.Pimg).into(holder.circleImageView);
             holder.circleImageView.setVisibility(View.VISIBLE);

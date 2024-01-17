@@ -3151,6 +3151,7 @@ int drawable button 0x7f08009c
 int drawable buttontomainview 0x7f08009d
 int drawable buy_goup_trening 0x7f08009e
 int drawable buy_group_trening 0x7f08009f
+int drawable buy_history_start_line 0x7f0801b2
 int drawable buy_icon 0x7f0800a0
 int drawable buy_icon_pick 0x7f0800a1
 int drawable buy_personal_aboniment 0x7f0800a2
@@ -3739,6 +3740,7 @@ int id imageView13 0x7f0a012e
 int id imageView14 0x7f0a012f
 int id imageView15 0x7f0a0130
 int id imageView16 0x7f0a0131
+int id imageView17 0x7f0a02b5
 int id imageView18 0x7f0a0132
 int id imageView19 0x7f0a0133
 int id imageView2 0x7f0a0134
