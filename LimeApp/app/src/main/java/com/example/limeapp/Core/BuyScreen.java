@@ -10,23 +10,28 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.limeapp.Core.Adapters.BuyHistoryAdapter;
+import com.example.limeapp.Core.Enums.AbonimentGroup;
 import com.example.limeapp.Core.Enums.Metrics;
 import com.example.limeapp.Holder.TextHolder;
 import com.example.limeapp.R;
+import com.example.limeapp.ob_class.SalesItem;
 import com.example.limeapp.ob_class.User_Buys;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.firebase.auth.FirebaseAuth;
@@ -38,6 +43,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class BuyScreen extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -45,6 +51,7 @@ public class BuyScreen extends AppCompatActivity {
     private Metrics metrics;
     private BuyHistoryAdapter buyHistoryAdapter;
     private ArrayList<User_Buys>list;
+    private ImageView GroupBuy, PersonalBuy;
 
     @SuppressLint("ResourceAsColor")
     @Override
@@ -83,11 +90,34 @@ public class BuyScreen extends AppCompatActivity {
         FirebaseUser user = auth.getCurrentUser();
         db = FirebaseDatabase.getInstance();
         String userId = user.getUid();
+        PersonalBuy = findViewById(R.id.PersonalBuy);
+        GroupBuy = findViewById(R.id.GroupBuy);
         DatabaseReference buyHistory = db.getReference("Client/" + userId +"/user_buys");
 
 
+        DatabaseReference personalSalesRef = db.getReference("PersonalSales");
+        DatabaseReference groupSalesRef = db.getReference("GroupSales");
+        HashMap<String,SalesItem>list1 = new HashMap<>();
+        list1.put("Групові заняття",new SalesItem("Групові заняття","(Місяць/12 занять)","600"));
+        list1.put("Разове відвідування",new SalesItem("Разове відвідування","(групові)","100"));
+        list1.put("Квартал",new SalesItem("Квартал","(Місяць/безліміт)","1500"));
+        groupSalesRef.setValue(list1);
 
-
+        GroupBuy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BuyDialogFrame buyDialogFrame = new BuyDialogFrame(AbonimentGroup.GROUP);
+                buyDialogFrame.show(getSupportFragmentManager(),"buyDialogFrame");
+            }
+        });
+        //BuySale
+        PersonalBuy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BuyDialogFrame buyDialogFrame = new BuyDialogFrame(AbonimentGroup.PERSONAL);
+                buyDialogFrame.show(getSupportFragmentManager(),"buyDialogFrame");
+            }
+        });
 
         //BuyHistory
         recyclerView.setHasFixedSize(true);
@@ -199,7 +229,7 @@ public class BuyScreen extends AppCompatActivity {
 
             TextHolder.SetTextSize(screenHeight,TextView2,0.035);
             TextHolder.SetTextSize(screenHeight,TopText,0.035);
-            TextHolder.SetTextSize(screenHeight,TextView14,0.035);
+
             TextHolder.SetTextSize(screenHeight,TextView15,0.035);
             TextHolder.SetTextSize(screenHeight,TextView16,0.035);
         }

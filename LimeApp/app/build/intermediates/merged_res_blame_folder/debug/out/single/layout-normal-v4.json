@@ -16,7 +16,7 @@
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-48:/layout-normal/activity_first_screen.xml"
     },
     {
-        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/activity_first_screen.xml",
-        "source": "com.example.limeapp-main-48:/layout-normal/activity_first_screen.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-normal-v4/buy_activity.xml",
+        "source": "com.example.limeapp-main-48:/layout-normal/buy_activity.xml"
     }
 ]

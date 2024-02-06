@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/LogCol">
+    android:layout_height="75dp"
+    android:background="@android:color/transparent"
+    >
 
     <ImageView
         android:id="@+id/imageView55"
@@ -19,7 +20,7 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
         android:text="Групові заняття "
@@ -33,7 +34,7 @@
         app:layout_constraintVertical_bias="0.23000002" />
 
     <TextView
-        android:id="@+id/discription"
+        android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
@@ -41,11 +42,11 @@
         android:textColor="#FDF4E1"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView55"
-        app:layout_constraintEnd_toEndOf="@+id/imageView55"
-        app:layout_constraintHorizontal_bias="0.13"
-        app:layout_constraintStart_toStartOf="@+id/imageView55"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toTopOf="@+id/imageView55"
-        app:layout_constraintVertical_bias="0.72" />
+        app:layout_constraintVertical_bias="0.708" />
 
     <TextView
         android:id="@+id/prise"

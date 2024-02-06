@@ -1,7 +1,7 @@
 package com.example.limeapp.ob_class;
 
 public class User_Buys {
-    private String name_of_buy, cost,date;
+    private String name_of_buy, cost, date;
 
     public User_Buys(String name_of_buy, String cost, String date) {
         this.name_of_buy = name_of_buy;

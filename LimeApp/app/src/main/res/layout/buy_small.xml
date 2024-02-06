@@ -81,7 +81,7 @@
                         app:layout_constraintVertical_bias="0.41000003" />
 
                     <ImageView
-                        android:id="@+id/imageView28"
+                        android:id="@+id/GroupBuy"
                         android:layout_width="0dp"
                         android:layout_height="0dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,22 +101,22 @@
                         android:text="Груповий абонемент"
                         android:textColor="#FFFFFF"
                         android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+                        app:layout_constraintBottom_toBottomOf="@+id/GroupBuy"
+                        app:layout_constraintEnd_toEndOf="@+id/GroupBuy"
                         app:layout_constraintHorizontal_bias="0.55"
-                        app:layout_constraintStart_toStartOf="@+id/imageView28"
-                        app:layout_constraintTop_toTopOf="@+id/imageView28"
+                        app:layout_constraintStart_toStartOf="@+id/GroupBuy"
+                        app:layout_constraintTop_toTopOf="@+id/GroupBuy"
                         app:layout_constraintVertical_bias="0.42000002" />
 
                     <ImageView
-                        android:id="@+id/imageView32"
+                        android:id="@+id/PersonalBuy"
                         android:layout_width="0dp"
                         android:layout_height="0dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHeight_percent="0.20"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView28"
+                        app:layout_constraintTop_toBottomOf="@+id/GroupBuy"
                         app:layout_constraintVertical_bias="0.120000005"
                         app:layout_constraintWidth_percent="0.9"
                         app:srcCompat="@drawable/buy_personal_aboniment" />
@@ -136,11 +136,11 @@
                         android:textAllCaps="false"
                         android:textColor="#FFFFFF"
                         android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+                        app:layout_constraintBottom_toBottomOf="@+id/PersonalBuy"
+                        app:layout_constraintEnd_toEndOf="@+id/PersonalBuy"
                         app:layout_constraintHorizontal_bias="0.41"
-                        app:layout_constraintStart_toStartOf="@+id/imageView32"
-                        app:layout_constraintTop_toTopOf="@+id/imageView32"
+                        app:layout_constraintStart_toStartOf="@+id/PersonalBuy"
+                        app:layout_constraintTop_toTopOf="@+id/PersonalBuy"
                         app:layout_constraintVertical_bias="0.384" />
 
                     <TextView
@@ -151,7 +151,7 @@
                         android:text="абонемент"
                         android:textColor="#FFFFFF"
                         android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+                        app:layout_constraintBottom_toBottomOf="@+id/PersonalBuy"
                         app:layout_constraintEnd_toEndOf="@+id/textView16"
                         app:layout_constraintHorizontal_bias="0.14"
                         app:layout_constraintStart_toStartOf="@+id/textView16"
