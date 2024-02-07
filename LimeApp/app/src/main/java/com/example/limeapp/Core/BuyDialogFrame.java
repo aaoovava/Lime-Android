@@ -82,6 +82,7 @@ public class BuyDialogFrame extends DialogFragment implements OnSaleItemClickLis
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     list = new ArrayList<>();
                     buyAdapter = new BuyAdapter(view.getContext(), list);
+                    buyAdapter.setListener(BuyDialogFrame.this);
                     recyclerView.setAdapter(buyAdapter);
                     for (DataSnapshot dataSnapshot: snapshot.getChildren()){
                         SalesItem salesItem = dataSnapshot.getValue(SalesItem.class);
