@@ -53,6 +53,7 @@ drawable buy_top_line_on
 drawable buy_trening_with_mentor
 drawable buy_with_googlepay_button_content
 drawable buysalebutton
+drawable buytabclicked
 drawable calendar
 drawable card_and_line
 drawable card_status_2
@@ -209,6 +210,7 @@ font inter_semibold
 font maven_pro_bold
 font sd
 id Adapter
+id BuyImage
 id BuyTxtTop
 id CardElement
 id CloseBut
@@ -297,7 +299,6 @@ id imageView50
 id imageView51
 id imageView52
 id imageView54
-id imageView55
 id imageView6
 id imageView7
 id imageView8

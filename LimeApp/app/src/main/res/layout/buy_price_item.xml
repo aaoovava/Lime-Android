@@ -8,7 +8,7 @@
     >
 
     <ImageView
-        android:id="@+id/imageView55"
+        android:id="@+id/BuyImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,11 +26,11 @@
         android:text="Групові заняття "
         android:textColor="@color/Status1"
         android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
-        app:layout_constraintEnd_toEndOf="@+id/imageView55"
+        app:layout_constraintBottom_toBottomOf="@+id/BuyImage"
+        app:layout_constraintEnd_toEndOf="@+id/BuyImage"
         app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="@+id/imageView55"
-        app:layout_constraintTop_toTopOf="@+id/imageView55"
+        app:layout_constraintStart_toStartOf="@+id/BuyImage"
+        app:layout_constraintTop_toTopOf="@+id/BuyImage"
         app:layout_constraintVertical_bias="0.23000002" />
 
     <TextView
@@ -41,11 +41,11 @@
         android:text="Місяць / 12 занять"
         android:textColor="#FDF4E1"
         android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
+        app:layout_constraintBottom_toBottomOf="@+id/BuyImage"
         app:layout_constraintEnd_toEndOf="@+id/name"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/name"
-        app:layout_constraintTop_toTopOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/BuyImage"
         app:layout_constraintVertical_bias="0.708" />
 
     <TextView
@@ -56,10 +56,10 @@
         android:text="600 грн"
         android:textColor="@color/Status1"
         android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView55"
-        app:layout_constraintEnd_toEndOf="@+id/imageView55"
+        app:layout_constraintBottom_toBottomOf="@+id/BuyImage"
+        app:layout_constraintEnd_toEndOf="@+id/BuyImage"
         app:layout_constraintHorizontal_bias="0.891"
-        app:layout_constraintStart_toStartOf="@+id/imageView55"
-        app:layout_constraintTop_toTopOf="@+id/imageView55"
+        app:layout_constraintStart_toStartOf="@+id/BuyImage"
+        app:layout_constraintTop_toTopOf="@+id/BuyImage"
         app:layout_constraintVertical_bias="0.38" />
 </androidx.constraintlayout.widget.ConstraintLayout>

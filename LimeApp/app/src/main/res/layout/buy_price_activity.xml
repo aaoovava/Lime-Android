@@ -99,7 +99,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
-        android:text="600 грн"
         android:textColor="@color/Status1"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView24"
