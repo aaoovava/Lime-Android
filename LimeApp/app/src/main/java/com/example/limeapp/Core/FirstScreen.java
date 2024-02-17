@@ -38,7 +38,6 @@ import java.util.Locale;
 
 public class FirstScreen extends AppCompatActivity implements OnItemClickListener {
     FirebaseDatabase db;
-    private String name;
     ArrayList<FirstViewItem> viePagerItemArrayList;
 
     @Override
@@ -58,7 +57,6 @@ public class FirstScreen extends AppCompatActivity implements OnItemClickListene
             isBig = true;
             setContentView(R.layout.activity_first_screen);
         } else {
-            // По умолчанию, если не подходит ни одно из условий
             setContentView(R.layout.activity_first_screen);
         }
 
