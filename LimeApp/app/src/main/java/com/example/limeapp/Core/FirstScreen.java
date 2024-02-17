@@ -18,6 +18,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.limeapp.Core.Dialogs.TimeTableDialog;
 import com.example.limeapp.Core.Interfaces.OnItemClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.VP_FirstScreen.FirstViewItem;
@@ -242,6 +243,10 @@ public class FirstScreen extends AppCompatActivity implements OnItemClickListene
     public void onItemClick(int position) {
         if (position == 1){
             toAFreeze();
+        } else if (position == 0) {
+            TimeTableDialog timeTableDialog = new TimeTableDialog();
+            timeTableDialog.show(getSupportFragmentManager(),"timeTable");
         }
+
     }
 }

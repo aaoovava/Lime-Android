@@ -1,4 +1,4 @@
-package com.example.limeapp.Core;
+package com.example.limeapp.Core.Dialogs;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -26,7 +26,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class BuyDialogFrame extends DialogFragment implements OnSaleItemClickListener {
     private AbonimentGroup abonimentGroup;
