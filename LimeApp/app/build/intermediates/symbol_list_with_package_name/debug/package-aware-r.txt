@@ -3207,7 +3207,9 @@ drawable cpntaktt1
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
+drawable date_back
 drawable date_edit
+drawable datesback
 drawable day2
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3424,6 +3426,9 @@ drawable test_level_drawable
 drawable text_edit
 drawable three_dots_svgrepo_com
 drawable time_table
+drawable time_table_view
+drawable timetable_back
+drawable timetable_line
 drawable to_login_from_sing_up
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3461,6 +3466,7 @@ id CountOfU
 id CropOverlayView
 id CropProgressBar
 id DataEdit
+id Dates
 id EditTextAge
 id EditTextPass
 id EditTextPassRep
@@ -3473,6 +3479,8 @@ id LinerCard
 id META
 id MainText
 id NO_DEBUG
+id Name
+id Owner
 id PIB
 id PersonalBuy
 id SHIFT
@@ -3485,6 +3493,7 @@ id Sname
 id StatusBut
 id TOP_END
 id TOP_START
+id Table
 id UName
 id UpText1
 id VerificationCode
@@ -3648,7 +3657,9 @@ id custom
 id customPanel
 id cut
 id dark
+id date
 id date_picker_actions
+id day
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3769,10 +3780,12 @@ id imageView24
 id imageView25
 id imageView26
 id imageView27
+id imageView28
 id imageView29
 id imageView3
 id imageView30
 id imageView31
+id imageView32
 id imageView33
 id imageView34
 id imageView35
@@ -3782,6 +3795,7 @@ id imageView38
 id imageView39
 id imageView4
 id imageView40
+id imageView41
 id imageView42
 id imageView43
 id imageView44
@@ -3807,6 +3821,7 @@ id indicator_container
 id info
 id invisible
 id inward
+id isPick
 id isb_progress
 id italic
 id item_touch_helper_previous_elevation
@@ -3945,6 +3960,7 @@ id progressBar
 id progressBar4
 id progress_circular
 id progress_horizontal
+id quit_but
 id radio
 id ratio
 id rectangle
@@ -4091,6 +4107,7 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView3
 id textView4
 id textView5
@@ -4108,6 +4125,8 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time1
+id time2
 id title
 id titleDividerNoCustom
 id title_template
@@ -4272,6 +4291,7 @@ layout activity_gfreeze
 layout activity_gfreeze_drop
 layout activity_main_info
 layout activity_table
+layout activity_timetable
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout buy_activity
@@ -4282,6 +4302,7 @@ layout buy_small
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog
+layout date_item
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -4365,6 +4386,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout spring_dot_layout
 layout support_simple_spinner_dropdown_item
+layout timetable_item
 layout viewpager_first_screen_item_small
 layout viewpager_first_screen_min
 layout viewpager_item

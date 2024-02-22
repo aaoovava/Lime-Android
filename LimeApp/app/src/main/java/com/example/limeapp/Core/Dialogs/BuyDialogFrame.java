@@ -29,7 +29,7 @@ import java.util.ArrayList;
 
 public class BuyDialogFrame extends DialogFragment implements OnSaleItemClickListener {
     private AbonimentGroup abonimentGroup;
-    private ImageView CloseButton, AcceptButton;
+    private ImageView CloseButton, AcceptButton, CardBack;
     private RecyclerView recyclerView;
     private ArrayList<SalesItem>list;
     private TextView PayValue;
@@ -49,7 +49,17 @@ public class BuyDialogFrame extends DialogFragment implements OnSaleItemClickLis
         PayValue = view.findViewById(R.id.value);
         recyclerView = view.findViewById(R.id.recyclerView);
         ConstraintLayout constraintLayout = view.findViewById(R.id.con2);
+        CardBack = view.findViewById(R.id.imageView24);
         db = FirebaseDatabase.getInstance();
+
+
+        ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) recyclerView.getLayoutParams();
+        ViewGroup.LayoutParams cardLayoutParams = CardBack.getLayoutParams();
+
+        layoutParams.width = cardLayoutParams.width;
+
+        recyclerView.setLayoutParams(layoutParams);
+
 
         DatabaseReference groupSalesRef = db.getReference("GroupSales");
         DatabaseReference personalSalesRef = db.getReference("PersonalSales");
@@ -111,32 +121,6 @@ public class BuyDialogFrame extends DialogFragment implements OnSaleItemClickLis
 
     @Override
     public void OnSaleItemClick(SalesItem salesItem) {
-        boolean isAdd = true;
-        if (SaleList.contains(salesItem) || SaleList == null){
-            SaleList.remove(salesItem);
-            isAdd = false;
-            UpdateSum(isAdd, Integer.parseInt(salesItem.getPrise()));
-            for (SalesItem salesItem1 : SaleList){
-                System.out.println(salesItem1.getPrise());
-            }
-        }
-        else {
-            SaleList.add(salesItem);
-            UpdateSum(isAdd, Integer.parseInt(salesItem.getPrise()));
-            for (SalesItem salesItem1 : SaleList){
-                System.out.println(salesItem1.getPrise());
-            }
-        }
-    }
-    public void UpdateSum(boolean isAdd, int salesItem){
-        if (isAdd){
-            SaleValue += salesItem;
-            PayValue.setText(SaleValue + " грн");
-        }
-        else {
-            SaleValue -= salesItem;
-            PayValue.setText(SaleValue + " грн");
-        }
-
+        PayValue.setText(salesItem.getPrise() + " грн");
     }
 }

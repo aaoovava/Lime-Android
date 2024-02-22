@@ -2,6 +2,10 @@ package com.example.limeapp.ob_class;
 
 import com.example.limeapp.Core.Adapters.TimeTableAdapter;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 public class TimeTableItem {
     String name, owner, time1, time2;
 
@@ -45,5 +49,26 @@ public class TimeTableItem {
 
     public void setTime2(String time2) {
         this.time2 = time2;
+    }
+    public static ArrayList<TimeTableItem>sortTimeTableItemList(ArrayList<TimeTableItem>list){
+        Collections.sort(list, new Comparator<TimeTableItem>() {
+            @Override
+            public int compare(TimeTableItem item1, TimeTableItem item2) {
+                String[] time1Parts = item1.getTime1().split(":");
+                String[] time2Parts = item2.getTime1().split(":");
+
+                int hour1 = Integer.parseInt(time1Parts[0]);
+                int minute1 = Integer.parseInt(time1Parts[1]);
+                int hour2 = Integer.parseInt(time2Parts[0]);
+                int minute2 = Integer.parseInt(time2Parts[1]);
+
+                if (hour1 != hour2) {
+                    return hour1 - hour2;
+                } else {
+                    return minute1 - minute2;
+                }
+            }
+        });
+        return list;
     }
 }

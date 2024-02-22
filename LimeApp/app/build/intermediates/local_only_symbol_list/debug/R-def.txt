@@ -73,7 +73,9 @@ drawable closetab
 drawable contaktt2
 drawable contaktt3
 drawable cpntaktt1
+drawable date_back
 drawable date_edit
+drawable datesback
 drawable day2
 drawable doko
 drawable dokon
@@ -194,6 +196,9 @@ drawable tablesr
 drawable text_edit
 drawable three_dots_svgrepo_com
 drawable time_table
+drawable time_table_view
+drawable timetable_back
+drawable timetable_line
 drawable to_login_from_sing_up
 drawable uploudpass
 drawable user_profile_4255_1
@@ -221,6 +226,7 @@ id CountOfD
 id CountOfGT
 id CountOfU
 id DataEdit
+id Dates
 id EditTextAge
 id EditTextPass
 id EditTextPassRep
@@ -229,11 +235,14 @@ id EndDate
 id GroupBuy
 id LinerCard
 id MainText
+id Name
+id Owner
 id PIB
 id PersonalBuy
 id SatrtDate
 id Sname
 id StatusBut
+id Table
 id UName
 id UpText1
 id VerificationCode
@@ -246,6 +255,8 @@ id buyHistory
 id closeButton
 id con1
 id con2
+id date
+id day
 id description
 id editTextTextPersonName2
 id firstDate
@@ -273,10 +284,12 @@ id imageView24
 id imageView25
 id imageView26
 id imageView27
+id imageView28
 id imageView29
 id imageView3
 id imageView30
 id imageView31
+id imageView32
 id imageView33
 id imageView34
 id imageView35
@@ -286,6 +299,7 @@ id imageView38
 id imageView39
 id imageView4
 id imageView40
+id imageView41
 id imageView42
 id imageView43
 id imageView44
@@ -303,6 +317,7 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id isPick
 id lastDate
 id linearLayout
 id linearLayout2
@@ -317,6 +332,7 @@ id profile_image
 id profile_imagePic
 id progressBar
 id progressBar4
+id quit_but
 id recyclerView
 id root_view
 id scrollView2
@@ -345,6 +361,7 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
 id textView3
 id textView4
 id textView5
@@ -352,6 +369,8 @@ id textView6
 id textView7
 id textView8
 id textView9
+id time1
+id time2
 id value
 id viewPager
 layout activity_afreeze
@@ -362,15 +381,18 @@ layout activity_gfreeze
 layout activity_gfreeze_drop
 layout activity_main_info
 layout activity_table
+layout activity_timetable
 layout buy_activity
 layout buy_history_item
 layout buy_price_activity
 layout buy_price_item
 layout buy_small
+layout date_item
 layout login_activity
 layout main_screen_activity
 layout profile_activity
 layout reg_activity
+layout timetable_item
 layout viewpager_first_screen_item_small
 layout viewpager_first_screen_min
 layout viewpager_item

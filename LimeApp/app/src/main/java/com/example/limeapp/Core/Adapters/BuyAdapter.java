@@ -27,6 +27,7 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.MyViewHolder> {
     private Context context;
     private ArrayList<SalesItem>list;
     private OnSaleItemClickListener listener;
+    private int selectedPosition = RecyclerView.NO_POSITION;
 
     public void setListener(OnSaleItemClickListener listener) {
         this.listener = listener;
@@ -46,34 +47,23 @@ public class BuyAdapter extends RecyclerView.Adapter<BuyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-
         SalesItem salesItem = list.get(position);
         holder.Name.setText(salesItem.getName());
         holder.Description.setText(salesItem.getDescription());
         holder.Prise.setText(salesItem.getPrise() + " грн");
+
+        holder.TabView.setImageResource(selectedPosition == position ? R.drawable.buytabclicked : R.drawable.prise_frame);
+        holder.Name.setTextColor(ContextCompat.getColor(context, selectedPosition == position ? R.color.white : R.color.Status1));
+        holder.Prise.setTextColor(ContextCompat.getColor(context, selectedPosition == position ? R.color.white : R.color.Status1));
+
         holder.TabView.setOnClickListener(new View.OnClickListener() {
-            boolean isClicked = false;
-            @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View v) {
-                if (!isClicked){
-                    holder.TabView.setImageResource(R.drawable.buytabclicked);
-                    holder.Name.setTextColor(ContextCompat.getColor(context, R.color.white));
-                    holder.Prise.setTextColor(ContextCompat.getColor(context, R.color.white));
-                    isClicked = true;
-                    if (listener != null) listener.OnSaleItemClick(salesItem);
-
-                }
-                else {
-                    holder.TabView.setImageResource(R.drawable.prise_frame);
-                    holder.Name.setTextColor(ContextCompat.getColor(context, R.color.Status1));
-                    holder.Prise.setTextColor(ContextCompat.getColor(context, R.color.Status1));
-                    isClicked = false;
-                    if (listener != null) listener.OnSaleItemClick(salesItem);
-                }
+                selectedPosition = position;
+                notifyDataSetChanged();
+                if (listener != null) listener.OnSaleItemClick(salesItem);
             }
         });
-
     }
 
     @Override
