@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/LogCol"
-    tools:context=".Core.FirstScreen"
+    tools:context=".core.FirstScreen"
     tools:ignore="MissingDefaultResource">
 
     <ScrollView

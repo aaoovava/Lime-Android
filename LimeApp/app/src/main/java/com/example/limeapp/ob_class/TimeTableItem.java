@@ -1,7 +1,5 @@
 package com.example.limeapp.ob_class;
 
-import com.example.limeapp.Core.Adapters.TimeTableAdapter;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

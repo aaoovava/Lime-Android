@@ -32,12 +32,16 @@ public class DateItem {
         for (int i = 0; i < 7; i++) {
             String formattedDate = today.format(dateFormatter);
             String formattedDay = today.format(dayFormatter);
-            String[]formattedDateL = formattedDate.split("");
+            String[]formattedDateL = formattedDate.split(" ");
             String[]formattedDayL = formattedDay.split("") ;
             formattedDayL[0] = formattedDayL[0].toUpperCase();
-            formattedDateL[3] = formattedDateL[3].toUpperCase();
-            formattedDateL[formattedDateL.length - 1] = "";
-            list.add(new DateItem(listToString(formattedDateL), listToString(formattedDayL)));
+            String fomattedDay1 = formattedDateL[1];
+            String[] fomattedDay1_1 = fomattedDay1.split("");
+            fomattedDay1_1[0] = fomattedDay1_1[0].toUpperCase();
+            fomattedDay1_1[fomattedDay1_1.length - 1] = "";
+            String formattedDay2 = formattedDayL[0];
+            String date1 = formattedDateL[0];
+            list.add(new DateItem( date1 + " " + listToString(fomattedDay1_1),listToString(formattedDayL)));
             today = today.plusDays(1);
         }
 

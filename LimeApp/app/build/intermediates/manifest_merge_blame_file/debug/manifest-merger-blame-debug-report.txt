@@ -86,7 +86,7 @@
 48-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:17:9-45
 49        <activity
 49-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:19:9-22:51
-50            android:name="com.example.limeapp.Core.FirstScreen"
+50            android:name="com.example.limeapp.core.FirstScreen"
 50-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:20:13-45
 51            android:exported="false"
 51-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:21:13-37
@@ -94,7 +94,7 @@
 52-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:22:13-49
 53        <activity
 53-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:24:9-27:52
-54            android:name="com.example.limeapp.Core.GfreezeDrop"
+54            android:name="com.example.limeapp.core.GfreezeDrop"
 54-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:25:13-45
 55            android:exported="false"
 55-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:26:13-37
@@ -102,7 +102,7 @@
 56-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:27:13-49
 57        <activity
 57-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:28:9-31:52
-58            android:name="com.example.limeapp.Core.AfreezeDrop"
+58            android:name="com.example.limeapp.core.AfreezeDrop"
 58-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:29:13-45
 59            android:exported="false"
 59-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:30:13-37
@@ -110,7 +110,7 @@
 60-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:31:13-49
 61        <activity
 61-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:32:9-35:51
-62            android:name="com.example.limeapp.Core.GFreeze"
+62            android:name="com.example.limeapp.core.GFreeze"
 62-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:33:13-41
 63            android:exported="false"
 63-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:34:13-37
@@ -118,7 +118,7 @@
 64-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:35:13-49
 65        <activity
 65-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:36:9-39:52
-66            android:name="com.example.limeapp.Core.table"
+66            android:name="com.example.limeapp.core.table"
 66-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:37:13-39
 67            android:exported="false"
 67-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:38:13-37
@@ -126,7 +126,7 @@
 68-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:39:13-49
 69        <activity
 69-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:40:9-43:52
-70            android:name="com.example.limeapp.Core.AFreeze"
+70            android:name="com.example.limeapp.core.AFreeze"
 70-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:41:13-41
 71            android:exported="false"
 71-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:42:13-37
@@ -141,7 +141,7 @@
 76
 77        <activity
 77-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:48:9-51:52
-78            android:name="com.example.limeapp.Core.BuyScreen"
+78            android:name="com.example.limeapp.core.BuyScreen"
 78-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:49:13-43
 79            android:exported="false"
 79-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:50:13-37
@@ -149,7 +149,7 @@
 80-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:51:13-49
 81        <activity
 81-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:52:9-61:20
-82            android:name="com.example.limeapp.Core.LogActivity"
+82            android:name="com.example.limeapp.core.LogActivity"
 82-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:53:13-45
 83            android:exported="true"
 83-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:54:13-36
@@ -168,19 +168,19 @@
 90        </activity>
 91        <activity
 91-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:62:9-64:52
-92            android:name="com.example.limeapp.Core.RegActivity"
+92            android:name="com.example.limeapp.core.RegActivity"
 92-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:63:13-45
 93            android:screenOrientation="portrait" />
 93-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:64:13-49
 94        <activity
 94-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:65:9-67:52
-95            android:name="com.example.limeapp.Core.VerificationActivity"
+95            android:name="com.example.limeapp.core.VerificationActivity"
 95-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:66:13-54
 96            android:screenOrientation="portrait" />
 96-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:67:13-49
 97        <activity
 97-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:68:9-70:52
-98            android:name="com.example.limeapp.Core.ProfileActivity"
+98            android:name="com.example.limeapp.core.ProfileActivity"
 98-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:69:13-49
 99            android:screenOrientation="portrait" />
 99-->/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/src/main/AndroidManifest.xml:70:13-49

@@ -47,27 +47,27 @@
         android:testOnly="true"
         android:theme="@style/Theme.LimeApp" >
         <activity
-            android:name="com.example.limeapp.Core.FirstScreen"
+            android:name="com.example.limeapp.core.FirstScreen"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.GfreezeDrop"
+            android:name="com.example.limeapp.core.GfreezeDrop"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.AfreezeDrop"
+            android:name="com.example.limeapp.core.AfreezeDrop"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.GFreeze"
+            android:name="com.example.limeapp.core.GFreeze"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.table"
+            android:name="com.example.limeapp.core.table"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.AFreeze"
+            android:name="com.example.limeapp.core.AFreeze"
             android:exported="false"
             android:screenOrientation="portrait" /> <!-- This element is required to enable Google Pay in your app. -->
         <meta-data
@@ -75,11 +75,11 @@
             android:value="true" />
 
         <activity
-            android:name="com.example.limeapp.Core.BuyScreen"
+            android:name="com.example.limeapp.core.BuyScreen"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.LogActivity"
+            android:name="com.example.limeapp.core.LogActivity"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -89,13 +89,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.limeapp.Core.RegActivity"
+            android:name="com.example.limeapp.core.RegActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.VerificationActivity"
+            android:name="com.example.limeapp.core.VerificationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.limeapp.Core.ProfileActivity"
+            android:name="com.example.limeapp.core.ProfileActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"

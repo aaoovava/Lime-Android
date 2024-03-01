@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-45:/layout-small-v4/login_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-48:/layout-small/login_activity.xml"
+    },
+    {
         "merged": "com.example.limeapp-mergeDebugResources-45:/layout-small-v4/login_activity.xml",
         "source": "com.example.limeapp-main-48:/layout-small/login_activity.xml"
     }
