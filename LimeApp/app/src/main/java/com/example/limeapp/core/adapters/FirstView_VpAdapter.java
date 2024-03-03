@@ -76,8 +76,8 @@ public class FirstView_VpAdapter extends RecyclerView.Adapter<FirstView_VpAdapte
             holder.MainTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize_title);
         }
 
-        holder.CardView.setImageResource(firstViewItem.CardElement);
-        holder.MainTextView.setText(firstViewItem.MainTxt);
+        holder.CardView.setImageResource(firstViewItem.getCardElement());
+        holder.MainTextView.setText(firstViewItem.getMeinTxt());
 
         //OnItemClick
         holder.CardView.setOnClickListener(new View.OnClickListener() {

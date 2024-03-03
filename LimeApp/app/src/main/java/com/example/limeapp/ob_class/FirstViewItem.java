@@ -3,8 +3,8 @@ package com.example.limeapp.ob_class;
 import android.graphics.drawable.Drawable;
 
 public class FirstViewItem {
-    public String MainTxt;
-    public int CardElement;
+    private String MainTxt;
+    private int CardElement;
 
     public  FirstViewItem(String meinTxt, int cardElement) {
         MainTxt = meinTxt;
