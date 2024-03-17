@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-45:/layout-large-v4/viewpager_first_screen_item_small.xml",
-        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-48:/layout-large/viewpager_first_screen_item_small.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-45:/layout-large-v4/viewpager_first_screen_item_small.xml",
+        "source": "com.example.limeapp-main-48:/layout-large/viewpager_first_screen_item_small.xml"
     },
     {
         "merged": "com.example.limeapp-mergeDebugResources-45:/layout-large-v4/activity_first_screen.xml",
@@ -10,13 +10,5 @@
     {
         "merged": "com.example.limeapp-mergeDebugResources-45:/layout-large-v4/login_activity.xml",
         "source": "com.example.limeapp-main-48:/layout-large/login_activity.xml"
-    },
-    {
-        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-45:/layout-large-v4/activity_first_screen.xml",
-        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-48:/layout-large/activity_first_screen.xml"
-    },
-    {
-        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-45:/layout-large-v4/login_activity.xml",
-        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-48:/layout-large/login_activity.xml"
     }
 ]

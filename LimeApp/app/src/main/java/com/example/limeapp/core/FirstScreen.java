@@ -18,6 +18,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.limeapp.core.dialogs.ChoseAboniment;
 import com.example.limeapp.core.dialogs.TimeTableDialog;
 import com.example.limeapp.core.interfaces.OnItemClickListener;
 import com.example.limeapp.R;
@@ -242,7 +243,8 @@ public class FirstScreen extends AppCompatActivity implements OnItemClickListene
     @Override
     public void onItemClick(int position) {
         if (position == 1){
-            toAFreeze();
+            ChoseAboniment choseAboniment = new ChoseAboniment();
+            choseAboniment.show(getSupportFragmentManager(),"choseTable");
         } else if (position == 0) {
             TimeTableDialog timeTableDialog = new TimeTableDialog();
             timeTableDialog.show(getSupportFragmentManager(),"timeTable");

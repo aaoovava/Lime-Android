@@ -3179,6 +3179,8 @@ drawable cardone
 drawable check_date
 drawable checkdate1
 drawable checkdate2
+drawable chose_back
+drawable chuse_button
 drawable close_but
 drawable closebut
 drawable closetab
@@ -3499,6 +3501,7 @@ id UpText1
 id VerificationCode
 id View
 id abb
+id abonimentButton
 id accelerate
 id accept
 id accessibility_action_clickable_span
@@ -3739,6 +3742,8 @@ id google_wallet_monochrome
 id graph
 id graph_wrap
 id grayscale
+id groupAboniment
+id groupAbonimentButton
 id group_divider
 id grouping
 id groups
@@ -3808,6 +3813,7 @@ id imageView5
 id imageView50
 id imageView51
 id imageView52
+id imageView53
 id imageView54
 id imageView6
 id imageView7
@@ -3948,6 +3954,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id personalAboniment
 id pin
 id position
 id postLayout
@@ -4108,6 +4115,7 @@ id textView22
 id textView23
 id textView24
 id textView25
+id textView26
 id textView3
 id textView4
 id textView5
@@ -4299,6 +4307,7 @@ layout buy_history_item
 layout buy_price_activity
 layout buy_price_item
 layout buy_small
+layout chose_aboniment_freezing
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog

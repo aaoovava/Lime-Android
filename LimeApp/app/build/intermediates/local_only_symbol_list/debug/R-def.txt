@@ -67,6 +67,8 @@ drawable cardone
 drawable check_date
 drawable checkdate1
 drawable checkdate2
+drawable chose_back
+drawable chuse_button
 drawable close_but
 drawable closebut
 drawable closetab
@@ -248,6 +250,7 @@ id UpText1
 id VerificationCode
 id View
 id abb
+id abonimentButton
 id accept
 id baсk
 id button_reg
@@ -262,6 +265,8 @@ id editTextTextPersonName2
 id firstDate
 id floatingActionButton
 id floatingActionButton2
+id groupAboniment
+id groupAbonimentButton
 id horizontalScrollView
 id imageView
 id imageView10
@@ -312,6 +317,7 @@ id imageView5
 id imageView50
 id imageView51
 id imageView52
+id imageView53
 id imageView54
 id imageView6
 id imageView7
@@ -327,6 +333,7 @@ id nav_firstScreen
 id nav_profile
 id nav_verefication
 id pager1
+id personalAboniment
 id prise
 id profile_image
 id profile_imagePic
@@ -362,6 +369,7 @@ id textView22
 id textView23
 id textView24
 id textView25
+id textView26
 id textView3
 id textView4
 id textView5
@@ -387,6 +395,7 @@ layout buy_history_item
 layout buy_price_activity
 layout buy_price_item
 layout buy_small
+layout chose_aboniment_freezing
 layout date_item
 layout login_activity
 layout main_screen_activity
