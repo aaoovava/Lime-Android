@@ -3405,6 +3405,7 @@ int drawable rectangle_1455 0x7f0801a1
 int drawable rectangle_1456 0x7f0801a2
 int drawable rectangle_7 0x7f0801a3
 int drawable rectangle_7oki 0x7f0801a4
+int drawable rectangle_8oki 0x7f0801c9
 int drawable rectangle_none 0x7f0801a5
 int drawable rectanglecontaks 0x7f0801a6
 int drawable rectangllogoback 0x7f0801a7

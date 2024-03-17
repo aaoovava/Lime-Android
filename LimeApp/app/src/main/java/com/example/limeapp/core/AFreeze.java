@@ -59,7 +59,7 @@ public class AFreeze extends AppCompatActivity {
         backBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toBuy();
+                toFirstScreen();
             }
         });
 
@@ -151,6 +151,7 @@ public class AFreeze extends AppCompatActivity {
 
     }
 
+
     private void closeKeyboard() {
         View view = this.getCurrentFocus();
         if (view != null) {
@@ -189,6 +190,11 @@ public class AFreeze extends AppCompatActivity {
     }
     public void toBuy() {
         Intent intent = new Intent(this, BuyScreen.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
+    }
+    private void toFirstScreen() {
+        Intent intent = new Intent(this, FirstScreen.class);
         startActivity(intent);
         overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }

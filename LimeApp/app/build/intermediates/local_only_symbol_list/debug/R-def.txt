@@ -179,6 +179,7 @@ drawable rectangle_1455
 drawable rectangle_1456
 drawable rectangle_7
 drawable rectangle_7oki
+drawable rectangle_8oki
 drawable rectangle_none
 drawable rectanglecontaks
 drawable rectangllogoback
