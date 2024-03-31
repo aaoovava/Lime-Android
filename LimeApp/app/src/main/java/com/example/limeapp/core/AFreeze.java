@@ -144,7 +144,6 @@ public class AFreeze extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
 

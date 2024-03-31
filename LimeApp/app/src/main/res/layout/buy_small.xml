@@ -23,144 +23,75 @@
             android:text="Купити абонемент"
             android:textColor="@color/Status1"
             android:textSize="26sp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintHorizontal_bias="0.232"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.067"
             tools:ignore="NotSibling" />
 
-        <ScrollView
-            android:id="@+id/scrollView3"
-            android:layout_width="409dp"
-            android:layout_height="450dp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        <ImageView
+            android:id="@+id/PersonalBuy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GroupBuy"
+            app:layout_constraintVertical_bias="0.120000005"
+            app:layout_constraintWidth_percent="0.95"
+            app:srcCompat="@drawable/buy_personal_aboniment" />
+
+        <ImageView
+            android:id="@+id/GroupBuy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.22"
+            app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BuyTxtTop"
-            app:layout_constraintVertical_bias="0.01999998"
-            tools:ignore="NotSibling">
+            app:layout_constraintVertical_bias="0.07999998"
+            app:layout_constraintWidth_percent="0.95"
+            app:srcCompat="@drawable/buy_group_trening" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:clickable="false"
+            android:fontFamily="@font/inter_semibold"
+            android:password="false"
+            android:phoneNumber="false"
+            android:text="Персональний абонемент"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toBottomOf="@+id/PersonalBuy"
+            app:layout_constraintEnd_toEndOf="@+id/PersonalBuy"
+            app:layout_constraintHorizontal_bias="0.564"
+            app:layout_constraintStart_toStartOf="@+id/PersonalBuy"
+            app:layout_constraintTop_toTopOf="@+id/PersonalBuy"
+            app:layout_constraintVertical_bias="0.381" />
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="550dp">
-
-                    <ImageView
-                        android:id="@+id/imageView21"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHeight_percent="0.20"
-                        app:layout_constraintHorizontal_bias="0.487"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.036"
-                        app:layout_constraintWidth_percent="0.9"
-                        app:srcCompat="@drawable/buy_trening_with_mentor" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="210dp"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter_semibold"
-                        android:text="Заняття з тренером"
-                        android:textColor="#FFFFFF"
-                        android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
-                        app:layout_constraintEnd_toEndOf="@+id/imageView21"
-                        app:layout_constraintHorizontal_bias="0.54"
-                        app:layout_constraintStart_toStartOf="@+id/imageView21"
-                        app:layout_constraintTop_toTopOf="@+id/imageView21"
-                        app:layout_constraintVertical_bias="0.41000003" />
-
-                    <ImageView
-                        android:id="@+id/GroupBuy"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHeight_percent="0.20"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-                        app:layout_constraintVertical_bias="0.072"
-                        app:layout_constraintWidth_percent="0.9"
-                        app:srcCompat="@drawable/buy_group_trening" />
-
-                    <TextView
-                        android:id="@+id/textView15"
-                        android:layout_width="210dp"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter_semibold"
-                        android:text="Груповий абонемент"
-                        android:textColor="#FFFFFF"
-                        android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/GroupBuy"
-                        app:layout_constraintEnd_toEndOf="@+id/GroupBuy"
-                        app:layout_constraintHorizontal_bias="0.55"
-                        app:layout_constraintStart_toStartOf="@+id/GroupBuy"
-                        app:layout_constraintTop_toTopOf="@+id/GroupBuy"
-                        app:layout_constraintVertical_bias="0.42000002" />
-
-                    <ImageView
-                        android:id="@+id/PersonalBuy"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHeight_percent="0.20"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/GroupBuy"
-                        app:layout_constraintVertical_bias="0.120000005"
-                        app:layout_constraintWidth_percent="0.9"
-                        app:srcCompat="@drawable/buy_personal_aboniment" />
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:autoText="false"
-                        android:clickable="false"
-                        android:fontFamily="@font/inter_semibold"
-                        android:password="false"
-                        android:phoneNumber="false"
-                        android:text=" Персональний"
-                        android:textAlignment="textStart"
-                        android:textAllCaps="false"
-                        android:textColor="#FFFFFF"
-                        android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/PersonalBuy"
-                        app:layout_constraintEnd_toEndOf="@+id/PersonalBuy"
-                        app:layout_constraintHorizontal_bias="0.41"
-                        app:layout_constraintStart_toStartOf="@+id/PersonalBuy"
-                        app:layout_constraintTop_toTopOf="@+id/PersonalBuy"
-                        app:layout_constraintVertical_bias="0.384" />
-
-                    <TextView
-                        android:id="@+id/textView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/inter_semibold"
-                        android:text="абонемент"
-                        android:textColor="#FFFFFF"
-                        android:textSize="26dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/PersonalBuy"
-                        app:layout_constraintEnd_toEndOf="@+id/textView16"
-                        app:layout_constraintHorizontal_bias="0.14"
-                        app:layout_constraintStart_toStartOf="@+id/textView16"
-                        app:layout_constraintTop_toTopOf="@+id/textView16"
-                        app:layout_constraintVertical_bias="0.6" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </LinearLayout>
-        </ScrollView>
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Груповий абонемент"
+            android:textColor="#FFFFFF"
+            android:textSize="26dp"
+            app:layout_constraintBottom_toBottomOf="@+id/GroupBuy"
+            app:layout_constraintEnd_toEndOf="@+id/GroupBuy"
+            app:layout_constraintStart_toStartOf="@+id/GroupBuy"
+            app:layout_constraintTop_toTopOf="@+id/GroupBuy"
+            app:layout_constraintVertical_bias="0.434" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

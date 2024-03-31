@@ -77,10 +77,8 @@ public class BuyScreen extends AppCompatActivity {
         ImageView nav_profil = findViewById(R.id.nav_profile);
         ImageView nav_first = findViewById(R.id.nav_firstScreen);
         TextView TopText = findViewById(R.id.BuyTxtTop);
-        TextView TextView14 = findViewById(R.id.textView14);
         TextView TextView15 = findViewById(R.id.textView15);
         TextView TextView16 = findViewById(R.id.textView16);
-        TextView TextView2 = findViewById(R.id.textView2);
         ImageView sheetImage = findViewById(R.id.imageView52);
         TextView sheetText = findViewById(R.id.textView17);
         recyclerView = findViewById(R.id.buyHistory);
@@ -216,18 +214,7 @@ public class BuyScreen extends AppCompatActivity {
             int screenHeight = displayMetrics.heightPixels;
             int screenWidth = displayMetrics.widthPixels;
 
-            // Получите ссылку на ScrollView по его ID
-            ScrollView scrollView = findViewById(R.id.scrollView3);
-
-            int newHeightInPixels = 0;
-
-            ViewGroup.LayoutParams layoutParams = scrollView.getLayoutParams();
-            layoutParams.height = newHeightInPixels;
-            scrollView.setLayoutParams(layoutParams);
-
-            TextHolder.SetTextSize(screenHeight,TextView2,0.035);
             TextHolder.SetTextSize(screenHeight,TopText,0.035);
-
             TextHolder.SetTextSize(screenHeight,TextView15,0.035);
             TextHolder.SetTextSize(screenHeight,TextView16,0.035);
         }
