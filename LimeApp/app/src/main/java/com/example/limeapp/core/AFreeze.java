@@ -47,7 +47,7 @@ public class AFreeze extends AppCompatActivity {
         ImageView closeBut = findViewById(R.id.CloseBut);
         TextView Resultdate = findViewById(R.id.textDate);
         ImageView backBut = findViewById(R.id.baсk);
-        ImageView correctBut = findViewById(R.id.Correct);
+        ImageView correctBut = findViewById(R.id.Yes);
         ConstraintLayout rootView = findViewById(R.id.root_view);
 
 

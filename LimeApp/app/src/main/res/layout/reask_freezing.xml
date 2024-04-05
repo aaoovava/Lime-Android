@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reask_back" />
+
+    <ImageView
+        android:id="@+id/Yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/reask_button" />
+
+    <ImageView
+        android:id="@+id/No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/reask_button" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Ти впевнений?"
+        android:textColor="@color/Status1"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/No"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Так"
+        android:textColor="@color/Status1"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Yes"
+        app:layout_constraintEnd_toEndOf="@+id/Yes"
+        app:layout_constraintStart_toStartOf="@+id/Yes"
+        app:layout_constraintTop_toTopOf="@+id/Yes" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Так"
+        android:textColor="@color/Status1"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/No"
+        app:layout_constraintEnd_toEndOf="@+id/No"
+        app:layout_constraintStart_toStartOf="@+id/No"
+        app:layout_constraintTop_toTopOf="@+id/No" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="257dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Твій абонемент буде активований"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18.7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/No"
+        app:layout_constraintVertical_bias="0.475" />
+</androidx.constraintlayout.widget.ConstraintLayout>

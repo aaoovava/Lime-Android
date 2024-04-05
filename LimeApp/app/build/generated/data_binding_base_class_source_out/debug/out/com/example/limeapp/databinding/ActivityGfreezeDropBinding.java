@@ -27,22 +27,10 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
   public final ImageView baK;
 
   @NonNull
-  public final ImageView imageView13;
-
-  @NonNull
-  public final ImageView imageView14;
-
-  @NonNull
   public final ImageView imageView18;
 
   @NonNull
-  public final ImageView imageView22;
-
-  @NonNull
-  public final ImageView imageView23;
-
-  @NonNull
-  public final ImageView imageView25;
+  public final ImageView imageView21;
 
   @NonNull
   public final ImageView imageView27;
@@ -51,7 +39,13 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
   public final TextView textView10;
 
   @NonNull
-  public final TextView textView11;
+  public final TextView textView14;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView27;
 
   @NonNull
   public final TextView textView7;
@@ -60,23 +54,20 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityGfreezeDropBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView Correct,
-      @NonNull ImageView baK, @NonNull ImageView imageView13, @NonNull ImageView imageView14,
-      @NonNull ImageView imageView18, @NonNull ImageView imageView22,
-      @NonNull ImageView imageView23, @NonNull ImageView imageView25,
-      @NonNull ImageView imageView27, @NonNull TextView textView10, @NonNull TextView textView11,
-      @NonNull TextView textView7, @NonNull TextView textView9) {
+      @NonNull ImageView baK, @NonNull ImageView imageView18, @NonNull ImageView imageView21,
+      @NonNull ImageView imageView27, @NonNull TextView textView10, @NonNull TextView textView14,
+      @NonNull TextView textView2, @NonNull TextView textView27, @NonNull TextView textView7,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.Correct = Correct;
     this.baK = baK;
-    this.imageView13 = imageView13;
-    this.imageView14 = imageView14;
     this.imageView18 = imageView18;
-    this.imageView22 = imageView22;
-    this.imageView23 = imageView23;
-    this.imageView25 = imageView25;
+    this.imageView21 = imageView21;
     this.imageView27 = imageView27;
     this.textView10 = textView10;
-    this.textView11 = textView11;
+    this.textView14 = textView14;
+    this.textView2 = textView2;
+    this.textView27 = textView27;
     this.textView7 = textView7;
     this.textView9 = textView9;
   }
@@ -120,39 +111,15 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView13;
-      ImageView imageView13 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView13 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView14;
-      ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView14 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView18;
       ImageView imageView18 = ViewBindings.findChildViewById(rootView, id);
       if (imageView18 == null) {
         break missingId;
       }
 
-      id = R.id.imageView22;
-      ImageView imageView22 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView22 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView23;
-      ImageView imageView23 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView23 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView25;
-      ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView25 == null) {
+      id = R.id.imageView21;
+      ImageView imageView21 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView21 == null) {
         break missingId;
       }
 
@@ -168,9 +135,21 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView11;
-      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
-      if (textView11 == null) {
+      id = R.id.textView14;
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
+      if (textView14 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView27;
+      TextView textView27 = ViewBindings.findChildViewById(rootView, id);
+      if (textView27 == null) {
         break missingId;
       }
 
@@ -186,9 +165,9 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGfreezeDropBinding((ConstraintLayout) rootView, Correct, baK, imageView13,
-          imageView14, imageView18, imageView22, imageView23, imageView25, imageView27, textView10,
-          textView11, textView7, textView9);
+      return new ActivityGfreezeDropBinding((ConstraintLayout) rootView, Correct, baK, imageView18,
+          imageView21, imageView27, textView10, textView14, textView2, textView27, textView7,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

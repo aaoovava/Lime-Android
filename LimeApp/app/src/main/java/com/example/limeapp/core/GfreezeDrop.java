@@ -40,8 +40,8 @@ public class GfreezeDrop extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gfreeze_drop);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-        getWindow().setStatusBarColor(getResources().getColor(R.color.green));
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.LogCol));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.LogCol));
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -51,8 +51,7 @@ public class GfreezeDrop extends AppCompatActivity {
 
         ImageView backBut = findViewById(R.id.baсk);
         TextView date = findViewById(R.id.textView9);
-        TextView days = findViewById(R.id.textView11);
-        ImageView correctBut = findViewById(R.id.Correct);
+        ImageView correctBut = findViewById(R.id.Yes);
 
         backBut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,7 +70,7 @@ public class GfreezeDrop extends AppCompatActivity {
                 if (daysDiff == 1) {
                     a = "Залишився: ";
                 }
-                days.setText(a + daysDiff + " дн");
+
 
                 correctBut.setOnClickListener(new View.OnClickListener() {
                     @Override

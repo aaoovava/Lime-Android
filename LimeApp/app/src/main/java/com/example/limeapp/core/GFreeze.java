@@ -48,7 +48,7 @@ public class GFreeze extends AppCompatActivity {
         EditText dataEdit = findViewById(R.id.DataEdit);
         ImageView closeBut = findViewById(R.id.CloseBut);
         ImageView backBut = findViewById(R.id.baсk);
-        ImageView correctBut = findViewById(R.id.Correct);
+        ImageView correctBut = findViewById(R.id.Yes);
 
 
         FirebaseAuth auth = FirebaseAuth.getInstance();

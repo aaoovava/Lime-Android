@@ -3435,6 +3435,7 @@ drawable timetable_line
 drawable to_login_from_sing_up
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable un_freezing_back
 drawable uploudpass
 drawable user_profile_4255_1
 drawable vector
@@ -3769,7 +3770,6 @@ id imageView
 id imageView10
 id imageView11
 id imageView12
-id imageView13
 id imageView14
 id imageView15
 id imageView16
@@ -3780,10 +3780,8 @@ id imageView2
 id imageView20
 id imageView202
 id imageView21
-id imageView22
 id imageView23
 id imageView24
-id imageView25
 id imageView26
 id imageView27
 id imageView28
@@ -3996,7 +3994,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollView2
-id scrollView3
 id scrollable
 id search_badge
 id search_bar
@@ -4100,7 +4097,6 @@ id textStatus
 id textTop
 id textView
 id textView10
-id textView11
 id textView12
 id textView13
 id textView14
@@ -4117,6 +4113,7 @@ id textView23
 id textView24
 id textView25
 id textView26
+id textView27
 id textView3
 id textView4
 id textView5

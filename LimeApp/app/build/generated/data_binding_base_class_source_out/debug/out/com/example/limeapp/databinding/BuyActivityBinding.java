@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -148,22 +147,6 @@ public final class BuyActivityBinding implements ViewBinding {
    * </ul>
    */
   @Nullable
-  public final ScrollView scrollView3;
-
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-normal/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
   public final ConstraintLayout sheet;
 
   /**
@@ -214,30 +197,13 @@ public final class BuyActivityBinding implements ViewBinding {
   @Nullable
   public final TextView textView17;
 
-  /**
-   * This binding is not available in all configurations.
-   * <p>
-   * Present:
-   * <ul>
-   *   <li>layout-normal/</li>
-   * </ul>
-   *
-   * Absent:
-   * <ul>
-   *   <li>layout/</li>
-   * </ul>
-   */
-  @Nullable
-  public final TextView textView2;
-
   private BuyActivityBinding(@NonNull View rootView, @Nullable TextView BuyTxtTop,
       @Nullable ImageView GroupBuy, @Nullable ImageView PersonalBuy,
       @Nullable RecyclerView buyHistory, @Nullable ConstraintLayout con1,
       @Nullable ImageView imageView52, @NonNull LinearLayout linearLayout,
       @NonNull ImageView navBuy, @NonNull ImageView navFirstScreen, @NonNull ImageView navProfile,
-      @NonNull ImageView navVerefication, @Nullable ScrollView scrollView3,
-      @Nullable ConstraintLayout sheet, @Nullable TextView textView15,
-      @Nullable TextView textView16, @Nullable TextView textView17, @Nullable TextView textView2) {
+      @NonNull ImageView navVerefication, @Nullable ConstraintLayout sheet,
+      @Nullable TextView textView15, @Nullable TextView textView16, @Nullable TextView textView17) {
     this.rootView = rootView;
     this.BuyTxtTop = BuyTxtTop;
     this.GroupBuy = GroupBuy;
@@ -250,12 +216,10 @@ public final class BuyActivityBinding implements ViewBinding {
     this.navFirstScreen = navFirstScreen;
     this.navProfile = navProfile;
     this.navVerefication = navVerefication;
-    this.scrollView3 = scrollView3;
     this.sheet = sheet;
     this.textView15 = textView15;
     this.textView16 = textView16;
     this.textView17 = textView17;
-    this.textView2 = textView2;
   }
 
   @Override
@@ -333,9 +297,6 @@ public final class BuyActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scrollView3;
-      ScrollView scrollView3 = ViewBindings.findChildViewById(rootView, id);
-
       id = R.id.sheet;
       ConstraintLayout sheet = ViewBindings.findChildViewById(rootView, id);
 
@@ -348,12 +309,9 @@ public final class BuyActivityBinding implements ViewBinding {
       id = R.id.textView17;
       TextView textView17 = ViewBindings.findChildViewById(rootView, id);
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-
       return new BuyActivityBinding(rootView, BuyTxtTop, GroupBuy, PersonalBuy, buyHistory, con1,
-          imageView52, linearLayout, navBuy, navFirstScreen, navProfile, navVerefication,
-          scrollView3, sheet, textView15, textView16, textView17, textView2);
+          imageView52, linearLayout, navBuy, navFirstScreen, navProfile, navVerefication, sheet,
+          textView15, textView16, textView17);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
