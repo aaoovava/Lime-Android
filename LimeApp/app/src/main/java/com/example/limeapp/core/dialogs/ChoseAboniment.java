@@ -76,32 +76,40 @@ public class ChoseAboniment extends DialogFragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String status = snapshot.child("group_t_status").getValue().toString();
-                Handler handler = new Handler();
-                switch (status){
-                    case "1":
-                        text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                toGfreeze();
-                                dismiss();
-                            }
-                        }, 100);
-                        break;
-                    case "2":
-                        text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                toGfreezeDrop();
-                                dismiss();
-                            }
-                        }, 100);
-                        break;
-                    default:
-                        Toast toast = new Toast(getContext());
-                        toast.setText("Відсутній абонемент");
-                        toast.show();
+                String freezing = snapshot.child("gfreeze_days").getValue().toString();
+                if (freezing.equals("0")) {
+                    Toast toast = new Toast(getContext());
+                    toast.setText("Функція заморозки вичерпана");
+                    toast.show();
+                }
+                else {
+                    Handler handler = new Handler();
+                    switch (status) {
+                        case "1":
+                            text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    toGfreeze();
+                                    dismiss();
+                                }
+                            }, 100);
+                            break;
+                        case "2":
+                            text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    toGfreezeDrop();
+                                    dismiss();
+                                }
+                            }, 100);
+                            break;
+                        default:
+                            Toast toast = new Toast(getContext());
+                            toast.setText("Відсутній абонемент");
+                            toast.show();
+                    }
                 }
             }
 
@@ -118,32 +126,39 @@ public class ChoseAboniment extends DialogFragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String status = snapshot.child("aboniment_status").getValue().toString();
-                Handler handler = new Handler();
-                switch (status){
-                    case "1":
-                        text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                toAfreeze();
-                                dismiss();
-                            }
-                        }, 100);
-                        break;
-                    case "2":
-                        text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                toAfreezeDrop();
-                                dismiss();
-                            }
-                        }, 100);
-                        break;
-                    default:
-                        Toast toast = new Toast(getContext());
-                        toast.setText("Відсутній абонемент");
-                        toast.show();
+                String freezing = snapshot.child("afreeze_days").getValue().toString();
+                if (freezing.equals("0")) {
+                    Toast toast = new Toast(getContext());
+                    toast.setText("Функція заморозки вичерпана");
+                    toast.show();
+                }else {
+                    Handler handler = new Handler();
+                    switch (status) {
+                        case "1":
+                            text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    toAfreeze();
+                                    dismiss();
+                                }
+                            }, 100);
+                            break;
+                        case "2":
+                            text.setTextColor(ContextCompat.getColor(getContext(), R.color.Status1));
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    toAfreezeDrop();
+                                    dismiss();
+                                }
+                            }, 100);
+                            break;
+                        default:
+                            Toast toast = new Toast(getContext());
+                            toast.setText("Відсутній абонемент");
+                            toast.show();
+                    }
                 }
             }
 
@@ -157,17 +172,21 @@ public class ChoseAboniment extends DialogFragment {
     private void toAfreeze(){
         Intent intent = new Intent(getContext(), AFreeze.class);
         startActivity(intent);
+        getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toGfreeze(){
         Intent intent = new Intent(getContext(), GFreeze.class);
         startActivity(intent);
+        getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toAfreezeDrop(){
         Intent intent = new Intent(getContext(), AfreezeDrop.class);
         startActivity(intent);
+        getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toGfreezeDrop(){
         Intent intent = new Intent(getContext(), GfreezeDrop.class);
         startActivity(intent);
+        getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
 }

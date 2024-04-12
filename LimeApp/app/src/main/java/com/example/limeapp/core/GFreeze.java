@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.limeapp.R;
+import com.example.limeapp.core.dialogs.ReaskDialog;
+import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -40,13 +42,12 @@ public class GFreeze extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gfreeze);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-        getWindow().setStatusBarColor(getResources().getColor(R.color.green));
-        getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.LogCol));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.LogCol));
         TextView countOfInput = findViewById(R.id.CountOfU);
         TextView countOfD = findViewById(R.id.CountOfD);
         TextView Resultdate = findViewById(R.id.textDate);
         EditText dataEdit = findViewById(R.id.DataEdit);
-        ImageView closeBut = findViewById(R.id.CloseBut);
         ImageView backBut = findViewById(R.id.baсk);
         ImageView correctBut = findViewById(R.id.Yes);
 
@@ -84,16 +85,6 @@ public class GFreeze extends AppCompatActivity {
                     public void afterTextChanged(Editable s) {
                         String ALastDate = snapshot.child("group_t_end_date").getValue().toString();
                         int Data = Integer.parseInt(snapshot.child("gfreeze_days").getValue().toString());
-                        if (s.toString() != "") {
-                            closeBut.setVisibility(View.VISIBLE);
-                            closeBut.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
-                                    closeKeyboard();
-                                    closeBut.setVisibility(View.INVISIBLE);
-                                }
-                            });
-                        }
                         String Input = s.toString() + " дн";
                         countOfInput.setText(Input);
                         try {
@@ -120,13 +111,18 @@ public class GFreeze extends AppCompatActivity {
                         correctBut.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                HashMap<String, Object> j = new HashMap<>();
-                                j.put("group_t_end_date", getDate(ALastDate, Integer.parseInt(s.toString())));
-                                j.put("group_t_status", "2");
-                                j.put("gfreeze_date", getDate1(Integer.parseInt(s.toString())));
-                                j.put("gfreeze_days", "0");
-                                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
-                                toMain();
+//                                HashMap<String, Object> j = new HashMap<>();
+//                                j.put("group_t_end_date", getDate(ALastDate, Integer.parseInt(s.toString())));
+//                                j.put("group_t_status", "2");
+//                                j.put("gfreeze_date", getDate1(Integer.parseInt(s.toString())));
+//                                j.put("gfreeze_days", "0");
+//                                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+//                                toMain();
+                                String group_t_end_date = getDate(ALastDate, Integer.parseInt(s.toString()));
+                                String gfreeze_date = getDate1(Integer.parseInt(s.toString()));
+                                String countOfFreeze =  s.toString();
+                                ReaskDialog reaskDialog = new ReaskDialog(true, group_t_end_date,gfreeze_date, Integer.parseInt(countOfFreeze), AbonimentGroup.GROUP);
+                                reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
                             }
                         });
 

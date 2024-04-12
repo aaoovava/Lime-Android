@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/LogCol"
-    tools:context=".core.GFreeze">
+    android:id="@+id/root_view"
+    tools:context=".core.AFreeze">
 
 
     <ImageView
@@ -64,22 +65,25 @@
 
     <EditText
         android:id="@+id/DataEdit"
-        android:layout_width="77dp"
-        android:layout_height="64dp"
+        android:layout_width="89dp"
+        android:layout_height="63dp"
         android:autoSizeMaxTextSize="1dp"
         android:background="@drawable/rectangle_8oki"
         android:drawableLeft="@drawable/rectangle_7oki"
         android:ems="4"
+        android:fontFamily="@font/inter_semibold"
         android:inputType="number"
-
         android:maxLength="2"
-        android:textAlignment="viewStart"
+
+        android:paddingStart="30dp"
+        android:textColor="@color/Status1"
+        android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -90,7 +94,7 @@
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.84"
+        app:layout_constraintVertical_bias="0.92"
         app:srcCompat="@drawable/botom_freeze" />
 
     <ImageView
@@ -102,7 +106,7 @@
         app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.838"
+        app:layout_constraintVertical_bias="0.92"
         app:srcCompat="@drawable/rectangle_none" />
 
     <ImageView
@@ -114,21 +118,8 @@
         app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.839"
+        app:layout_constraintVertical_bias="0.90999997"
         app:srcCompat="@drawable/rectangle_none" />
-
-    <ImageView
-        android:id="@+id/CloseBut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
-        app:layout_constraintEnd_toEndOf="@+id/imageView18"
-        app:layout_constraintHorizontal_bias="0.232"
-        app:layout_constraintStart_toEndOf="@+id/DataEdit"
-        app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.61"
-        app:srcCompat="@drawable/closebut" />
 
     <TextView
         android:id="@+id/textView7"
@@ -136,26 +127,26 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
         android:gravity="center"
-        android:text="Заморозити абонемент"
+        android:text="Заморозити абонемент "
         android:textColor="@color/Status1"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
-        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintVertical_bias="0.096" />
 
     <TextView
         android:id="@+id/textDate"
         android:layout_width="wrap_content"
-        android:textColor="#D50000"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="@+id/imageView18"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintVertical_bias="0.52" />
 
     <TextView
         android:id="@+id/textView20"

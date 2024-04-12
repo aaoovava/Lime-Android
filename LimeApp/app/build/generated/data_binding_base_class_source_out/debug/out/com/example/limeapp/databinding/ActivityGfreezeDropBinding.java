@@ -21,7 +21,7 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView Correct;
+  public final ImageView Yes;
 
   @NonNull
   public final ImageView baK;
@@ -53,13 +53,13 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
-  private ActivityGfreezeDropBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView Correct,
+  private ActivityGfreezeDropBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView Yes,
       @NonNull ImageView baK, @NonNull ImageView imageView18, @NonNull ImageView imageView21,
       @NonNull ImageView imageView27, @NonNull TextView textView10, @NonNull TextView textView14,
       @NonNull TextView textView2, @NonNull TextView textView27, @NonNull TextView textView7,
       @NonNull TextView textView9) {
     this.rootView = rootView;
-    this.Correct = Correct;
+    this.Yes = Yes;
     this.baK = baK;
     this.imageView18 = imageView18;
     this.imageView21 = imageView21;
@@ -99,9 +99,9 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Correct;
-      ImageView Correct = ViewBindings.findChildViewById(rootView, id);
-      if (Correct == null) {
+      id = R.id.Yes;
+      ImageView Yes = ViewBindings.findChildViewById(rootView, id);
+      if (Yes == null) {
         break missingId;
       }
 
@@ -165,7 +165,7 @@ public final class ActivityGfreezeDropBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGfreezeDropBinding((ConstraintLayout) rootView, Correct, baK, imageView18,
+      return new ActivityGfreezeDropBinding((ConstraintLayout) rootView, Yes, baK, imageView18,
           imageView21, imageView27, textView10, textView14, textView2, textView27, textView7,
           textView9);
     }

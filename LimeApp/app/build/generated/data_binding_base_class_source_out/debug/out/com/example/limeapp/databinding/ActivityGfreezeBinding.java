@@ -19,13 +19,7 @@ import java.lang.String;
 
 public final class ActivityGfreezeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final ImageView CloseBut;
-
-  @NonNull
-  public final ImageView Correct;
+  private final ConstraintLayout rootView_;
 
   @NonNull
   public final TextView CountOfD;
@@ -37,10 +31,10 @@ public final class ActivityGfreezeBinding implements ViewBinding {
   public final EditText DataEdit;
 
   @NonNull
-  public final ImageView baK;
+  public final ImageView Yes;
 
   @NonNull
-  public final ImageView imageView16;
+  public final ImageView baK;
 
   @NonNull
   public final ImageView imageView18;
@@ -50,6 +44,9 @@ public final class ActivityGfreezeBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView27;
+
+  @NonNull
+  public final ConstraintLayout rootView;
 
   @NonNull
   public final TextView textDate;
@@ -69,24 +66,22 @@ public final class ActivityGfreezeBinding implements ViewBinding {
   @NonNull
   public final TextView textView7;
 
-  private ActivityGfreezeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView CloseBut,
-      @NonNull ImageView Correct, @NonNull TextView CountOfD, @NonNull TextView CountOfU,
-      @NonNull EditText DataEdit, @NonNull ImageView baK, @NonNull ImageView imageView16,
-      @NonNull ImageView imageView18, @NonNull ImageView imageView19,
-      @NonNull ImageView imageView27, @NonNull TextView textDate, @NonNull TextView textView20,
-      @NonNull TextView textView21, @NonNull TextView textView22, @NonNull TextView textView23,
-      @NonNull TextView textView7) {
-    this.rootView = rootView;
-    this.CloseBut = CloseBut;
-    this.Correct = Correct;
+  private ActivityGfreezeBinding(@NonNull ConstraintLayout rootView_, @NonNull TextView CountOfD,
+      @NonNull TextView CountOfU, @NonNull EditText DataEdit, @NonNull ImageView Yes,
+      @NonNull ImageView baK, @NonNull ImageView imageView18, @NonNull ImageView imageView19,
+      @NonNull ImageView imageView27, @NonNull ConstraintLayout rootView,
+      @NonNull TextView textDate, @NonNull TextView textView20, @NonNull TextView textView21,
+      @NonNull TextView textView22, @NonNull TextView textView23, @NonNull TextView textView7) {
+    this.rootView_ = rootView_;
     this.CountOfD = CountOfD;
     this.CountOfU = CountOfU;
     this.DataEdit = DataEdit;
+    this.Yes = Yes;
     this.baK = baK;
-    this.imageView16 = imageView16;
     this.imageView18 = imageView18;
     this.imageView19 = imageView19;
     this.imageView27 = imageView27;
+    this.rootView = rootView;
     this.textDate = textDate;
     this.textView20 = textView20;
     this.textView21 = textView21;
@@ -98,7 +93,7 @@ public final class ActivityGfreezeBinding implements ViewBinding {
   @Override
   @NonNull
   public ConstraintLayout getRoot() {
-    return rootView;
+    return rootView_;
   }
 
   @NonNull
@@ -122,18 +117,6 @@ public final class ActivityGfreezeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.CloseBut;
-      ImageView CloseBut = ViewBindings.findChildViewById(rootView, id);
-      if (CloseBut == null) {
-        break missingId;
-      }
-
-      id = R.id.Correct;
-      ImageView Correct = ViewBindings.findChildViewById(rootView, id);
-      if (Correct == null) {
-        break missingId;
-      }
-
       id = R.id.CountOfD;
       TextView CountOfD = ViewBindings.findChildViewById(rootView, id);
       if (CountOfD == null) {
@@ -152,15 +135,15 @@ public final class ActivityGfreezeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.baсk;
-      ImageView baK = ViewBindings.findChildViewById(rootView, id);
-      if (baK == null) {
+      id = R.id.Yes;
+      ImageView Yes = ViewBindings.findChildViewById(rootView, id);
+      if (Yes == null) {
         break missingId;
       }
 
-      id = R.id.imageView16;
-      ImageView imageView16 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView16 == null) {
+      id = R.id.baсk;
+      ImageView baK = ViewBindings.findChildViewById(rootView, id);
+      if (baK == null) {
         break missingId;
       }
 
@@ -181,6 +164,8 @@ public final class ActivityGfreezeBinding implements ViewBinding {
       if (imageView27 == null) {
         break missingId;
       }
+
+      ConstraintLayout rootView_ = (ConstraintLayout) rootView;
 
       id = R.id.textDate;
       TextView textDate = ViewBindings.findChildViewById(rootView, id);
@@ -218,9 +203,9 @@ public final class ActivityGfreezeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGfreezeBinding((ConstraintLayout) rootView, CloseBut, Correct, CountOfD,
-          CountOfU, DataEdit, baK, imageView16, imageView18, imageView19, imageView27, textDate,
-          textView20, textView21, textView22, textView23, textView7);
+      return new ActivityGfreezeBinding((ConstraintLayout) rootView, CountOfD, CountOfU, DataEdit,
+          Yes, baK, imageView18, imageView19, imageView27, rootView_, textDate, textView20,
+          textView21, textView22, textView23, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.limeapp.R;
+import com.example.limeapp.core.dialogs.ReaskDialog;
+import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -75,14 +77,17 @@ public class GfreezeDrop extends AppCompatActivity {
                 correctBut.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String LastDate = (snapshot.child("group_t_end_date").getValue().toString());
-
-                        HashMap<String, Object> j = new HashMap<>();
-                        j.put("group_t_end_date", getDate(LastDate, -dataDifInDaysLocal(Date)));
-                        j.put("group_t_status", "1");
-                        j.put("gfreeze_days", "0");
-                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
-                        toMain();
+                       String LastDate = (snapshot.child("group_t_end_date").getValue().toString());
+//
+//                        HashMap<String, Object> j = new HashMap<>();
+//                        j.put("group_t_end_date", getDate(LastDate, -dataDifInDaysLocal(Date)));
+//                        j.put("group_t_status", "1");
+//                        j.put("gfreeze_days", "0");
+//                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+//                        toMain();
+                        String group_t_end_date = getDate(LastDate, -dataDifInDaysLocal(Date));
+                        ReaskDialog reaskDialog = new ReaskDialog(false, group_t_end_date, "", 0, AbonimentGroup.GROUP);
+                        reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
                     }
                 });
 

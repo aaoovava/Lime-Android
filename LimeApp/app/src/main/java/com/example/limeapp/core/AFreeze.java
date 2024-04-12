@@ -17,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.limeapp.R;
+import com.example.limeapp.core.dialogs.ReaskDialog;
+import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -121,20 +123,26 @@ public class AFreeze extends AppCompatActivity {
 
                         }
                         try {
-                            Resultdate.setText("Заморозка до " + getDate1(Integer.parseInt(s.toString())));
+                            Resultdate.setText("Заморозка до " + getFutureDateAsString(Integer.parseInt(s.toString())));
                         } catch (Exception e) {
                             Resultdate.setText("");
                         }
                         correctBut.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                HashMap<String, Object> j = new HashMap<>();
-                                j.put("aboniment_end_date", getDate(ALastDate, Integer.parseInt(s.toString())));
-                                j.put("aboniment_status", "2");
-                                j.put("afreeze_date", getDate1(Integer.parseInt(s.toString())));
-                                j.put("gfreeze_days", "0");
-                                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
-                                toMain();
+//                                HashMap<String, Object> j = new HashMap<>();
+//                                j.put("aboniment_end_date", getDate(ALastDate, Integer.parseInt(s.toString())));
+//                                j.put("aboniment_status", "2");
+//                                j.put("afreeze_date", getFutureDateAsString(Integer.parseInt(s.toString())));
+//                                j.put("gfreeze_days", "0");
+//                                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+//                                toMain();
+                                String aboniment_end_date = getDate(ALastDate, Integer.parseInt(s.toString()));
+                                String countOfFreeze =  s.toString();
+                                String AFreezeDate = getFutureDateAsString(Integer.parseInt(s.toString()));
+                                ReaskDialog reaskDialog = new ReaskDialog(true, aboniment_end_date,AFreezeDate, Integer.parseInt(countOfFreeze), AbonimentGroup.PERSONAL);
+                                reaskDialog.show(getSupportFragmentManager(),"ReaskDialog");
+
                             }
                         });
 
@@ -198,7 +206,7 @@ public class AFreeze extends AppCompatActivity {
         overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
 
-    public String getDate1(int daysCount) {
+    public String getFutureDateAsString(int daysCount) {
 
         String res = "";
         Date date = new Date();

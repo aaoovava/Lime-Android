@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.limeapp.R;
+import com.example.limeapp.core.dialogs.ReaskDialog;
+import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -74,13 +76,18 @@ public class AfreezeDrop extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         String LastDate = (snapshot.child("aboniment_end_date").getValue().toString());
+//
+//                        HashMap<String, Object> j = new HashMap<>();
+//                        j.put("aboniment_end_date", addDaysToDate(LastDate, -dataDifInDaysLocal(Date)));
+//                        j.put("aboniment_status", "1");
+//                        j.put("afreeze_days", "0");
+//                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+//                        toMain();
 
-                        HashMap<String, Object> j = new HashMap<>();
-                        j.put("aboniment_end_date", getDate(LastDate, -dataDifInDaysLocal(Date)));
-                        j.put("aboniment_status", "1");
-                        j.put("afreeze_days", "0");
-                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
-                        toMain();
+                        String aboniment_end_date = addDaysToDate(LastDate, -dataDifInDaysLocal(Date));
+                        ReaskDialog reaskDialog = new ReaskDialog(false, aboniment_end_date, "", 0, AbonimentGroup.PERSONAL);
+                        reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
+
                     }
                 });
             }
@@ -121,7 +128,7 @@ public class AfreezeDrop extends AppCompatActivity {
         return daysDiff;
     }
 
-    public String getDate(String strdate, long daysCount) {
+    public String addDaysToDate(String strdate, long daysCount) {
         String dateString = strdate;
         String res = "";
         Date date = new Date();
