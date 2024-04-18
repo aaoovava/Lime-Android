@@ -86,8 +86,12 @@ public class GfreezeDrop extends AppCompatActivity {
 //                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
 //                        toMain();
                         String group_t_end_date = getDate(LastDate, -dataDifInDaysLocal(Date));
-                        ReaskDialog reaskDialog = new ReaskDialog(false, group_t_end_date, "", 0, AbonimentGroup.GROUP);
-                        reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
+                        try {
+                            ReaskDialog reaskDialog = new ReaskDialog(false, group_t_end_date, "", 0, AbonimentGroup.GROUP);
+                            reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
+                        } catch (Exception e) {
+                            toMain();
+                        }
                     }
                 });
 

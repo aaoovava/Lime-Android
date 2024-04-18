@@ -1,4 +1,4 @@
-#Fri Apr 12 22:14:36 CEST 2024
+#Thu Apr 18 12:51:44 CEST 2024
 base.0=/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/wasiliylolita/Downloads/Lime-Android/LimeApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex

@@ -54,15 +54,15 @@ public class TimeTableDialog extends DialogFragment implements OnDateClickListen
         DatabaseReference SaturdayRef = db.getReference("TimeTable/Saturday");
         DatabaseReference SundayRef = db.getReference("TimeTable/Sunday");
 
-        HashMap<String,TimeTableItem>list = new HashMap<>();
-        list.put("Функціонал", new TimeTableItem("Функціонал", "Сергій Нех", "09:00", "09:00"));
-        list.put("TRX", new TimeTableItem("TRX", "Вікторія Грек", "10:00", "10:00"));
-        list.put("Бодіфлекс Оксісайз Бодібалет", new TimeTableItem("Бодіфлекс Оксісайз Бодібалет", "Олена Добрякова", "13:00", "13:00"));
-        list.put("Функціонал 2", new TimeTableItem("Функціонал", "Вікторія Грек", "14:00", "14:00"));
-        list.put("Дитячі заняття 8-12 років", new TimeTableItem("Дитячі заняття 8-12 років", "Ніна Вороніна", "15:00", "15:00"));
-        list.put("Шейпінг", new TimeTableItem("Шейпінг", "Ніна Вороніна", "16:00", "16:00"));
-
-        SaturdayRef.setValue(list);
+//        HashMap<String,TimeTableItem>list = new HashMap<>();
+//        list.put("Функціонал", new TimeTableItem("Функціонал", "Сергій Нех", "09:00", "09:00"));
+//        list.put("TRX", new TimeTableItem("TRX", "Вікторія Грек", "10:00", "10:00"));
+//        list.put("Бодіфлекс Оксісайз Бодібалет", new TimeTableItem("Бодіфлекс Оксісайз Бодібалет", "Олена Добрякова", "13:00", "13:00"));
+//        list.put("Функціонал 2", new TimeTableItem("Функціонал", "Вікторія Грек", "14:00", "14:00"));
+//        list.put("Дитячі заняття 8-12 років", new TimeTableItem("Дитячі заняття 8-12 років", "Ніна Вороніна", "15:00", "15:00"));
+//        list.put("Шейпінг", new TimeTableItem("Шейпінг", "Ніна Вороніна", "16:00", "16:00"));
+//
+//        SaturdayRef.setValue(list);
 
 
         Table = view.findViewById(R.id.Table);

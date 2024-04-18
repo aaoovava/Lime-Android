@@ -39,6 +39,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class FirstScreen extends AppCompatActivity implements OnItemClickListener {
+
     FirebaseDatabase db;
     ArrayList<FirstViewItem> viePagerItemArrayList;
 
@@ -242,13 +243,19 @@ public class FirstScreen extends AppCompatActivity implements OnItemClickListene
 
     @Override
     public void onItemClick(int position) {
-        if (position == 1){
-            ChoseAboniment choseAboniment = new ChoseAboniment();
-            choseAboniment.show(getSupportFragmentManager(),"choseTable");
-        } else if (position == 0) {
-            TimeTableDialog timeTableDialog = new TimeTableDialog();
-            timeTableDialog.show(getSupportFragmentManager(),"timeTable");
+        try {
+            if (position == 1) {
+                ChoseAboniment choseAboniment = new ChoseAboniment();
+                choseAboniment.show(getSupportFragmentManager(), "choseTable");
+            } else if (position == 0) {
+                TimeTableDialog timeTableDialog = new TimeTableDialog();
+                timeTableDialog.show(getSupportFragmentManager(), "timeTable");
+            }
+        } catch (Exception e) {
+            toMain();
         }
 
     }
+
+
 }

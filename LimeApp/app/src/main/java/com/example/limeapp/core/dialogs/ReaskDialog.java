@@ -14,25 +14,21 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
-import androidx.swiperefreshlayout.widget.CircularProgressDrawable;
 
 import com.example.limeapp.R;
-import com.example.limeapp.core.GfreezeDrop;
 import com.example.limeapp.core.VerificationActivity;
 import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ReaskDialog extends DialogFragment {
     int layout = R.layout.reask_freezing;
+
     FirebaseAuth auth = FirebaseAuth.getInstance();
     FirebaseUser currentUser = auth.getCurrentUser();
     FirebaseDatabase db = FirebaseDatabase.getInstance();
@@ -43,6 +39,9 @@ public class ReaskDialog extends DialogFragment {
     private String aFreezeDate;
     private int daysOfFreezing;
     private AbonimentGroup abonimentGroup;
+    private ArrayList<View> listOfAsking = new ArrayList<>();
+
+
 
     /**
      *
@@ -65,29 +64,40 @@ public class ReaskDialog extends DialogFragment {
         View view = inflater.inflate(layout, container, false);
         ImageView yes = view.findViewById(R.id.Yes);
         ImageView no = view.findViewById(R.id.No);
-        TextView DateTextView = view.findViewById(R.id.textView28);
+        TextView dateTextView = view.findViewById(R.id.textView28);
+        TextView title = view.findViewById(R.id.textView11);
+        TextView textYes = view.findViewById(R.id.textView30);
+        TextView textNo = view.findViewById(R.id.textView31);
+        TextView bottomText = view.findViewById(R.id.textView28);
+        listOfAsking.add(title);
+        listOfAsking.add(textYes);
+        listOfAsking.add(textNo);
+        listOfAsking.add(bottomText);
+        listOfAsking.add(yes);
+        listOfAsking.add(no);
+
         if (isFreezing) {
-            DateTextView.setText("Твій абонемент буде неактивний "+ daysOfFreezing + " днів");
+            dateTextView.setText("Твій абонемент буде неактивний "+ daysOfFreezing + " днів");
         }
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (isFreezing) {
                     if (abonimentGroup == AbonimentGroup.PERSONAL) {
+                        returnToVerification();
                         personalAbonimentFreezing();
-                        returnToVerification();
                     } else if (abonimentGroup == AbonimentGroup.GROUP) {
-                        groupAbonimentFreezing();
                         returnToVerification();
+                        groupAbonimentFreezing();
                     }
                 }else {
                     if (abonimentGroup == AbonimentGroup.PERSONAL) {
-                        persnalAbonimentDropFreezing();
                         returnToVerification();
+                        persnalAbonimentDropFreezing();
                     }
                     else if (abonimentGroup == AbonimentGroup.GROUP) {
-                        groupAbonimetnDropFreezing();
                         returnToVerification();
+                        groupAbonimetnDropFreezing();
                     }
                 }
             }
@@ -100,54 +110,96 @@ public class ReaskDialog extends DialogFragment {
         });
 
 
+
         getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         return view;
+
     }
 
     private void returnToVerification() {
-        doneDialog();
-        dismiss();
+        done();
     }
 
-    private void doneDialog() {
-        layout = R.layout.done_freezing;
-    }
 
     private void personalAbonimentFreezing() {
-        TextView DateTextView = getView().findViewById(R.id.textView28);
-        DateTextView.setText("Твій абонемент буде неактивний "+ daysOfFreezing + " днів");
+       try {
+           new Handler().postDelayed(new Runnable() {
+               @Override
+               public void run() {
+                   TextView DateTextView = getView().findViewById(R.id.textView28);
+                   DateTextView.setText("Твій абонемент буде неактивний "+ daysOfFreezing + " днів");
 
-        HashMap<String, Object> j = new HashMap<>();
-        j.put("aboniment_end_date",newAbonimentEndDate);
-        j.put("aboniment_status","2");
-        j.put("afreeze_days", daysOfFreezing);
-        j.put("afreeze_date", aFreezeDate);
-        users.child(userId).updateChildren(j);
+                   HashMap<String, Object> j = new HashMap<>();
+                   j.put("aboniment_end_date",newAbonimentEndDate);
+                   j.put("aboniment_status","2");
+                   j.put("afreeze_date", aFreezeDate);
+                   users.child(userId).updateChildren(j);
+               }
+           }, 1000);
 
+
+       }catch (Exception e){
+       }
     }
     private void groupAbonimentFreezing() {
-        HashMap<String ,Object> j = new HashMap<>();
-        j.put("group_t_end_date",newAbonimentEndDate);
-        j.put("group_t_status","2");
-        j.put("gfreeze_days", "0");
-        j.put("gfreeze_date", aFreezeDate);
-        users.child(userId).updateChildren(j);
+       try {
+           new Handler().postDelayed(new Runnable() {
+               @Override
+               public void run() {
+                   HashMap<String ,Object> j = new HashMap<>();
+                   j.put("group_t_end_date",newAbonimentEndDate);
+                   j.put("group_t_status","2");
+                   j.put("gfreeze_date", aFreezeDate);
+                   users.child(userId).updateChildren(j);
+               }
+           }, 1000);
+
+       }catch (Exception e){
+       }
     }
 
     private void persnalAbonimentDropFreezing() {
-        HashMap<String, Object> j = new HashMap<>();
-        j.put("aboniment_end_date",newAbonimentEndDate);
-        j.put("aboniment_status", "1");
-        j.put("afreeze_days", "0");
-        users.child(userId).updateChildren(j);
+       try {
+           new Handler().postDelayed(new Runnable() {
+               @Override
+               public void run() {
+                   HashMap<String, Object> j = new HashMap<>();
+                   j.put("aboniment_end_date", newAbonimentEndDate);
+                   j.put("aboniment_status", "1");
+                   j.put("afreeze_days", "0");
+                   users.child(userId).updateChildren(j);
+               }
+           }, 1000);
+       }catch (Exception e){
+
+       }
 
     }
     private void groupAbonimetnDropFreezing() {
-        HashMap<String, Object> j = new HashMap<>();
-        j.put("group_t_end_date",newAbonimentEndDate);
-        j.put("group_t_status", "1");
-        j.put("gfreeze_days", "0");
-        users.child(userId).updateChildren(j);
-    }
+       try {
+           new Handler().postDelayed(new Runnable() {
+               @Override
+               public void run() {
+                   HashMap<String, Object> j = new HashMap<>();
+                   j.put("group_t_end_date", newAbonimentEndDate);
+                   j.put("group_t_status", "1");
+                   j.put("gfreeze_days", "0");
+                   users.child(userId).updateChildren(j);
+               }
+           }, 1000);
 
+       }catch (Exception e){
+           System.out.printf("sd");
+       }
+    }
+    private void toFirstScreen() {
+        Intent intent = new Intent(getContext(), VerificationActivity.class);
+        startActivity(intent);
+        getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
+    }
+    private void done() {
+       for (View v : listOfAsking) v.setVisibility(View.INVISIBLE);
+       getView().findViewById(R.id.textView29).setVisibility(View.VISIBLE);
+       toFirstScreen();
+    }
 }

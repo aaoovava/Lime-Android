@@ -31,7 +31,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
 
 public class AFreeze extends AppCompatActivity {
     FirebaseDatabase db;
@@ -224,5 +223,4 @@ public class AFreeze extends AppCompatActivity {
         return res;
 
     }
-
 }

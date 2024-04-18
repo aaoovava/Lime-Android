@@ -121,8 +121,12 @@ public class GFreeze extends AppCompatActivity {
                                 String group_t_end_date = getDate(ALastDate, Integer.parseInt(s.toString()));
                                 String gfreeze_date = getDate1(Integer.parseInt(s.toString()));
                                 String countOfFreeze =  s.toString();
+                                try {
                                 ReaskDialog reaskDialog = new ReaskDialog(true, group_t_end_date,gfreeze_date, Integer.parseInt(countOfFreeze), AbonimentGroup.GROUP);
                                 reaskDialog.show(getSupportFragmentManager(), "ReaskDialog");
+                                }catch (Exception e){
+                                    toMain();
+                                }
                             }
                         });
 
