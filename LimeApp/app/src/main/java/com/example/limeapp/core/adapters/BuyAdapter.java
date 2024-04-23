@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.limeapp.core.interfaces.OnSaleItemClickListener;
+import com.example.limeapp.core.interfaces.listeners.OnSaleItemClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.SalesItem;
 

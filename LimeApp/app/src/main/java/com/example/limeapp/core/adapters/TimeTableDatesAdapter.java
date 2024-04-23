@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.limeapp.core.interfaces.OnDateClickListener;
+import com.example.limeapp.core.interfaces.listeners.OnDateClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.DateItem;
 

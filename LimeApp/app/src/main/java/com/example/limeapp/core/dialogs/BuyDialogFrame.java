@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.limeapp.core.adapters.BuyAdapter;
 import com.example.limeapp.core.enums.AbonimentGroup;
-import com.example.limeapp.core.interfaces.OnSaleItemClickListener;
+import com.example.limeapp.core.interfaces.listeners.OnSaleItemClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.SalesItem;
 import com.google.firebase.database.DataSnapshot;

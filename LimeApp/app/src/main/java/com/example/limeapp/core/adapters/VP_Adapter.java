@@ -21,12 +21,12 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.limeapp.core.AFreeze;
-import com.example.limeapp.core.AfreezeDrop;
-import com.example.limeapp.core.GFreeze;
-import com.example.limeapp.core.GfreezeDrop;
-import com.example.limeapp.core.ViewPagerItem;
-import com.example.limeapp.core.table;
+import com.example.limeapp.core.activities.AbonimentFreezeActivity;
+import com.example.limeapp.core.activities.AbonimentFreezeDropActivity;
+import com.example.limeapp.core.activities.GroupFreezeActivity;
+import com.example.limeapp.core.activities.GroupFreezeDropActivity;
+import com.example.limeapp.ob_class.ViewPagerItem;
+import com.example.limeapp.older_db_configs.table;
 import com.example.limeapp.holder.TextHolder;
 import com.example.limeapp.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -335,18 +335,6 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             SwapView.setLayoutParams(layoutParamsSwap);
             VerifView.setLayoutParams(layoutParamsVerif);
             VerifTxtView.setLayoutParams(layoutParamsVerifTxt);
-
-
-            //%circleImageView
-            /*ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) holder.circleImageView.getLayoutParams();
-            int newMarginRight = (int) (screenWidth * 0.45);
-            int newMarginBottom = (int) (screenWidth * 0.2);
-            int newMarginLeft  = (int) (layoutParams.leftMargin * 0.5);
-            layoutParams.setMargins(newMarginLeft, layoutParams.topMargin, newMarginRight, newMarginBottom);
-            holder.circleImageView.setLayoutParams(layoutParams);
-            */
-
-
         }
 
         holder.TextStatus.setText(pagerItem.StatusTxt);
@@ -498,94 +486,5 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         }
     }
-
-    public void handleButton1Click(int position, int DataCheck, int Count) {
-        if (Count != 0 || position == 1) {
-            if (DataCheck == 1 || position == 1) {
-                switch (position) {
-                    case 0:
-                        toAFreeze();
-                        break;
-                    case 1:
-                        Dialog dialog = new Dialog(context);
-                        dialog.setContentView(R.layout.activity_table);
-                        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-                        ImageView closeButton = dialog.findViewById(R.id.CloseButTab);
-                        closeButton.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                dialog.dismiss();
-                            }
-                        });
-
-// Отображение диалогового окна
-                        dialog.show();
-                        break;
-
-                }
-            } else if (DataCheck == 3) {
-                Toast toast = Toast.makeText(context, "Відсутній абонемент", Toast.LENGTH_SHORT);
-                toast.show();
-            } else if (DataCheck == 2) {
-                toAFreezeDrop();
-            } else if (Count == 0 && position == 0) {
-                Toast toast = Toast.makeText(context, "Функція заморозки вичерпана", Toast.LENGTH_SHORT);
-                toast.show();
-            }
-        } else {
-            Toast toast = Toast.makeText(context, "Функція заморозки вичерпана", Toast.LENGTH_SHORT);
-            toast.show();
-        }
-    }
-
-    public void handleButton2Click(int position, int DataCheck, int Count) {
-        if (DataCheck == 1 && Count != 0) {
-            switch (position) {
-                case 0:
-                    break;
-                case 1:
-                    toGFreeze();
-                    break;
-
-            }
-        } else if (DataCheck == 3) {
-            Toast toast = Toast.makeText(context, "Відсутній абонемент", Toast.LENGTH_SHORT);
-            toast.show();
-        } else if (DataCheck == 2) {
-            toGFreezeDrop();
-        } else if (Count == 0) {
-            Toast toast = Toast.makeText(context, "Функція заморозки вичерпана", Toast.LENGTH_SHORT);
-            toast.show();
-        }
-    }
-
-    public void toAFreeze() {
-        Intent intent = new Intent(context, AFreeze.class);
-        context.startActivity(intent);
-
-    }
-
-    public void toTable() {
-        Intent intent = new Intent(context, table.class);
-        context.startActivity(intent);
-    }
-
-    public void toGFreeze() {
-        Intent intent = new Intent(context, GFreeze.class);
-        context.startActivity(intent);
-    }
-
-    public void toAFreezeDrop() {
-        Intent intent = new Intent(context, AfreezeDrop.class);
-        context.startActivity(intent);
-    }
-
-    public void toGFreezeDrop() {
-        Intent intent = new Intent(context, GfreezeDrop.class);
-        context.startActivity(intent);
-    }
-
-
-
 }
 

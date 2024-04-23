@@ -33,6 +33,9 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
   public final ConstraintLayout View;
 
   @NonNull
+  public final TextView dateProf;
+
+  @NonNull
   public final ImageView imageView5;
 
   @NonNull
@@ -54,9 +57,6 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
   public final ViewPager2 pager1;
 
   @NonNull
-  public final TextView textView3;
-
-  @NonNull
   public final TextView textView5;
 
   @NonNull
@@ -70,15 +70,16 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
 
   private ActivityFirstScreenBinding(@NonNull ConstraintLayout rootView,
       @NonNull SpringDotsIndicator Adapter, @NonNull TextView UpText1,
-      @NonNull ConstraintLayout View, @NonNull ImageView imageView5, @NonNull ImageView imageView8,
-      @NonNull LinearLayout linearLayout, @NonNull ImageView navBuy,
+      @NonNull ConstraintLayout View, @NonNull TextView dateProf, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView8, @NonNull LinearLayout linearLayout, @NonNull ImageView navBuy,
       @NonNull ImageView navFirstScreen, @NonNull ImageView navProfile, @NonNull ViewPager2 pager1,
-      @NonNull TextView textView3, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView8) {
+      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView8) {
     this.rootView = rootView;
     this.Adapter = Adapter;
     this.UpText1 = UpText1;
     this.View = View;
+    this.dateProf = dateProf;
     this.imageView5 = imageView5;
     this.imageView8 = imageView8;
     this.linearLayout = linearLayout;
@@ -86,7 +87,6 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
     this.navFirstScreen = navFirstScreen;
     this.navProfile = navProfile;
     this.pager1 = pager1;
-    this.textView3 = textView3;
     this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
@@ -138,6 +138,12 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.dateProf;
+      TextView dateProf = ViewBindings.findChildViewById(rootView, id);
+      if (dateProf == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
@@ -180,12 +186,6 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
@@ -211,8 +211,8 @@ public final class ActivityFirstScreenBinding implements ViewBinding {
       }
 
       return new ActivityFirstScreenBinding((ConstraintLayout) rootView, Adapter, UpText1, View,
-          imageView5, imageView8, linearLayout, navBuy, navFirstScreen, navProfile, pager1,
-          textView3, textView5, textView6, textView7, textView8);
+          dateProf, imageView5, imageView8, linearLayout, navBuy, navFirstScreen, navProfile,
+          pager1, textView5, textView6, textView7, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

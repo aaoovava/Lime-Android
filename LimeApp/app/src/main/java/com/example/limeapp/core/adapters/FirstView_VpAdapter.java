@@ -14,7 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.limeapp.core.interfaces.OnItemClickListener;
+import com.example.limeapp.core.interfaces.listeners.OnItemClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.FirstViewItem;
 

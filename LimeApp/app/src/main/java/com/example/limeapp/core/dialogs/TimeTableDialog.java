@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.limeapp.core.adapters.TimeTableAdapter;
 import com.example.limeapp.core.adapters.TimeTableDatesAdapter;
-import com.example.limeapp.core.interfaces.OnDateClickListener;
+import com.example.limeapp.core.interfaces.listeners.OnDateClickListener;
 import com.example.limeapp.R;
 import com.example.limeapp.ob_class.DateItem;
 import com.example.limeapp.ob_class.TimeTableItem;
@@ -29,7 +29,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class TimeTableDialog extends DialogFragment implements OnDateClickListener {
     private ImageView closeBut;

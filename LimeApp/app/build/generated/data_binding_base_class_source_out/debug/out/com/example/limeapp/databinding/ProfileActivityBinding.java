@@ -13,7 +13,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.limeapp.R;
-import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,28 +22,43 @@ public final class ProfileActivityBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView Up;
+
+  @NonNull
+  public final TextView UpText1;
+
+  @NonNull
+  public final ImageView appVersion;
+
+  @NonNull
+  public final ImageView changePassword;
+
+  @NonNull
+  public final TextView dateProf;
+
+  @NonNull
+  public final TextView down1;
+
+  @NonNull
+  public final TextView down2;
+
+  @NonNull
+  public final TextView down3;
+
+  @NonNull
+  public final TextView down4;
+
+  @NonNull
   public final ImageView imageView11;
 
   @NonNull
   public final ImageView imageView2;
 
   @NonNull
-  public final ImageView imageView34;
-
-  @NonNull
-  public final ImageView imageView35;
-
-  @NonNull
-  public final ImageView imageView36;
-
-  @NonNull
-  public final ImageView imageView37;
-
-  @NonNull
-  public final ImageView imageView38;
-
-  @NonNull
   public final LinearLayout linearLayout;
+
+  @NonNull
+  public final ImageView logOut;
 
   @NonNull
   public final ImageView navBuy;
@@ -56,40 +70,38 @@ public final class ProfileActivityBinding implements ViewBinding {
   public final ImageView navVerefication;
 
   @NonNull
-  public final CircleImageView profileImage;
+  public final TextView personalInfo;
 
   @NonNull
-  public final ImageView profileImagePic;
+  public final ImageView weInSoc;
 
-  @NonNull
-  public final TextView textView4;
-
-  @NonNull
-  public final TextView textView8;
-
-  private ProfileActivityBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView11,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView34, @NonNull ImageView imageView35,
-      @NonNull ImageView imageView36, @NonNull ImageView imageView37,
-      @NonNull ImageView imageView38, @NonNull LinearLayout linearLayout, @NonNull ImageView navBuy,
-      @NonNull ImageView navFirstScreen, @NonNull ImageView navVerefication,
-      @NonNull CircleImageView profileImage, @NonNull ImageView profileImagePic,
-      @NonNull TextView textView4, @NonNull TextView textView8) {
+  private ProfileActivityBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Up,
+      @NonNull TextView UpText1, @NonNull ImageView appVersion, @NonNull ImageView changePassword,
+      @NonNull TextView dateProf, @NonNull TextView down1, @NonNull TextView down2,
+      @NonNull TextView down3, @NonNull TextView down4, @NonNull ImageView imageView11,
+      @NonNull ImageView imageView2, @NonNull LinearLayout linearLayout, @NonNull ImageView logOut,
+      @NonNull ImageView navBuy, @NonNull ImageView navFirstScreen,
+      @NonNull ImageView navVerefication, @NonNull TextView personalInfo,
+      @NonNull ImageView weInSoc) {
     this.rootView = rootView;
+    this.Up = Up;
+    this.UpText1 = UpText1;
+    this.appVersion = appVersion;
+    this.changePassword = changePassword;
+    this.dateProf = dateProf;
+    this.down1 = down1;
+    this.down2 = down2;
+    this.down3 = down3;
+    this.down4 = down4;
     this.imageView11 = imageView11;
     this.imageView2 = imageView2;
-    this.imageView34 = imageView34;
-    this.imageView35 = imageView35;
-    this.imageView36 = imageView36;
-    this.imageView37 = imageView37;
-    this.imageView38 = imageView38;
     this.linearLayout = linearLayout;
+    this.logOut = logOut;
     this.navBuy = navBuy;
     this.navFirstScreen = navFirstScreen;
     this.navVerefication = navVerefication;
-    this.profileImage = profileImage;
-    this.profileImagePic = profileImagePic;
-    this.textView4 = textView4;
-    this.textView8 = textView8;
+    this.personalInfo = personalInfo;
+    this.weInSoc = weInSoc;
   }
 
   @Override
@@ -119,6 +131,60 @@ public final class ProfileActivityBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Up;
+      TextView Up = ViewBindings.findChildViewById(rootView, id);
+      if (Up == null) {
+        break missingId;
+      }
+
+      id = R.id.UpText1;
+      TextView UpText1 = ViewBindings.findChildViewById(rootView, id);
+      if (UpText1 == null) {
+        break missingId;
+      }
+
+      id = R.id.appVersion;
+      ImageView appVersion = ViewBindings.findChildViewById(rootView, id);
+      if (appVersion == null) {
+        break missingId;
+      }
+
+      id = R.id.changePassword;
+      ImageView changePassword = ViewBindings.findChildViewById(rootView, id);
+      if (changePassword == null) {
+        break missingId;
+      }
+
+      id = R.id.dateProf;
+      TextView dateProf = ViewBindings.findChildViewById(rootView, id);
+      if (dateProf == null) {
+        break missingId;
+      }
+
+      id = R.id.down1;
+      TextView down1 = ViewBindings.findChildViewById(rootView, id);
+      if (down1 == null) {
+        break missingId;
+      }
+
+      id = R.id.down2;
+      TextView down2 = ViewBindings.findChildViewById(rootView, id);
+      if (down2 == null) {
+        break missingId;
+      }
+
+      id = R.id.down3;
+      TextView down3 = ViewBindings.findChildViewById(rootView, id);
+      if (down3 == null) {
+        break missingId;
+      }
+
+      id = R.id.down4;
+      TextView down4 = ViewBindings.findChildViewById(rootView, id);
+      if (down4 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView11;
       ImageView imageView11 = ViewBindings.findChildViewById(rootView, id);
       if (imageView11 == null) {
@@ -131,39 +197,15 @@ public final class ProfileActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView34;
-      ImageView imageView34 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView34 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView35;
-      ImageView imageView35 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView35 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView36;
-      ImageView imageView36 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView36 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView37;
-      ImageView imageView37 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView37 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView38;
-      ImageView imageView38 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView38 == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.logOut;
+      ImageView logOut = ViewBindings.findChildViewById(rootView, id);
+      if (logOut == null) {
         break missingId;
       }
 
@@ -185,33 +227,21 @@ public final class ProfileActivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_image;
-      CircleImageView profileImage = ViewBindings.findChildViewById(rootView, id);
-      if (profileImage == null) {
+      id = R.id.personalInfo;
+      TextView personalInfo = ViewBindings.findChildViewById(rootView, id);
+      if (personalInfo == null) {
         break missingId;
       }
 
-      id = R.id.profile_imagePic;
-      ImageView profileImagePic = ViewBindings.findChildViewById(rootView, id);
-      if (profileImagePic == null) {
+      id = R.id.weInSoc;
+      ImageView weInSoc = ViewBindings.findChildViewById(rootView, id);
+      if (weInSoc == null) {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
-        break missingId;
-      }
-
-      return new ProfileActivityBinding((ConstraintLayout) rootView, imageView11, imageView2,
-          imageView34, imageView35, imageView36, imageView37, imageView38, linearLayout, navBuy,
-          navFirstScreen, navVerefication, profileImage, profileImagePic, textView4, textView8);
+      return new ProfileActivityBinding((ConstraintLayout) rootView, Up, UpText1, appVersion,
+          changePassword, dateProf, down1, down2, down3, down4, imageView11, imageView2,
+          linearLayout, logOut, navBuy, navFirstScreen, navVerefication, personalInfo, weInSoc);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

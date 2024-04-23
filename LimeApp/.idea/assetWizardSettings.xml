@@ -20,8 +20,8 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="autoMirrored" value="true" />
-                            <entry key="outputName" value="reask_button" />
-                            <entry key="sourceFile" value="$PROJECT_DIR$/../../reask_button.svg" />
+                            <entry key="outputName" value="profilebut" />
+                            <entry key="sourceFile" value="$PROJECT_DIR$/../../ProfileBut.svg" />
                           </map>
                         </option>
                       </PersistentState>

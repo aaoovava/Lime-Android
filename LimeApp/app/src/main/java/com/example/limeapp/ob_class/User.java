@@ -1,7 +1,6 @@
 package com.example.limeapp.ob_class;
 
 import java.util.HashMap;
-import java.util.List;
 
 public class User {
     String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_start_date, Group_t_end_date, Group_t_status, image, Afreeze_days, Gfreeze_days, Afreeze_date, Gfreeze_date, CountOfGT;
@@ -134,15 +133,15 @@ public class User {
         CountOfGT = countOfGT;
     }
 
-    public HashMap<String, User_Buys> getUser_buys() {
+    public HashMap<String, UserBuys> getUser_buys() {
         return user_buys;
     }
 
-    public void setUser_buys(HashMap<String, User_Buys> user_buys) {
+    public void setUser_buys(HashMap<String, UserBuys> user_buys) {
         this.user_buys = user_buys;
     }
 
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_start_date, String group_t_end_date, String group_t_status, String image, String afreeze_days, String gfreeze_days, String afreeze_date, String gfreeze_date, String countOfGT, HashMap<String, User_Buys> user_buys) {
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_start_date, String group_t_end_date, String group_t_status, String image, String afreeze_days, String gfreeze_days, String afreeze_date, String gfreeze_date, String countOfGT, HashMap<String, UserBuys> user_buys) {
         this.name = name;
         this.number = number;
         this.password = password;
@@ -162,5 +161,5 @@ public class User {
         this.user_buys = user_buys;
     }
 
-    HashMap<String, User_Buys> user_buys;
+    HashMap<String, UserBuys> user_buys;
 }

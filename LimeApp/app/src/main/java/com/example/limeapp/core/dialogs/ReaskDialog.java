@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.limeapp.R;
-import com.example.limeapp.core.VerificationActivity;
+import com.example.limeapp.core.activities.VerificationActivity;
 import com.example.limeapp.core.enums.AbonimentGroup;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;

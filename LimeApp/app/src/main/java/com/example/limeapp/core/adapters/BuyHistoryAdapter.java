@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.limeapp.holder.TextHolder;
 import com.example.limeapp.R;
-import com.example.limeapp.ob_class.User_Buys;
+import com.example.limeapp.ob_class.UserBuys;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -24,9 +24,9 @@ import java.util.Locale;
 
 public class BuyHistoryAdapter extends RecyclerView.Adapter<BuyHistoryAdapter.MyViewHolder> {
     Context context;
-    ArrayList<User_Buys>list;
+    ArrayList<UserBuys>list;
 
-    public BuyHistoryAdapter(Context context, ArrayList<User_Buys> list) {
+    public BuyHistoryAdapter(Context context, ArrayList<UserBuys> list) {
         this.context = context;
         this.list = list;
     }
@@ -44,7 +44,7 @@ public class BuyHistoryAdapter extends RecyclerView.Adapter<BuyHistoryAdapter.My
         DisplayMetrics displayMetrics2 = context.getResources().getDisplayMetrics();
         int screenWidthDp = (int) (displayMetrics2.widthPixels / displayMetrics2.density);
         int screenHeightDp = (int) (displayMetrics2.heightPixels / displayMetrics2.density);
-        User_Buys user_buys = list.get(position);
+        UserBuys user_buys = list.get(position);
         holder.Name.setText(user_buys.getName_of_buy());
         holder.Date.setText(convertToUkrainianFormat(user_buys.getDate()));
         holder.Prise.setText("- " + user_buys.getCost() + "грн");

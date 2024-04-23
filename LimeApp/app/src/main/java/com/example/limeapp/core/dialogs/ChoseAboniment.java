@@ -19,10 +19,10 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.limeapp.R;
-import com.example.limeapp.core.AFreeze;
-import com.example.limeapp.core.AfreezeDrop;
-import com.example.limeapp.core.GFreeze;
-import com.example.limeapp.core.GfreezeDrop;
+import com.example.limeapp.core.activities.AbonimentFreezeActivity;
+import com.example.limeapp.core.activities.AbonimentFreezeDropActivity;
+import com.example.limeapp.core.activities.GroupFreezeActivity;
+import com.example.limeapp.core.activities.GroupFreezeDropActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -30,8 +30,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-import java.time.Duration;
 
 
 public class ChoseAboniment extends DialogFragment {
@@ -175,24 +173,23 @@ public class ChoseAboniment extends DialogFragment {
             }
         });
     }
-
     private void toAfreeze(){
-        Intent intent = new Intent(getContext(), AFreeze.class);
+        Intent intent = new Intent(getContext(), AbonimentFreezeActivity.class);
         startActivity(intent);
         getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toGfreeze(){
-        Intent intent = new Intent(getContext(), GFreeze.class);
+        Intent intent = new Intent(getContext(), GroupFreezeActivity.class);
         startActivity(intent);
         getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toAfreezeDrop(){
-        Intent intent = new Intent(getContext(), AfreezeDrop.class);
+        Intent intent = new Intent(getContext(), AbonimentFreezeDropActivity.class);
         startActivity(intent);
         getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }
     private void toGfreezeDrop(){
-        Intent intent = new Intent(getContext(), GfreezeDrop.class);
+        Intent intent = new Intent(getContext(), GroupFreezeDropActivity.class);
         startActivity(intent);
         getActivity().overridePendingTransition(R.anim.anime_in, R.anim.anime_out);
     }

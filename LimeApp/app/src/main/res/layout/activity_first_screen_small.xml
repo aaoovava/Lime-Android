@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/LogCol"
-    tools:context=".core.FirstScreen">
+    tools:context=".core.activities.FirstScreenActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                     app:layout_constraintVertical_bias="0.201" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/dateProf"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/inter_semibold"
@@ -72,9 +72,9 @@
                     android:textColor="#FFFFFF"
                     android:textSize="16dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.2"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/UpText1"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/UpText1"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.113" />
 
@@ -88,10 +88,10 @@
                     android:textSize="26dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.23"
+                    app:layout_constraintHorizontal_bias="0.209"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.049" />
+                    app:layout_constraintVertical_bias="0.048" />
 
                 <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
                     android:id="@+id/Adapter"

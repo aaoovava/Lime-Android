@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/LogCol"
     android:id="@+id/root_view"
-    tools:context=".core.AFreeze">
+    tools:context=".core.activities.AbonimentFreezeActivity">
 
 
     <ImageView
